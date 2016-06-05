@@ -1,0 +1,4 @@
+include ':openCVLibrary249'
+include ':aFileDialog'
+include ':opencsv'
+include ':pathogenAnalyzer'

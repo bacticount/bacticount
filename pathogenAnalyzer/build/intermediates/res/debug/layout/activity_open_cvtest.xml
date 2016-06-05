@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.garynfox.pathogenanalyzer.OpenCVTest"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/goHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pickPhoto"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="73dp"
+        android:text="go home" />
+
+    <TextView
+        android:id="@+id/data1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="100dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/pickPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/goHome"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="81dp"
+        android:layout_marginLeft="122dp"
+        android:text="pick photo" />
+
+    <Button
+        android:id="@+id/openCVTestButtonTestResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/openCVTestButtonTestResults" />
+
+    <Button
+        android:id="@+id/regression"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="regression test"
+        android:layout_below="@+id/data1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+</RelativeLayout>
+
+<!-- From: file:/Users/GuestAdmin/Documents/pathogenanalyzer1/pathogenAnalyzer/src/main/res/layout/activity_open_cvtest.xml -->

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.garynfox.pathogenanalyzer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bacticount_logo"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.NoActionBar" >
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.HomeScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial1of4"
+            android:label="@string/title_activity_tutorial1of4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial2of4"
+            android:label="@string/title_activity_tutorial2of4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial3of4"
+            android:label="@string/title_activity_tutorial3of4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial4of4"
+            android:label="@string/title_activity_tutorial4of4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.PrepareRecording"
+            android:label="@string/title_activity_prepare_recording"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.RecordingReaction"
+            android:label="@string/title_activity_recording_reaction"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.ReactionResults"
+            android:label="@string/title_activity_reaction_results"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="ar.com.daidalos.afiledialog.FileChooserActivity" />
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.ChooseAction"
+            android:label="@string/title_activity_choose_action"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.ChooseReferenceFile"
+            android:label="@string/title_activity_choose_reference_file"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.OpenCVTest"
+            android:label="@string/title_activity_open_cvtest"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.RecordingSuccess"
+            android:label="@string/title_activity_recording_success"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial1of12"
+            android:label="@string/title_activity_tutorial1of12"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial2of12"
+            android:label="@string/title_activity_tutorial2of12"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial3of12"
+            android:label="@string/title_activity_tutorial3of12"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial4of12"
+            android:label="@string/title_activity_tutorial4of12"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial5of12"
+            android:label="@string/title_activity_tutorial5of12"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial6of12"
+            android:label="@string/title_activity_tutorial6of12"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial7of12"
+            android:label="@string/title_activity_tutorial7of12"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial8of12"
+            android:label="Tutorial8of12"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial9of12"
+            android:label="@string/title_activity_tutorial9of12"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial10of12"
+            android:label="@string/title_activity_tutorial10of12"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial11of12"
+            android:label="@string/title_activity_tutorial11of12"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

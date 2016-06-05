@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.garynfox.pathogenanalyzer.Tutorial11of12">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tutorial11of12" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Home!"
+        android:paddingRight="10dp"
+        android:id="@+id/tutorial11of12ButtonNextScreen"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp" />
+</RelativeLayout>
+<!-- From: file:/Users/GuestAdmin/Documents/pathogenanalyzer1/pathogenAnalyzer/src/main/res/layout-land/activity_tutorial11of12.xml -->
