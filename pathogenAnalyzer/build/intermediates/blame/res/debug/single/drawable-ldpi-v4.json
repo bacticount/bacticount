@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/calibration_diagram_1.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/calibration_diagram_1.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tutorial2of12.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial2of12.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/box_diagram_new.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/box_diagram_new.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tutorial1of12.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial1of12.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tick.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/tick.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tutorial3of12.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial3of12.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tutorial6of12.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial6of12.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/view_finder.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/view_finder.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/sample_results.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/sample_results.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/samplecamview.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/samplecamview.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tutorial8of12.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial8of12.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/folder.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/folder.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tutorial11of12.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial11of12.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/opencv_logo_white.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/opencv_logo_white.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/reaction_results_grid.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/reaction_results_grid.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tutorial5of12.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial5of12.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/view_finder_motox2014.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/view_finder_motox2014.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/document.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/document.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/document_gray.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/document_gray.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/find_pictures.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/find_pictures.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/bacticount_logo.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/bacticount_logo.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/view_finder_new.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/view_finder_new.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/add.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/add.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tutorial4of12.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial4of12.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/no.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/no.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tutorial9of12.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial9of12.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/fex.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/fex.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/overlaytest.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/overlaytest.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tutorial10of12.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial10of12.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/calibration_diagram.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/calibration_diagram.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/find_location.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/find_location.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tutorial7of12.png",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial7of12.png"
+    }
+]

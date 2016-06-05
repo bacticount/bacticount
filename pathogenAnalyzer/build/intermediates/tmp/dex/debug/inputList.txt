@@ -1,8 +1,0 @@
-/Users/GuestAdmin/Documents/pathogenanalyzer1/pathogenAnalyzer/build/intermediates/classes/debug
-/Users/GuestAdmin/Documents/pathogenanalyzer1/pathogenAnalyzer/build/intermediates/pre-dexed/debug/classes-80ea8f8a5c621cf0591b8d27500f61ba88e82191.jar
-/Users/GuestAdmin/Documents/pathogenanalyzer1/pathogenAnalyzer/build/intermediates/pre-dexed/debug/opencsv-99270138ed6a656c2e5d9039acb520f829ea5d49.jar
-/Users/GuestAdmin/Documents/pathogenanalyzer1/pathogenAnalyzer/build/intermediates/pre-dexed/debug/classes-a2af2f1652b89b6de99afae2321382697fb53d66.jar
-/Users/GuestAdmin/Documents/pathogenanalyzer1/pathogenAnalyzer/build/intermediates/pre-dexed/debug/classes-102e50aafdc51937463e1f7c4c670783e62ad58d.jar
-/Users/GuestAdmin/Documents/pathogenanalyzer1/pathogenAnalyzer/build/intermediates/pre-dexed/debug/support-v4-19.1.0-f6e8cdbe1a865c2ef004eeb91872273a2b7efcfa.jar
-/Users/GuestAdmin/Documents/pathogenanalyzer1/pathogenAnalyzer/build/intermediates/pre-dexed/debug/commons-math3-3.5-8c5d4f4ac3146b13fdd0f4ff145df13848ed49c8.jar
-/Users/GuestAdmin/Documents/pathogenanalyzer1/pathogenAnalyzer/build/intermediates/pre-dexed/debug/commons-math3-3.5-javadoc-2b55ced675b0b9c2e9ed4d1a3d283caac16b7451.jar

@@ -1,0 +1,406 @@
+[
+    {
+        "outputFile": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/res/merged/androidTest/debug/values-es/values-es.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 51,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 49,
+                    "endOffset": 152
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 49,
+                        "endOffset": 152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 157,
+                    "endColumn": 44,
+                    "endOffset": 197
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 157,
+                        "endColumn": 44,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 202,
+                    "endColumn": 53,
+                    "endOffset": 251
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 202,
+                        "endColumn": 53,
+                        "endOffset": 251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 256,
+                    "endColumn": 51,
+                    "endOffset": 303
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 256,
+                        "endColumn": 51,
+                        "endOffset": 303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 308,
+                    "endColumn": 57,
+                    "endOffset": 361
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 308,
+                        "endColumn": 57,
+                        "endOffset": 361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 366,
+                    "endColumn": 52,
+                    "endOffset": 414
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 366,
+                        "endColumn": 52,
+                        "endOffset": 414
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 419,
+                    "endColumn": 128,
+                    "endOffset": 543
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 419,
+                        "endColumn": 128,
+                        "endOffset": 543
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 548,
+                    "endColumn": 130,
+                    "endOffset": 674
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 548,
+                        "endColumn": 130,
+                        "endOffset": 674
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 679,
+                    "endColumn": 118,
+                    "endOffset": 793
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 679,
+                        "endColumn": 118,
+                        "endOffset": 793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 798,
+                    "endColumn": 120,
+                    "endOffset": 914
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 798,
+                        "endColumn": 120,
+                        "endOffset": 914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 919,
+                    "endColumn": 62,
+                    "endOffset": 977
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 919,
+                        "endColumn": 62,
+                        "endOffset": 977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 982,
+                    "endColumn": 64,
+                    "endOffset": 1042
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 982,
+                        "endColumn": 64,
+                        "endOffset": 1042
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1047,
+                    "endColumn": 98,
+                    "endOffset": 1141
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1047,
+                        "endColumn": 98,
+                        "endOffset": 1141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1146,
+                    "endColumn": 102,
+                    "endOffset": 1244
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1146,
+                        "endColumn": 102,
+                        "endOffset": 1244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1249,
+                    "endColumn": 55,
+                    "endOffset": 1300
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1249,
+                        "endColumn": 55,
+                        "endOffset": 1300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1305,
+                    "endColumn": 51,
+                    "endOffset": 1352
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1305,
+                        "endColumn": 51,
+                        "endOffset": 1352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1357,
+                    "endColumn": 42,
+                    "endOffset": 1395
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1357,
+                        "endColumn": 42,
+                        "endOffset": 1395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1400,
+                    "endColumn": 47,
+                    "endOffset": 1443
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1400,
+                        "endColumn": 47,
+                        "endOffset": 1443
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1448,
+                    "endColumn": 55,
+                    "endOffset": 1499
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1448,
+                        "endColumn": 55,
+                        "endOffset": 1499
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1504,
+                    "endColumn": 43,
+                    "endOffset": 1543
+                },
+                "from": {
+                    "file": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/values-es/values-es.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1504,
+                        "endColumn": 43,
+                        "endOffset": 1543
+                    }
+                }
+            }
+        ]
+    }
+]

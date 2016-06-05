@@ -8,10 +8,10 @@ package ar.com.daidalos.afiledialog;
 
 public final class R {
 	public static final class color {
-		public static final int daidalos_active_file = 0x7f070003;
-		public static final int daidalos_backgroud = 0x7f070004;
-		public static final int daidalos_gray = 0x7f070005;
-		public static final int daidalos_inactive_file = 0x7f070006;
+		public static final int daidalos_active_file = 0x7f070000;
+		public static final int daidalos_backgroud = 0x7f070001;
+		public static final int daidalos_gray = 0x7f070002;
+		public static final int daidalos_inactive_file = 0x7f070003;
 	}
 	public static final class drawable {
 		public static final int add = 0x7f020057;
@@ -24,36 +24,36 @@ public final class R {
 		public static final int tick = 0x7f020069;
 	}
 	public static final class id {
-		public static final int buttonAdd = 0x7f09009a;
-		public static final int buttonOk = 0x7f09009b;
-		public static final int imageViewIcon = 0x7f09009c;
-		public static final int linearLayoutButtons = 0x7f090099;
-		public static final int linearLayoutFiles = 0x7f090098;
-		public static final int rootLayout = 0x7f090096;
-		public static final int scrollView1 = 0x7f090097;
-		public static final int textViewLabel = 0x7f09009d;
+		public static final int buttonAdd = 0x7f0c009a;
+		public static final int buttonOk = 0x7f0c009b;
+		public static final int imageViewIcon = 0x7f0c009c;
+		public static final int linearLayoutButtons = 0x7f0c0099;
+		public static final int linearLayoutFiles = 0x7f0c0098;
+		public static final int rootLayout = 0x7f0c0096;
+		public static final int scrollView1 = 0x7f0c0097;
+		public static final int textViewLabel = 0x7f0c009d;
 	}
 	public static final class layout {
 		public static final int daidalos_file_chooser = 0x7f04002e;
 		public static final int daidalos_file_item = 0x7f04002f;
 	}
 	public static final class string {
-		public static final int daidalos_accept = 0x7f0b001b;
-		public static final int daidalos_app_name = 0x7f0b001c;
-		public static final int daidalos_cancel = 0x7f0b001d;
-		public static final int daidalos_confirm_create_file = 0x7f0b001e;
-		public static final int daidalos_confirm_create_folder = 0x7f0b001f;
-		public static final int daidalos_confirm_select_file = 0x7f0b0020;
-		public static final int daidalos_confirm_select_folder = 0x7f0b0021;
-		public static final int daidalos_create_file = 0x7f0b0022;
-		public static final int daidalos_create_folder = 0x7f0b0023;
-		public static final int daidalos_enter_file_name = 0x7f0b0024;
-		public static final int daidalos_enter_folder_name = 0x7f0b0025;
-		public static final int daidalos_hello = 0x7f0b0026;
-		public static final int daidalos_new_file = 0x7f0b0027;
-		public static final int daidalos_no = 0x7f0b0028;
-		public static final int daidalos_ok = 0x7f0b0029;
-		public static final int daidalos_select = 0x7f0b002a;
-		public static final int daidalos_yes = 0x7f0b002b;
+		public static final int daidalos_accept = 0x7f06000d;
+		public static final int daidalos_app_name = 0x7f06000e;
+		public static final int daidalos_cancel = 0x7f06000f;
+		public static final int daidalos_confirm_create_file = 0x7f060010;
+		public static final int daidalos_confirm_create_folder = 0x7f060011;
+		public static final int daidalos_confirm_select_file = 0x7f060012;
+		public static final int daidalos_confirm_select_folder = 0x7f060013;
+		public static final int daidalos_create_file = 0x7f060014;
+		public static final int daidalos_create_folder = 0x7f060015;
+		public static final int daidalos_enter_file_name = 0x7f060016;
+		public static final int daidalos_enter_folder_name = 0x7f060017;
+		public static final int daidalos_hello = 0x7f060018;
+		public static final int daidalos_new_file = 0x7f060019;
+		public static final int daidalos_no = 0x7f06001a;
+		public static final int daidalos_ok = 0x7f06001b;
+		public static final int daidalos_select = 0x7f06001c;
+		public static final int daidalos_yes = 0x7f06001d;
 	}
 }

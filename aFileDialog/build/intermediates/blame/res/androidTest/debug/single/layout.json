@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/res/merged/androidTest/debug/layout/daidalos_file_item.xml",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/layout/daidalos_file_item.xml"
+    },
+    {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/res/merged/androidTest/debug/layout/daidalos_file_chooser.xml",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/aFileDialog/build/intermediates/bundles/debug/res/layout/daidalos_file_chooser.xml"
+    }
+]

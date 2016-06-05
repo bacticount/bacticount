@@ -46,4 +46,4 @@
             android:text="@string/daidalos_ok" />
         
     </LinearLayout>
-</LinearLayout><!-- From: file:/Users/GuestAdmin/Documents/pathogenanalyzer1/aFileDialog/src/main/res/layout/daidalos_file_chooser.xml -->
+</LinearLayout>
