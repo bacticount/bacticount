@@ -120,6 +120,10 @@
         "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_choose_source.xml",
+        "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout/activity_choose_source.xml"
+    },
+    {
         "merged": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/dialog_choose_action_enter_reaction_name.xml",
         "source": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout/dialog_choose_action_enter_reaction_name.xml"
     },

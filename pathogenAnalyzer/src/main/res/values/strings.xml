@@ -77,7 +77,7 @@
     <string name="recording_success_message">300 photos were taken over 50 minutes.  From the home screen, select "Start", then "Select and view results" to complete the BACTICOUNT analysis.  You may compare any set of unknown samples with a standard curve calibration run.  The home screen has instructions for viewing or exporting all 300 photos.</string>
     <string name="title_activity_tutorial1of12">Tutorial1of12</string>
 
-    <string name="hello_world">Hello world! I don't need this anymore haha.</string>
+    <string name="hello_world">Hello world! I don\'t need this anymore haha.</string>
     <string name="title_activity_tutorial2of12">Tutorial2of12</string>
     <string name="title_activity_tutorial3of12">Tutorial3of12</string>
     <string name="title_activity_tutorial4of12">Tutorial4of12</string>
@@ -89,5 +89,11 @@
     <string name="title_activity_tutorial9of12">Tutorial9of12</string>
     <string name="title_activity_tutorial10of12">Tutorial10of12</string>
     <string name="title_activity_tutorial11of12">Tutorial11of12</string>
+
+    <string name="choose_source_button_blood">Blood</string>
+    <string name="choose_source_button_urine">Urine</string>
+    <string name="choose_source_button_feces">Feces</string>
+    <string name="choose_source_button_other">Other</string>
+    <string name="choose_source_text_view_top_message">Please choose the source of the bacteria you wish to count:</string>
 
 </resources>

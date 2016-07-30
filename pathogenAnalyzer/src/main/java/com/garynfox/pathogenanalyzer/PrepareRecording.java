@@ -30,6 +30,7 @@ public class PrepareRecording extends Activity implements PictureCallback {
 	public final static String REACTION_INFO = "com.garynfox.pathogenanalyzer.REACTION_INFO";
 	public final static String REFERENCE_INFO = "com.garynfox.pathogenanalyzer.REFERENCE_INFO";
 	public final static String RECORDING_TYPE = "com.garynfox.pathogenanalyzer.RECORDING_TYPE";
+	public final static String SOURCE_TYPE = "com.garynfox.pathogenanalyzer.SOURCE_TYPE";
 	public final static int STANDARD_CURVE = 1;
 	public final static int SAMPLE = 2;
 	
@@ -38,7 +39,8 @@ public class PrepareRecording extends Activity implements PictureCallback {
 	static String[] sampleInfo = new String[3];
 	static String[] referenceInfo = new String[3];
 	static int recordingType = 999;
-	
+
+	String sourceType;
 	
 	// Declare buttons	
     Button prepareRecordingButtonStartRecordingReaction;
@@ -68,6 +70,7 @@ public class PrepareRecording extends Activity implements PictureCallback {
 		sampleInfo = bundleReceived.getStringArray(ChooseAction.REACTION_INFO);
 		referenceInfo = bundleReceived.getStringArray(ChooseAction.REFERENCE_INFO);
 		recordingType = bundleReceived.getInt(ChooseAction.RECORDING_TYPE);
+		sourceType = bundleReceived.getString(ChooseAction.SOURCE_TYPE);
 		/*
 		String standardCurvePath = b.getString(ChooseAction.STANDARD_CURVE_PATH);
 		String reactionName = b.getString(ChooseAction.REACTION_NAME);
@@ -186,6 +189,7 @@ public class PrepareRecording extends Activity implements PictureCallback {
 				b1.putStringArray(REFERENCE_INFO, referenceInfo);
 				b1.putStringArray(REACTION_INFO, sampleInfo);
 				b1.putInt(RECORDING_TYPE, recordingType);
+				b1.putString(SOURCE_TYPE, sourceType);
 				i1.putExtras(b1);
 				startActivity(i1);	
 			}		

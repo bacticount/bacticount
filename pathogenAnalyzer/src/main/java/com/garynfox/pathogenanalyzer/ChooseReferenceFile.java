@@ -23,6 +23,7 @@ public class ChooseReferenceFile extends Activity {
 	public final static String REACTION_INFO = "com.garynfox.pathogenanalyzer.REACTION_INFO";
 	public final static String REFERENCE_INFO = "com.garynfox.pathogenanalyzer.REFERENCE_INFO";
 	public final static String RECORDING_TYPE = "com.garynfox.pathogenanalyzer.RECORDING_TYPE";
+	public final static String SOURCE_TYPE = "com.garynfox.pathogenanalyzer.SOURCE_TYPE";
 	public final static int STANDARD_CURVE = 1;
 	public final static int SAMPLE = 2;
 	
@@ -45,6 +46,7 @@ public class ChooseReferenceFile extends Activity {
     String tempName;
     String tempPath;
     String tempNameAndPath;
+	String sourceType;
 	
 	// Buttons
 	Button chooseReferenceFileButtonSelectPASCFile;
@@ -72,6 +74,7 @@ public class ChooseReferenceFile extends Activity {
 		sampleInfo = bundleReceived.getStringArray(ChooseAction.REACTION_INFO);
 		referenceInfo = bundleReceived.getStringArray(ChooseAction.REFERENCE_INFO);
 		recordingType = bundleReceived.getInt(ChooseAction.RECORDING_TYPE);
+		sourceType = bundleReceived.getString(ChooseAction.SOURCE_TYPE);
 
         // Log.d("stcname before selection", standardCurveName.toString());
         /*

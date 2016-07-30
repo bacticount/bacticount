@@ -31,6 +31,7 @@ public class ChooseAction extends Activity {
 	public final static String REACTION_INFO = "com.garynfox.pathogenanalyzer.REACTION_INFO";
 	public final static String REFERENCE_INFO = "com.garynfox.pathogenanalyzer.REFERENCE_INFO";
 	public final static String RECORDING_TYPE = "com.garynfox.pathogenanalyzer.RECORDING_TYPE";
+	public final static String SOURCE_TYPE = "com.garynfox.pathogenanalyzer.SOURCE_TYPE";
 	public final static int STANDARD_CURVE = 1;
 	public final static int SAMPLE = 2;
 	
@@ -52,6 +53,7 @@ public class ChooseAction extends Activity {
 	String referenceName;
 	String referencePath;
 	String referenceNameAndPath;
+	String sourceType;
 	
 	// What type of recording will this be
 	int recordingType = 999;
@@ -74,6 +76,14 @@ public class ChooseAction extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
+		Intent previousScreen = getIntent();
+
+		// Unpacking bundle from previous intent, mainly to pass to next intent
+		Bundle bundleReceived = previousScreen.getExtras();
+		sourceType = bundleReceived.getString(ChooseSource.SOURCE_TYPE);
+		Log.d("reaction source type", sourceType);
+
 		// Inflate the GUI
 		setContentView(R.layout.activity_choose_action);
 		
@@ -135,7 +145,7 @@ public class ChooseAction extends Activity {
 						
 						// Create the standard curve file, and strings for the path as well as the name and path as one string
 						File standardCurveFileNameAndPath;
-						standardCurveFileNameAndPath = new File(mediaStorageDir.getPath() + File.separator + standardCurveName + ".pasc");						
+						standardCurveFileNameAndPath = new File(mediaStorageDir.getPath() + File.separator + sourceType + "_" + standardCurveName + ".pasc");
 						standardCurveNameAndPath = standardCurveFileNameAndPath.toString();
 						File standardCurveFilePath;
 						standardCurveFilePath = new File(mediaStorageDir.getPath());
@@ -162,6 +172,7 @@ public class ChooseAction extends Activity {
 						b1.putStringArray(REACTION_INFO, sampleInfo);
 						b1.putStringArray(REFERENCE_INFO, referenceInfo);
 						b1.putInt(RECORDING_TYPE, recordingType);
+						b1.putString(SOURCE_TYPE, sourceType);
 						intentPrepareRecording.putExtras(b1);
 						
 						startActivity(intentPrepareRecording);																		
@@ -214,7 +225,7 @@ public class ChooseAction extends Activity {
 
                         // Create the sample file, and strings for the path as well as the name and path as one string
                         File sampleFileNameAndPath;
-                        sampleFileNameAndPath = new File(mediaStorageDir.getPath() + File.separator + sampleName + ".parr");
+                        sampleFileNameAndPath = new File(mediaStorageDir.getPath() + File.separator + sourceType + "_" + sampleName + ".parr");
                         sampleNameAndPath = sampleFileNameAndPath.toString();
                         File sampleFilePath;
                         sampleFilePath = new File(mediaStorageDir.getPath());
@@ -241,6 +252,7 @@ public class ChooseAction extends Activity {
                         b1.putStringArray(REACTION_INFO, sampleInfo);
                         b1.putStringArray(REFERENCE_INFO, referenceInfo);
                         b1.putInt(RECORDING_TYPE, recordingType);
+						b1.putString(SOURCE_TYPE, sourceType);
                         intentPrepareRecording.putExtras(b1);
 
                         startActivity(intentPrepareRecording);

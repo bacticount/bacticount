@@ -37,6 +37,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ChooseSource"
+            android:label="ChooseSource"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
             android:name=".Tutorial1of4"
             android:label="@string/title_activity_tutorial1of4"
             android:screenOrientation="portrait" >

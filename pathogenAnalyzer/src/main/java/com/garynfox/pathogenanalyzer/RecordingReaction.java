@@ -61,6 +61,7 @@ public class RecordingReaction extends Activity {
 	public final static String REACTION_INFO = "com.garynfox.pathogenanalyzer.REACTION_INFO";
 	public final static String REFERENCE_INFO = "com.garynfox.pathogenanalyzer.REFERENCE_INFO";
 	public final static String RECORDING_TYPE = "com.garynfox.pathogenanalyzer.RECORDING_TYPE";
+	public final static String SOURCE_TYPE = "com.garynfox.pathogenanalyzer.SOURCE_TYPE";
 	public final static int STANDARD_CURVE = 1;
 	public final static int SAMPLE = 2;
 	public final static String TIMECOUNT = "com.garynfox.pathogenanalyzer.TIMECOUNT";
@@ -84,6 +85,7 @@ public class RecordingReaction extends Activity {
 	String referencePath;				// 1
 	String referenceNameAndPath;		// 2
 	String tempPhotoPath;               // the path loaded into the computation matrix
+	String sourceType;
 	
 	// doubles with the vial intensity at different times, needed for scope
 	double sample00Intensity = 0;
@@ -166,6 +168,7 @@ public class RecordingReaction extends Activity {
 		sampleInfo = bundleReceived.getStringArray(ChooseAction.REACTION_INFO);
 		referenceInfo = bundleReceived.getStringArray(ChooseAction.REFERENCE_INFO);
 		recordingType = bundleReceived.getInt(ChooseAction.RECORDING_TYPE);
+		sourceType = bundleReceived.getString(ChooseAction.SOURCE_TYPE);
 		
 		// Inflate the GUI
 		setContentView(R.layout.activity_recording_reaction);
@@ -519,6 +522,7 @@ public class RecordingReaction extends Activity {
                             b1.putInt(RECORDING_TYPE, recordingType);
                             b1.putInt(TIMECOUNT, timeCount);
                             b1.putInt(DATA_POINTS, dataPoints);
+							b1.putString(SOURCE_TYPE, sourceType);
                             i1.putExtras(b1);
                             startActivity(i1);
 

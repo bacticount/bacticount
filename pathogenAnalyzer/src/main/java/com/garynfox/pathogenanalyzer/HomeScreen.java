@@ -51,7 +51,7 @@ public class HomeScreen extends Activity {
 			@Override
 			public void onClick(View view2) {
 				// Intent to launch Tutorial 1 of 4 screen (activity)
-				Intent i2 = new Intent(HomeScreen.this, ChooseAction.class);
+				Intent i2 = new Intent(HomeScreen.this, ChooseSource.class);
 				startActivity(i2);	
 			}		
 		});		

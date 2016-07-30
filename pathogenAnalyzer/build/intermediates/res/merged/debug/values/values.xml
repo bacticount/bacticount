@@ -150,6 +150,11 @@
     <string name="choose_reference_file_button_select_PARR_file">Select ".parr" file</string>
     <string name="choose_reference_file_button_select_PASC_file">Select ".pasc" file</string>
     <string name="choose_reference_file_text_view_instructions">Please select a valid ".pasc" calibration file and a sample to test it against.  Such files are located in the "Pictures" directory in their corresponding folder, then tap "proceed" to set up your recording.</string>
+    <string name="choose_source_button_blood">Blood</string>
+    <string name="choose_source_button_feces">Feces</string>
+    <string name="choose_source_button_other">Other</string>
+    <string name="choose_source_button_urine">Urine</string>
+    <string name="choose_source_text_view_top_message">Please choose the source of the bacteria you wish to count:</string>
     <string name="daidalos_accept">Accept</string>
     <string name="daidalos_app_name">aFileDialog</string>
     <string name="daidalos_cancel">Cancel</string>
@@ -169,7 +174,7 @@
     <string name="daidalos_yes">Yes</string>
     <string name="dialog_choose_action_record_reaction_message">Enter a name of this sample for recording. Only the characters Aa–Zz, 0–9, and the underscore symbol (_) are allowed, no periods (.), special characters, or spaces please!</string>
     <string name="dialog_choose_action_record_standard_curve_message">Enter a name of this standard curve for recording. Only the characters Aa–Zz, 0–9, and the underscore symbol (_) are allowed, no periods (.), special characters, or spaces please!</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Hello world! I don\'t need this anymore haha.</string>
     <string name="home_screen_button_start_analysis">Start!</string>
     <string name="home_screen_button_start_tutorial">Tutorial</string>
     <string name="home_screen_text_view_ES_file_viewer">ES File Explorer (available from the Google Play Store free!) is recommended for viewing photos and results from this application.</string>
