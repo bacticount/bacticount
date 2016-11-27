@@ -4,12 +4,18 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.android.tools.build:gradle:2.2.2'
     }
 
 }
 
 allprojects {
+
+    tasks.withType(JavaCompile) {
+        sourceCompatibility = "1.7"
+        targetCompatibility = "1.7"
+    }
+
     repositories {
         jcenter()
     }

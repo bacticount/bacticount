@@ -16,7 +16,8 @@ import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
 import org.opencv.core.Mat;
-import org.opencv.highgui.Highgui;
+import org.opencv.imgcodecs.Imgcodecs;
+// import org.opencv.highgui.Highgui;
 
 import android.os.Bundle;
 import android.annotation.SuppressLint;
@@ -221,15 +222,17 @@ public class RecordingReaction extends Activity {
 
         Parameters params = camera.getParameters();
         Log.d("Focal Length pre 1 pic", params.getFocalLength()+"");
+		//Log.d("Focal Length pre 1 pic", params.getFocalLength()+"");
+
         params.setJpegQuality(100);
-        // params.setFocusMode("auto");
-        params.setWhiteBalance("fluorescent");
+        params.setFocusMode("auto");
+        //params.setWhiteBalance("fluorescent");
         params.setAutoWhiteBalanceLock(true);
-        params.setPictureSize(4160, 3120);
+        params.setPictureSize(4032, 3024);
         Log.d("White Balance RECORDING", params.getWhiteBalance());
         Log.d("Focus Mode RECORDING", params.getFocusMode());
         camera.setParameters(params);
-        // camera.autoFocus(myAutoFocusCallback);
+        camera.autoFocus(myAutoFocusCallback);
 
         // countDownTimer2 = new MyCountDownTimer(3000, 1500);
 
@@ -274,7 +277,7 @@ public class RecordingReaction extends Activity {
 			tempPhotoPath = recordedImage.getPath();
 			
 			Mat A;
-			A = Highgui.imread(tempPhotoPath, Highgui.CV_LOAD_IMAGE_ANYDEPTH | Highgui.CV_LOAD_IMAGE_COLOR);	
+			A = Imgcodecs.imread(tempPhotoPath, Imgcodecs.CV_LOAD_IMAGE_ANYDEPTH | Imgcodecs.CV_LOAD_IMAGE_COLOR);
 			
 			// test starting from one frame at (0, 0) then (100, 100)
 			sample00Intensity = vialAreaIntensity(30, 1888, 1569, A);

@@ -10,9 +10,9 @@ import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
 import org.opencv.core.Mat;
-import org.opencv.highgui.Highgui;
 
 import org.apache.commons.math3.stat.regression.SimpleRegression;
+import org.opencv.imgcodecs.Imgcodecs;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -155,7 +155,7 @@ public class OpenCVTest extends Activity {
 			
 			// Testing out some matrix stuff here
 			Mat A;
-			A = Highgui.imread(photoPath, Highgui.IMREAD_ANYDEPTH | Highgui.IMREAD_ANYCOLOR);
+			A = Imgcodecs.imread(photoPath, Imgcodecs.IMREAD_ANYDEPTH | Imgcodecs.IMREAD_ANYCOLOR);
 			double[] testPoint = A.get(670, 1500);
 			String[] testPointString = new String[testPoint.length];
 			for(int i = 0; i < testPoint.length; i++){

@@ -2,39 +2,58 @@
 <items version="2" >
 
     <item
-        jar="/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/openCVLibrary310/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="21.1.2"
-        sha1="a815be37e6455cc366d1231e4ee3df66aa0669fc">
-        <dex dex="/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_fe7434db2367c7a963b0dddc0d4c21323d328c1a/classes.dex" />
+        sha1="608e4700fb6772d37c8d0ba1e2e55ed0e1cde1a1">
+        <dex dex="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/pathogenanalyzer-openCVLibrary310-unspecified_17a426e5d3ae892cfdab8f4a87fc1fc0600cab8c.jar" />
     </item>
     <item
-        jar="/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/garyfox/pathogenanalyzer/opencsv/build/libs/opencsv.jar"
+        jumboMode="false"
+        optimize="true"
         revision="21.1.2"
-        sha1="a4acc8b3aa11c78cafabad2eebf926fcd4dfc77f">
-        <dex dex="/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8a295037a510f8b2c1c623397703ab55cc74c5d1/classes.dex" />
+        sha1="42f14eeb1ff306c49c9f7c5be0f19b364e4ff98a">
+        <dex dex="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/opencsv_67386e2d4e68c9785e4cefcc4b275f5904764e84.jar" />
     </item>
     <item
-        jar="/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="21.1.2"
         sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
-        <dex dex="/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-19.1.0_2054c94991c939d5b0bd4f9e4085796e2d631ee7/classes.dex" />
+        <dex dex="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-19.1.0_4080009ed2e4196c0665b7af173204c1c226e776.jar" />
     </item>
     <item
-        jar="/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/libs/commons-math3-3.5.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="21.1.2"
-        sha1="13af68e9a11576953f5c4b09436f8207be9d3a27">
-        <dex dex="/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/2/commons-math3-3.5_33a8d9fbfba304d231284833ceafa0fb8266fedf/classes.dex" />
+        sha1="f2ae10a653d0a0f6ae3cc52210c5a0d2f05fc207">
+        <dex dex="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/pathogenanalyzer-aFileDialog-unspecified_b531ad85b44744d6cceb95cd159b2a794f930ba1.jar" />
     </item>
     <item
-        jar="/Users/GuestAdmin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/garyfox/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
         revision="21.1.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_f6e8cdbe1a865c2ef004eeb91872273a2b7efcfa/classes.dex" />
+        <dex dex="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/support-v4-19.1.0_74a781c6fe523e7c9e144bb10e47cfbbaa45bd77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/libs/commons-math3-3.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="13af68e9a11576953f5c4b09436f8207be9d3a27">
+        <dex dex="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/commons-math3-3.5_ec55c3e9705152f559cca6b41635b1468fb37f44.jar" />
     </item>
 
 </items>

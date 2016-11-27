@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/values-large-v14/values-large-v14.xml",
+        "outputFile": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v14/values-large-v14.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 158
                 },
                 "from": {
-                    "file": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-large-v14/values.xml",
+                    "file": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-large-v14/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 278
                 },
                 "from": {
-                    "file": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-large-v14/values.xml",
+                    "file": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-large-v14/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,

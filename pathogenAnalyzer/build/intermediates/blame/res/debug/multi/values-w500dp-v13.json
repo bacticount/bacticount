@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/values-w500dp-v13/values-w500dp-v13.xml",
+        "outputFile": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w500dp-v13/values-w500dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 105
                 },
                 "from": {
-                    "file": "/Users/GuestAdmin/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-w500dp/values.xml",
+                    "file": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-w500dp/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

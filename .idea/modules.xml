@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aFileDialog/aFileDialog.iml" filepath="$PROJECT_DIR$/aFileDialog/aFileDialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/openCVLibrary249/openCVLibrary249.iml" filepath="$PROJECT_DIR$/openCVLibrary249/openCVLibrary249.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" filepath="$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" />
       <module fileurl="file://$PROJECT_DIR$/opencsv/opencsv.iml" filepath="$PROJECT_DIR$/opencsv/opencsv.iml" />
       <module fileurl="file://$PROJECT_DIR$/pathogenAnalyzer/pathogenAnalyzer.iml" filepath="$PROJECT_DIR$/pathogenAnalyzer/pathogenAnalyzer.iml" />
       <module fileurl="file://$PROJECT_DIR$/pathogenanalyzer.iml" filepath="$PROJECT_DIR$/pathogenanalyzer.iml" />
