@@ -227,6 +227,8 @@
     <string name="openCVTestButtonTestResults">test the results</string>
     <string name="prepare_recording_button_start_recording_reaction">Begin Recording Amplification</string>
     <string name="prepare_recording_button_tap_to_focus">Tap To Focus</string>
+    <string name="prepare_recording_chronometer_dummy">This will not actually be displayed</string>
+    <string name="prepare_recording_text_view_timer_indicator">Timer placeholder</string>
     <string name="prepare_recording_text_view_top_message">Aim camera directly at reaction vials and line up to grid as carefully as possible. Place camera in stable position on box and hit record. Ensure that the camera WILL NOT MOVE during recording.  Before recording begins, as a precaution it is required that the user close all other applications that utilize the camera (Snapchat, Stock Camera, Instagram, etc) else results cannot be guaranteed.  The device must be left in an undisturbed state during recording, and it is recommended that auto-updates, notifications, and all other active or interrupting activities be disabled.  Putting the device into airplane mode is one such option. </string>
     <string name="prepare_recording_viewfinder_grid_image_description">This is the exact grid the vials will need to be aligned to</string>
     <string name="reaction_results_button_home">Back To Home</string>
@@ -275,27 +277,47 @@
     <string name="tutorial_4of4_text_view_intructions7"><b>7. </b>Much more detailed instructions can be found at [link to BACTICOUNT.com- available! we should register it]. <b>Note: installation of "Open CV manager" will be prompted during the process. Play Store access is required to install, necessary for proper BACTICOUNT operation (You will leave and re-enter BACTICOUNT).</b> Here is a list of needed supplies</string>
     <string name="tutorial_4of4_text_view_intructions8">\n<b>Reagents</b> \n-Blood lysis: alkaline reagent (NaOH, Triton X-100) \n-Tris-HCl (pH 7.5) \n\n<b>Amplification:</b>\n-positive control containing target gene (genomic DNA)\n-primers (F3, B3, FIP, BIP, with optional addition of F Loop and B Loop)\n-2x reagent mix (<i>Bst</i> DNA polymerase, Tris-HCl, KCl, MgSO<sub>4</sub>, (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, Tween-20, Triton X-100, betaine, dNTPs, FDR)\n-PCR-clean H<sub>2</sub>O\n\n<b>Materials</b>\n-sterilized tubes\n-aluminum 96-well tube holder\n-smartphone with app\n-520 nm optical filter\n-tape\n-low-profile strip PCR tubes\n-optical flat strip PCR lids\n-micropipette\n-pipette tips with filter\n-vortex mixer\n-centrifuge\n-ice\n-heat block\n-blue LED lights\n-battery\n-blackout box with viewing aperture\n-Moto X 2nd Gen in airplane mode\n\n<b>Predetermined Parameters</b>\n-primers for target gene\n-concentration of positive control\n-temperature for amplification\n </string>
     <string name="view_finder_description">View Finder Description</string>
-    <string name="yx00">0.00</string>
-    <string name="yx01">YES</string>
-    <string name="yx02">YES</string>
-    <string name="yx03">0.03</string>
-    <string name="yx10">0.10</string>
-    <string name="yx11">0.11</string>
-    <string name="yx12">0.12</string>
-    <string name="yx13">0.13</string>
-    <string name="yx20">0.20</string>
-    <string name="yx21">0.21</string>
-    <string name="yx22">0.22</string>
-    <string name="yx23">0.23</string>
+    <string name="yxA1">0.A1</string>
+    <string name="yxA2">0.A2</string>
+    <string name="yxA3">0.A3</string>
+    <string name="yxA4">0.A4</string>
+    <string name="yxA5">0.A5</string>
+    <string name="yxA6">0.A6</string>
+    <string name="yxB1">0.B1</string>
+    <string name="yxB2">0.B2</string>
+    <string name="yxB3">0.B3</string>
+    <string name="yxB4">0.B4</string>
+    <string name="yxB5">0.B5</string>
+    <string name="yxB6">0.B6</string>
+    <string name="yxC1">0.C1</string>
+    <string name="yxC2">0.C2</string>
+    <string name="yxC3">0.C3</string>
+    <string name="yxC4">0.C4</string>
+    <string name="yxC5">0.C5</string>
+    <string name="yxC6">0.C6</string>
+    <string name="yxD1">0.D1</string>
+    <string name="yxD2">0.D2</string>
+    <string name="yxD3">0.D3</string>
+    <string name="yxD4">0.D4</string>
+    <string name="yxD5">0.D5</string>
+    <string name="yxD6">0.D6</string>
+    <string name="yxE1">0.E1</string>
+    <string name="yxE2">0.E2</string>
+    <string name="yxE3">0.E3</string>
+    <string name="yxE4">0.E4</string>
+    <string name="yxE5">0.E5</string>
+    <string name="yxE6">0.E6</string>
+    <string name="yxF1">0.F1</string>
+    <string name="yxF2">0.F2</string>
+    <string name="yxF3">0.F3</string>
+    <string name="yxF4">0.F4</string>
+    <string name="yxF5">0.F5</string>
+    <string name="yxF6">0.F6</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+        
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
     </style>
     <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">
         <item name="android:textColor">@android:color/primary_text_light</item>
@@ -386,19 +408,19 @@
     <style name="Theme.AppCompat" parent="Theme.Base.AppCompat">
         <item name="isLightTheme">false</item>
 
-        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        
         <item name="spinnerDropDownItemStyle">            @style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
         <item name="searchResultListItemHeight">58dip</item>
 
-        <!-- Popup Menu styles -->
+        
         <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">            @style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">            @style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
         <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
         <item name="dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
 
-        <!-- SearchView attributes -->
+        
         <item name="searchDropdownBackground">@drawable/abc_search_dropdown_dark</item>
         <item name="searchViewTextField">@drawable/abc_textfield_searchview_holo_dark</item>
         <item name="searchViewTextFieldRight">@drawable/abc_textfield_searchview_right_holo_dark</item>
@@ -414,7 +436,7 @@
         <item name="textAppearanceSearchResultSubtitle">            @style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_dark</item>
 
-        <!-- ShareActionProvider attributes -->
+        
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
     </style>
     <style name="Theme.AppCompat.Base.CompactMenu" parent="">
@@ -431,19 +453,19 @@
     <style name="Theme.AppCompat.Light" parent="Theme.Base.AppCompat.Light">
         <item name="isLightTheme">true</item>
 
-        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        
         <item name="spinnerDropDownItemStyle">            @style/Widget.AppCompat.Light.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
         <item name="searchResultListItemHeight">58dip</item>
 
-        <!-- Popup Menu styles -->
+        
         <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
         <item name="listPopupWindowStyle">@style/Widget.AppCompat.Light.ListPopupWindow</item>
         <item name="dropDownListViewStyle">@style/Widget.AppCompat.Light.ListView.DropDown</item>
 
-        <!-- SearchView attributes -->
+        
         <item name="searchDropdownBackground">@drawable/abc_search_dropdown_light</item>
         <item name="searchViewTextField">@drawable/abc_textfield_searchview_holo_light</item>
         <item name="searchViewTextFieldRight">@drawable/abc_textfield_searchview_right_holo_light</item>
@@ -459,25 +481,25 @@
         <item name="textAppearanceSearchResultSubtitle">            @style/TextAppearance.AppCompat.Light.SearchResult.Subtitle</item>
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_light</item>
 
-        <!-- ShareActionProvider attributes -->
+        
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.Light.ActivityChooserView</item>
     </style>
     <style name="Theme.AppCompat.Light.DarkActionBar" parent="Theme.Base.AppCompat.Light.DarkActionBar">
         <item name="isLightTheme">true</item>
 
-        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        
         <item name="spinnerDropDownItemStyle">            @style/Widget.AppCompat.Light.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
         <item name="searchResultListItemHeight">58dip</item>
 
-        <!-- Popup Menu styles -->
+        
         <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
         <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
         <item name="dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
 
-        <!-- SearchView attributes -->
+        
         <item name="searchDropdownBackground">@drawable/abc_search_dropdown_dark</item>
         <item name="searchViewTextField">@drawable/abc_textfield_searchview_holo_dark</item>
         <item name="searchViewTextFieldRight">@drawable/abc_textfield_searchview_right_holo_dark</item>
@@ -493,14 +515,14 @@
         <item name="textAppearanceSearchResultSubtitle">            @style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_dark</item>
 
-        <!-- ShareActionProvider attributes -->
+        
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
     </style>
     <style name="Theme.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Light.DialogWhenLarge"/>
     <style name="Theme.Base" parent="android:Theme"/>
     <style name="Theme.Base.AppCompat" parent="Theme.Base">
         <item name="windowActionBar">true</item>
-        <!-- Remove system title bars; we will add the action bar ourselves. -->
+        
         <item name="android:windowNoTitle">true</item>
         <item name="buttonBarStyle">@android:style/ButtonBar</item>
         <item name="buttonBarButtonStyle">@android:style/Widget.Button</item>
@@ -529,17 +551,17 @@
         <item name="actionMenuTextAppearance">            @style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
 
-        <!-- Dropdown Spinner Attributes -->
+        
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
 
-        <!-- Action Mode -->
+        
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_dark</item>
         <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_dark</item>
         <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_dark</item>
         <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
 
-        <!-- Panel attributes -->
+        
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_dark</item>
@@ -551,7 +573,7 @@
         <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
         <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
         <item name="windowActionBar">true</item>
-        <!-- Remove system title bars; we will add the action bar ourselves. -->
+        
         <item name="android:windowNoTitle">true</item>
         <item name="buttonBarStyle">@android:style/ButtonBar</item>
         <item name="buttonBarButtonStyle">@android:style/Widget.Button</item>
@@ -566,14 +588,14 @@
         <item name="textAppearanceListItem">?android:attr/textAppearanceMedium</item>
         <item name="textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
 
-        <!-- Action Mode -->
+        
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_dark</item>
         <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_dark</item>
         <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_dark</item>
         <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
 
-        <!-- Panel attributes -->
+        
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_dark</item>
@@ -583,7 +605,7 @@
     <style name="Theme.Base.AppCompat.DialogWhenLarge" parent="Theme.Base.AppCompat"/>
     <style name="Theme.Base.AppCompat.Light" parent="Theme.Base.Light">
         <item name="windowActionBar">true</item>
-        <!-- Remove system title bars; we will add the action bar ourselves. -->
+        
         <item name="android:windowNoTitle">true</item>
         <item name="buttonBarStyle">@android:style/ButtonBar</item>
         <item name="buttonBarButtonStyle">@android:style/Widget.Button</item>
@@ -599,7 +621,7 @@
         <item name="textAppearanceListItem">?android:attr/textAppearanceMedium</item>
         <item name="textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
 
-        <!-- Action Bar Styles -->
+        
         <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView</item>
         <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
         <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText</item>
@@ -614,17 +636,17 @@
         <item name="actionMenuTextAppearance">            @style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
 
-        <!-- Action Mode -->
+        
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_light</item>
         <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_light</item>
         <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_light</item>
         <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.Light.ActionButton.CloseMode</item>
 
-        <!-- Dropdown Spinner Attributes -->
+        
         <item name="actionDropDownStyle">            @style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
 
-        <!-- Panel attributes -->
+        
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_light</item>
@@ -642,17 +664,17 @@
         <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText.Inverse</item>
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryInverseDisableOnly</item>
 
-        <!-- Action Mode -->
+        
         <item name="actionModeStyle">@style/Widget.AppCompat.Light.ActionMode.Inverse</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_dark</item>
         <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_dark</item>
         <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_dark</item>
         <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
 
-        <!-- Dropdown Spinner Attributes -->
+        
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
 
-        <!-- Panel attributes -->
+        
         <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_dark</item>
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
     </style>

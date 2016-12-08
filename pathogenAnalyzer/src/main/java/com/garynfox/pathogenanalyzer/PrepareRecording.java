@@ -16,9 +16,11 @@ import android.hardware.Camera.Parameters;
 import android.hardware.Camera.PictureCallback;
 import android.hardware.Camera.AutoFocusCallback;
 
+import android.os.SystemClock;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Chronometer;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.util.Log;
@@ -31,6 +33,7 @@ public class PrepareRecording extends Activity implements PictureCallback {
 	public final static String REFERENCE_INFO = "com.garynfox.pathogenanalyzer.REFERENCE_INFO";
 	public final static String RECORDING_TYPE = "com.garynfox.pathogenanalyzer.RECORDING_TYPE";
 	public final static String SOURCE_TYPE = "com.garynfox.pathogenanalyzer.SOURCE_TYPE";
+	public final static String OFFSET_TIME = "com.garynfox.pathogenanalyzer.OFFSET_TIME";
 	public final static int STANDARD_CURVE = 1;
 	public final static int SAMPLE = 2;
 	
@@ -39,6 +42,7 @@ public class PrepareRecording extends Activity implements PictureCallback {
 	static String[] sampleInfo = new String[3];
 	static String[] referenceInfo = new String[3];
 	static int recordingType = 999;
+	static Integer offsetTimeInt = 0;
 
 	String sourceType;
 	
@@ -55,7 +59,9 @@ public class PrepareRecording extends Activity implements PictureCallback {
     // Declare camera objects, preview and the camera itself
     private Camera camera;
 	private CameraPreview cameraPreview;
-    
+
+	// adds the time to the total computation
+	private Chronometer chrono;
     
     
     @Override
@@ -79,6 +85,9 @@ public class PrepareRecording extends Activity implements PictureCallback {
 		
 		// Inflate the GUI
 		setContentView(R.layout.activity_prepare_recording);
+
+		chrono = (Chronometer) findViewById(R.id.prepareRecordingChrono);
+		chrono.start();
 
         hideButtons();
 
@@ -180,6 +189,14 @@ public class PrepareRecording extends Activity implements PictureCallback {
 
 			@Override
 			public void onClick(View view) {
+
+				// Get elapsed time since this screen launched for computation later
+				long timeElapsed = SystemClock.elapsedRealtime() - chrono.getBase();
+				long offsetTimeLong = timeElapsed / 1000;
+				offsetTimeInt = (int) (long) offsetTimeLong;
+
+				Log.d("Offset time: ", offsetTimeInt + "");
+
 				// Launch recording reaction screen
 				Intent i1 = new Intent(PrepareRecording.this, RecordingReaction.class);
 				// After picture is decided on, sends user to recording screen which will automatically take the photos
@@ -189,6 +206,7 @@ public class PrepareRecording extends Activity implements PictureCallback {
 				b1.putStringArray(REFERENCE_INFO, referenceInfo);
 				b1.putStringArray(REACTION_INFO, sampleInfo);
 				b1.putInt(RECORDING_TYPE, recordingType);
+				b1.putInt(OFFSET_TIME, offsetTimeInt);
 				b1.putString(SOURCE_TYPE, sourceType);
 				i1.putExtras(b1);
 				startActivity(i1);	
@@ -205,7 +223,7 @@ public class PrepareRecording extends Activity implements PictureCallback {
             Log.d("Focus Modes", focusModesString);
             List whiteBalanceModesList = params.getSupportedWhiteBalance();
             String whiteBalanceModesString = whiteBalanceModesList.toString();
-            Log.d("White Balance Prepare Recording", whiteBalanceModesString);
+            Log.d("White Bal Prep Rec", whiteBalanceModesString);
 			params.setFocusMode("auto");
             params.setWhiteBalance("fluorescent");
 			camera.setParameters(params);

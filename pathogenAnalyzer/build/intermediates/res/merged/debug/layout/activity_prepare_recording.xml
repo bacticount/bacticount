@@ -52,12 +52,15 @@
         android:layout_gravity="end"
         android:textSize="12sp"/>
 
+
     <ImageView
         android:id="@+id/prepareRecordingImageViewFinder"
         android:contentDescription="@string/view_finder_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/view_finder_motox2014" />
+        android:src="@drawable/s7_prep_viewfinder" />
+
+
 
     <Button
         android:id="@+id/prepareRecordingButtonFocusImage"
@@ -69,5 +72,22 @@
         android:text="@string/prepare_recording_button_tap_to_focus"
         android:textSize="40sp"
         android:textColor="#7B68EE" />
+
+    <TextView
+        android:text="@string/prepare_recording_text_view_timer_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="75dp"
+        android:id="@+id/prepareRecordingTextViewTimerIndicator" />
+
+    <Chronometer
+        android:layout_width="match_parent"
+        android:id="@+id/prepareRecordingChrono"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="150dp"/>
 
 </FrameLayout>

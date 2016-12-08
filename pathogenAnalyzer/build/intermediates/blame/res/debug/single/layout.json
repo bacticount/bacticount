@@ -8,24 +8,24 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_tutorial2of12.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout/activity_tutorial2of12.xml"
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_tutorial10of12.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout/activity_tutorial10of12.xml"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/abc_action_bar_decor_include.xml",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_bar_decor_include.xml"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_tutorial10of12.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout/activity_tutorial10of12.xml"
-    },
-    {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_reaction_results.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout/activity_reaction_results.xml"
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_tutorial2of12.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout/activity_tutorial2of12.xml"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_reaction_results.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout/activity_reaction_results.xml"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
@@ -36,12 +36,12 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_tutorial5of12.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout/activity_tutorial5of12.xml"
-    },
-    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_tutorial_4_of_4.xml",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout/activity_tutorial_4_of_4.xml"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_tutorial5of12.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout/activity_tutorial5of12.xml"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml",

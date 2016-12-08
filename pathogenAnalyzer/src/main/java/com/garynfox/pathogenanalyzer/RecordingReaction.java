@@ -67,13 +67,14 @@ public class RecordingReaction extends Activity {
 	public final static int SAMPLE = 2;
 	public final static String TIMECOUNT = "com.garynfox.pathogenanalyzer.TIMECOUNT";
 	public final static String DATA_POINTS = "com.garynfox.pathogenanalyzer.DATA_POINTS";
-	// public final static int MINUTES = 4;
+	public final static int TIME_OFFSET = 0;
 	
 	// Stuff being packed into the bundle
 	static String[] standardCurveInfo = new String[3];
 	static String[] sampleInfo = new String[3];
 	static String[] referenceInfo = new String[3];
 	static int recordingType = 999;
+	static int offsetTimeInt = 0;
 	
 	// Strings
 	String standardCurveName;			// 0
@@ -89,33 +90,81 @@ public class RecordingReaction extends Activity {
 	String sourceType;
 	
 	// doubles with the vial intensity at different times, needed for scope
-	double sample00Intensity = 0;
-	double sample01Intensity = 0;
-	double sample02Intensity = 0;
-	double sample03Intensity = 0;
-	double sample10Intensity = 0;
-	double sample11Intensity = 0;
-	double sample12Intensity = 0;
-	double sample13Intensity = 0;
-	double sample20Intensity = 0;
-	double sample21Intensity = 0;
-	double sample22Intensity = 0;
-	double sample23Intensity = 0;
-	String[] sampleValuesString = new String[16];
+	double sampleA1Intensity = 0;
+	double sampleA2Intensity = 0;
+	double sampleA3Intensity = 0;
+	double sampleA4Intensity = 0;
+	double sampleA5Intensity = 0;
+	double sampleA6Intensity = 0;
+	double sampleB1Intensity = 0;
+	double sampleB2Intensity = 0;
+	double sampleB3Intensity = 0;
+	double sampleB4Intensity = 0;
+	double sampleB5Intensity = 0;
+	double sampleB6Intensity = 0;
+	double sampleC1Intensity = 0;
+	double sampleC2Intensity = 0;
+	double sampleC3Intensity = 0;
+	double sampleC4Intensity = 0;
+	double sampleC5Intensity = 0;
+	double sampleC6Intensity = 0;
+	double sampleD1Intensity = 0;
+	double sampleD2Intensity = 0;
+	double sampleD3Intensity = 0;
+	double sampleD4Intensity = 0;
+	double sampleD5Intensity = 0;
+	double sampleD6Intensity = 0;
+	double sampleE1Intensity = 0;
+	double sampleE2Intensity = 0;
+	double sampleE3Intensity = 0;
+	double sampleE4Intensity = 0;
+	double sampleE5Intensity = 0;
+	double sampleE6Intensity = 0;
+	double sampleF1Intensity = 0;
+	double sampleF2Intensity = 0;
+	double sampleF3Intensity = 0;
+	double sampleF4Intensity = 0;
+	double sampleF5Intensity = 0;
+	double sampleF6Intensity = 0;
+	String[] sampleValuesString = new String[40];
 	
 	// versions to display on the screen
-	int sample00Display = 0;
-	int sample01Display = 0;
-	int sample02Display = 0;
-	int sample03Display = 0;
-	int sample10Display = 0;
-	int sample11Display = 0;
-	int sample12Display = 0;
-	int sample13Display = 0;
-	int sample20Display = 0;
-	int sample21Display = 0;
-	int sample22Display = 0;
-	int sample23Display = 0;
+	int sampleA1Display = 0;
+	int sampleA2Display = 0;
+	int sampleA3Display = 0;
+	int sampleA4Display = 0;
+	int sampleA5Display = 0;
+	int sampleA6Display = 0;
+	int sampleB1Display = 0;
+	int sampleB2Display = 0;
+	int sampleB3Display = 0;
+	int sampleB4Display = 0;
+	int sampleB5Display = 0;
+	int sampleB6Display = 0;
+	int sampleC1Display = 0;
+	int sampleC2Display = 0;
+	int sampleC3Display = 0;
+	int sampleC4Display = 0;
+	int sampleC5Display = 0;
+	int sampleC6Display = 0;
+	int sampleD1Display = 0;
+	int sampleD2Display = 0;
+	int sampleD3Display = 0;
+	int sampleD4Display = 0;
+	int sampleD5Display = 0;
+	int sampleD6Display = 0;
+	int sampleE1Display = 0;
+	int sampleE2Display = 0;
+	int sampleE3Display = 0;
+	int sampleE4Display = 0;
+	int sampleE5Display = 0;
+	int sampleE6Display = 0;
+	int sampleF1Display = 0;
+	int sampleF2Display = 0;
+	int sampleF3Display = 0;
+	int sampleF4Display = 0;
+	int sampleF5Display = 0;
+	int sampleF6Display = 0;
 	
 	// number of pictures taken = 50 min * 6 per minute = 300
 	int dataPoints = 300;
@@ -124,18 +173,42 @@ public class RecordingReaction extends Activity {
 	// Button recordingReactionButtonCancel;
 
 	// Declare text view displaying realtime intensity changes
-	TextView recordingReactionTextViewDisplayIntensity00;
-	TextView recordingReactionTextViewDisplayIntensity01;
-	TextView recordingReactionTextViewDisplayIntensity02;
-	TextView recordingReactionTextViewDisplayIntensity03;
-	TextView recordingReactionTextViewDisplayIntensity10;
-	TextView recordingReactionTextViewDisplayIntensity11;
-	TextView recordingReactionTextViewDisplayIntensity12;
-	TextView recordingReactionTextViewDisplayIntensity13;
-	TextView recordingReactionTextViewDisplayIntensity20;
-	TextView recordingReactionTextViewDisplayIntensity21;
-	TextView recordingReactionTextViewDisplayIntensity22;
-	TextView recordingReactionTextViewDisplayIntensity23;
+	TextView recordingReactionTextViewDisplayIntensityA1;
+	TextView recordingReactionTextViewDisplayIntensityA2;
+	TextView recordingReactionTextViewDisplayIntensityA3;
+	TextView recordingReactionTextViewDisplayIntensityA4;
+	TextView recordingReactionTextViewDisplayIntensityA5;
+	TextView recordingReactionTextViewDisplayIntensityA6;
+	TextView recordingReactionTextViewDisplayIntensityB1;
+	TextView recordingReactionTextViewDisplayIntensityB2;
+	TextView recordingReactionTextViewDisplayIntensityB3;
+	TextView recordingReactionTextViewDisplayIntensityB4;
+	TextView recordingReactionTextViewDisplayIntensityB5;
+	TextView recordingReactionTextViewDisplayIntensityB6;
+	TextView recordingReactionTextViewDisplayIntensityC1;
+	TextView recordingReactionTextViewDisplayIntensityC2;
+	TextView recordingReactionTextViewDisplayIntensityC3;
+	TextView recordingReactionTextViewDisplayIntensityC4;
+	TextView recordingReactionTextViewDisplayIntensityC5;
+	TextView recordingReactionTextViewDisplayIntensityC6;
+	TextView recordingReactionTextViewDisplayIntensityD1;
+	TextView recordingReactionTextViewDisplayIntensityD2;
+	TextView recordingReactionTextViewDisplayIntensityD3;
+	TextView recordingReactionTextViewDisplayIntensityD4;
+	TextView recordingReactionTextViewDisplayIntensityD5;
+	TextView recordingReactionTextViewDisplayIntensityD6;
+	TextView recordingReactionTextViewDisplayIntensityE1;
+	TextView recordingReactionTextViewDisplayIntensityE2;
+	TextView recordingReactionTextViewDisplayIntensityE3;
+	TextView recordingReactionTextViewDisplayIntensityE4;
+	TextView recordingReactionTextViewDisplayIntensityE5;
+	TextView recordingReactionTextViewDisplayIntensityE6;
+	TextView recordingReactionTextViewDisplayIntensityF1;
+	TextView recordingReactionTextViewDisplayIntensityF2;
+	TextView recordingReactionTextViewDisplayIntensityF3;
+	TextView recordingReactionTextViewDisplayIntensityF4;
+	TextView recordingReactionTextViewDisplayIntensityF5;
+	TextView recordingReactionTextViewDisplayIntensityF6;
 	
 	TextView recordingReactionTextTimeLeft;
 
@@ -169,6 +242,11 @@ public class RecordingReaction extends Activity {
 		sampleInfo = bundleReceived.getStringArray(ChooseAction.REACTION_INFO);
 		referenceInfo = bundleReceived.getStringArray(ChooseAction.REFERENCE_INFO);
 		recordingType = bundleReceived.getInt(ChooseAction.RECORDING_TYPE);
+		offsetTimeInt = bundleReceived.getInt(PrepareRecording.OFFSET_TIME);
+
+		// set the timecount to the offset time for computation
+		timeCount = offsetTimeInt;
+
 		sourceType = bundleReceived.getString(ChooseAction.SOURCE_TYPE);
 		
 		// Inflate the GUI
@@ -180,7 +258,7 @@ public class RecordingReaction extends Activity {
 		} else if(recordingType == SAMPLE){
 			dataPath = sampleInfo[2];
 		}
-		String[] entries = "smpl00#smpl01#smpl02#smpl03#smpl10#smpl11#smpl12#smpl13#smpl20#smpl21#smpl22#smpl23#time#focus_dist1#focus_dist2#focus_dist3".split("#");
+		String[] entries = "A1#A2#A3#A4#A5#A6#B1#B2#B3#B4#B5#B6#C1#C2#C3#C4#C5#C6#D1#D2#D3#D4#D5#D6#E1#E2#E3#E4#E5#E6#F1#F2#F3#F4#F5#F6#time#focus_dist1#focus_dist2#focus_dist3".split("#");
 					
 		try {
 			csvWriter = new CSVWriter(new FileWriter(dataPath));
@@ -191,18 +269,42 @@ public class RecordingReaction extends Activity {
 		}
 		
 		// display the text view that shows intensity
-		recordingReactionTextViewDisplayIntensity00 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensity00);
-		recordingReactionTextViewDisplayIntensity01 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensity01);
-		recordingReactionTextViewDisplayIntensity02 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensity02);
-		recordingReactionTextViewDisplayIntensity03 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensity03);
-		recordingReactionTextViewDisplayIntensity10 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensity10);
-		recordingReactionTextViewDisplayIntensity11 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensity11);
-		recordingReactionTextViewDisplayIntensity12 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensity12);
-		recordingReactionTextViewDisplayIntensity13 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensity13);
-		recordingReactionTextViewDisplayIntensity20 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensity20);
-		recordingReactionTextViewDisplayIntensity21 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensity21);
-		recordingReactionTextViewDisplayIntensity22 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensity22);
-		recordingReactionTextViewDisplayIntensity23 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensity23);
+		recordingReactionTextViewDisplayIntensityA1 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityA1);
+		recordingReactionTextViewDisplayIntensityA2 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityA2);
+		recordingReactionTextViewDisplayIntensityA3 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityA3);
+		recordingReactionTextViewDisplayIntensityA4 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityA4);
+		recordingReactionTextViewDisplayIntensityA5 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityA5);
+		recordingReactionTextViewDisplayIntensityA6 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityA6);
+		recordingReactionTextViewDisplayIntensityB1 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityB1);
+		recordingReactionTextViewDisplayIntensityB2 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityB2);
+		recordingReactionTextViewDisplayIntensityB3 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityB3);
+		recordingReactionTextViewDisplayIntensityB4 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityB4);
+		recordingReactionTextViewDisplayIntensityB5 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityB5);
+		recordingReactionTextViewDisplayIntensityB6 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityB6);
+		recordingReactionTextViewDisplayIntensityC1 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityC1);
+		recordingReactionTextViewDisplayIntensityC2 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityC2);
+		recordingReactionTextViewDisplayIntensityC3 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityC3);
+		recordingReactionTextViewDisplayIntensityC4 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityC4);
+		recordingReactionTextViewDisplayIntensityC5 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityC5);
+		recordingReactionTextViewDisplayIntensityC6 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityC6);
+		recordingReactionTextViewDisplayIntensityD1 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityD1);
+		recordingReactionTextViewDisplayIntensityD2 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityD2);
+		recordingReactionTextViewDisplayIntensityD3 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityD3);
+		recordingReactionTextViewDisplayIntensityD4 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityD4);
+		recordingReactionTextViewDisplayIntensityD5 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityD5);
+		recordingReactionTextViewDisplayIntensityD6 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityD6);
+		recordingReactionTextViewDisplayIntensityE1 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityE1);
+		recordingReactionTextViewDisplayIntensityE2 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityE2);
+		recordingReactionTextViewDisplayIntensityE3 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityE3);
+		recordingReactionTextViewDisplayIntensityE4 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityE4);
+		recordingReactionTextViewDisplayIntensityE5 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityE5);
+		recordingReactionTextViewDisplayIntensityE6 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityE6);
+		recordingReactionTextViewDisplayIntensityF1 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityF1);
+		recordingReactionTextViewDisplayIntensityF2 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityF2);
+		recordingReactionTextViewDisplayIntensityF3 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityF3);
+		recordingReactionTextViewDisplayIntensityF4 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityF4);
+		recordingReactionTextViewDisplayIntensityF5 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityF5);
+		recordingReactionTextViewDisplayIntensityF6 = (TextView) findViewById(R.id.recordingReactionTextViewDisplayIntensityF6);
 		
 		recordingReactionTextTimeLeft = (TextView) findViewById(R.id.recordingReactionTextTimeLeft);
 		
@@ -234,9 +336,9 @@ public class RecordingReaction extends Activity {
         camera.setParameters(params);
         camera.autoFocus(myAutoFocusCallback);
 
-        // countDownTimer2 = new MyCountDownTimer(3000, 1500);
+        // countDownTimer2 = new MyCountDownTimer(3000000, 10000);
 
-        countDownTimer2 = new MyCountDownTimer(3000000, 10000);
+        countDownTimer2 = new MyCountDownTimer(40000, 10000);
 
         RefreshTimer();
         countDownTimer2.Start();
@@ -278,77 +380,175 @@ public class RecordingReaction extends Activity {
 			
 			Mat A;
 			A = Imgcodecs.imread(tempPhotoPath, Imgcodecs.CV_LOAD_IMAGE_ANYDEPTH | Imgcodecs.CV_LOAD_IMAGE_COLOR);
-			
-			// test starting from one frame at (0, 0) then (100, 100)
-			sample00Intensity = vialAreaIntensity(30, 1888, 1569, A);
-			sample01Intensity = vialAreaIntensity(30, 1668, 1573,  A);
-			sample02Intensity = vialAreaIntensity(30, 1465, 1563, A);
-			sample03Intensity = vialAreaIntensity(30, 1249,  1556, A);
-			sample10Intensity = vialAreaIntensity(30, 1887, 1786,  A);
-			sample11Intensity = vialAreaIntensity(30, 1666, 1790, A);
-			sample12Intensity = vialAreaIntensity(30, 1458, 1779, A);
-			sample13Intensity = vialAreaIntensity(30, 1244,  1779, A);
-			sample20Intensity = vialAreaIntensity(30, 1875, 2008, A);
-			sample21Intensity = vialAreaIntensity(30, 1659, 2002, A);
-			sample22Intensity = vialAreaIntensity(30, 1451, 1993, A);
-			sample23Intensity = vialAreaIntensity(30, 1253,  1998, A);
+
+			int rad = 62;
+
+			sampleA1Intensity = vialAreaIntensity(rad, 1990, 1518, A);
+			sampleA2Intensity = vialAreaIntensity(rad, 1792, 1519, A);
+			sampleA3Intensity = vialAreaIntensity(rad, 1595, 1519, A);
+			sampleA4Intensity = vialAreaIntensity(rad, 1399, 1519, A);
+			sampleA5Intensity = vialAreaIntensity(rad, 1200, 1519, A);
+			sampleA6Intensity = vialAreaIntensity(rad, 1009, 1519, A);
+			sampleB1Intensity = vialAreaIntensity(rad, 1989, 1714, A);
+			sampleB2Intensity = vialAreaIntensity(rad, 1790, 1714, A);
+			sampleB3Intensity = vialAreaIntensity(rad, 1597, 1717, A);
+			sampleB4Intensity = vialAreaIntensity(rad, 1401, 1717, A);
+			sampleB5Intensity = vialAreaIntensity(rad, 1205, 1717, A);
+			sampleB6Intensity = vialAreaIntensity(rad, 1006, 1717, A);
+			sampleC1Intensity = vialAreaIntensity(rad, 1990, 1910, A);
+			sampleC2Intensity = vialAreaIntensity(rad, 1791, 1909, A);
+			sampleC3Intensity = vialAreaIntensity(rad, 1597, 1908, A);
+			sampleC4Intensity = vialAreaIntensity(rad, 1405, 1906, A);
+			sampleC5Intensity = vialAreaIntensity(rad, 1208, 1908, A);
+			sampleC6Intensity = vialAreaIntensity(rad, 1014, 1911, A);
+			sampleD1Intensity = vialAreaIntensity(rad, 1987, 2100, A);
+			sampleD2Intensity = vialAreaIntensity(rad, 1796, 2101, A);
+			sampleD3Intensity = vialAreaIntensity(rad, 1601, 2104, A);
+			sampleD4Intensity = vialAreaIntensity(rad, 1408, 2104, A);
+			sampleD5Intensity = vialAreaIntensity(rad, 1213, 2100, A);
+			sampleD6Intensity = vialAreaIntensity(rad, 1011, 2112, A);
+			sampleE1Intensity = vialAreaIntensity(rad, 1990, 2297, A);
+			sampleE2Intensity = vialAreaIntensity(rad, 1792, 2299, A);
+			sampleE3Intensity = vialAreaIntensity(rad, 1601, 2299, A);
+			sampleE4Intensity = vialAreaIntensity(rad, 1401, 2303, A);
+			sampleE5Intensity = vialAreaIntensity(rad, 1211, 2302, A);
+			sampleE6Intensity = vialAreaIntensity(rad, 1012, 2307, A);
+			sampleF1Intensity = vialAreaIntensity(rad, 1993, 2499, A);
+			sampleF2Intensity = vialAreaIntensity(rad, 1799, 2503, A);
+			sampleF3Intensity = vialAreaIntensity(rad, 1606, 2507, A);
+			sampleF4Intensity = vialAreaIntensity(rad, 1405, 2503, A);
+			sampleF5Intensity = vialAreaIntensity(rad, 1210, 2506, A);
+			sampleF6Intensity = vialAreaIntensity(rad, 1009, 2512, A);
 			
 			// filling an array string with the values to be copied into the csv
-			sampleValuesString[0] =  String.valueOf(sample00Intensity);
-			sampleValuesString[1] =  String.valueOf(sample01Intensity);
-			sampleValuesString[2] =  String.valueOf(sample02Intensity);
-			sampleValuesString[3] =  String.valueOf(sample03Intensity);
-			sampleValuesString[4] =  String.valueOf(sample10Intensity);
-			sampleValuesString[5] =  String.valueOf(sample11Intensity);
-			sampleValuesString[6] =  String.valueOf(sample12Intensity);
-			sampleValuesString[7] =  String.valueOf(sample13Intensity);
-			sampleValuesString[8] =  String.valueOf(sample20Intensity);
-			sampleValuesString[9] =  String.valueOf(sample21Intensity);
-			sampleValuesString[10] = String.valueOf(sample22Intensity);
-			sampleValuesString[11] = String.valueOf(sample23Intensity);
+			sampleValuesString[0] =  String.valueOf(sampleA1Intensity);
+			sampleValuesString[1] =  String.valueOf(sampleA2Intensity);
+			sampleValuesString[2] =  String.valueOf(sampleA3Intensity);
+			sampleValuesString[3] =  String.valueOf(sampleA4Intensity);
+			sampleValuesString[4] =  String.valueOf(sampleA5Intensity);
+			sampleValuesString[5] =  String.valueOf(sampleA6Intensity);
+			sampleValuesString[6] =  String.valueOf(sampleB1Intensity);
+			sampleValuesString[7] =  String.valueOf(sampleB2Intensity);
+			sampleValuesString[8] =  String.valueOf(sampleB3Intensity);
+			sampleValuesString[9] =  String.valueOf(sampleB4Intensity);
+			sampleValuesString[10] =  String.valueOf(sampleB5Intensity);
+			sampleValuesString[11] =  String.valueOf(sampleB6Intensity);
+			sampleValuesString[12] =  String.valueOf(sampleC1Intensity);
+			sampleValuesString[13] =  String.valueOf(sampleC2Intensity);
+			sampleValuesString[14] =  String.valueOf(sampleC3Intensity);
+			sampleValuesString[15] =  String.valueOf(sampleC4Intensity);
+			sampleValuesString[16] =  String.valueOf(sampleC5Intensity);
+			sampleValuesString[17] =  String.valueOf(sampleC6Intensity);
+			sampleValuesString[18] =  String.valueOf(sampleD1Intensity);
+			sampleValuesString[19] =  String.valueOf(sampleD2Intensity);
+			sampleValuesString[20] =  String.valueOf(sampleD3Intensity);
+			sampleValuesString[21] =  String.valueOf(sampleD4Intensity);
+			sampleValuesString[22] =  String.valueOf(sampleD5Intensity);
+			sampleValuesString[23] =  String.valueOf(sampleD6Intensity);
+			sampleValuesString[24] =  String.valueOf(sampleE1Intensity);
+			sampleValuesString[25] =  String.valueOf(sampleE2Intensity);
+			sampleValuesString[26] =  String.valueOf(sampleE3Intensity);
+			sampleValuesString[27] =  String.valueOf(sampleE4Intensity);
+			sampleValuesString[28] =  String.valueOf(sampleE5Intensity);
+			sampleValuesString[29] =  String.valueOf(sampleE6Intensity);
+			sampleValuesString[30] =  String.valueOf(sampleF1Intensity);
+			sampleValuesString[31] =  String.valueOf(sampleF2Intensity);
+			sampleValuesString[32] =  String.valueOf(sampleF3Intensity);
+			sampleValuesString[33] =  String.valueOf(sampleF4Intensity);
+			sampleValuesString[34] =  String.valueOf(sampleF5Intensity);
+			sampleValuesString[35] =  String.valueOf(sampleF6Intensity);
+
 			
 			// rounding to nearest int for display
-			sample00Display = (int)Math.round(sample00Intensity);
-			sample01Display = (int)Math.round(sample01Intensity);
-			sample02Display = (int)Math.round(sample02Intensity);
-			sample03Display = (int)Math.round(sample03Intensity);
-			sample10Display = (int)Math.round(sample10Intensity);
-			sample11Display = (int)Math.round(sample11Intensity);
-			sample12Display = (int)Math.round(sample12Intensity);
-			sample13Display = (int)Math.round(sample13Intensity);
-			sample20Display = (int)Math.round(sample20Intensity);
-			sample21Display = (int)Math.round(sample21Intensity);
-			sample22Display = (int)Math.round(sample22Intensity);
-			sample23Display = (int)Math.round(sample23Intensity);
-			
-			
-			timeCount++;
+			sampleA1Display = (int)Math.round(sampleA1Intensity);
+			sampleA2Display = (int)Math.round(sampleA2Intensity);
+			sampleA3Display = (int)Math.round(sampleA3Intensity);
+			sampleA4Display = (int)Math.round(sampleA4Intensity);
+			sampleA5Display = (int)Math.round(sampleA5Intensity);
+			sampleA6Display = (int)Math.round(sampleA6Intensity);
+			sampleB1Display = (int)Math.round(sampleB1Intensity);
+			sampleB2Display = (int)Math.round(sampleB2Intensity);
+			sampleB3Display = (int)Math.round(sampleB3Intensity);
+			sampleB4Display = (int)Math.round(sampleB4Intensity);
+			sampleB5Display = (int)Math.round(sampleB5Intensity);
+			sampleB6Display = (int)Math.round(sampleB6Intensity);
+			sampleC1Display = (int)Math.round(sampleC1Intensity);
+			sampleC2Display = (int)Math.round(sampleC2Intensity);
+			sampleC3Display = (int)Math.round(sampleC3Intensity);
+			sampleC4Display = (int)Math.round(sampleC4Intensity);
+			sampleC5Display = (int)Math.round(sampleC5Intensity);
+			sampleC6Display = (int)Math.round(sampleC6Intensity);
+			sampleD1Display = (int)Math.round(sampleD1Intensity);
+			sampleD2Display = (int)Math.round(sampleD2Intensity);
+			sampleD3Display = (int)Math.round(sampleD3Intensity);
+			sampleD4Display = (int)Math.round(sampleD4Intensity);
+			sampleD5Display = (int)Math.round(sampleD5Intensity);
+			sampleD6Display = (int)Math.round(sampleD6Intensity);
+			sampleE1Display = (int)Math.round(sampleE1Intensity);
+			sampleE2Display = (int)Math.round(sampleE2Intensity);
+			sampleE3Display = (int)Math.round(sampleE3Intensity);
+			sampleE4Display = (int)Math.round(sampleE4Intensity);
+			sampleE5Display = (int)Math.round(sampleE5Intensity);
+			sampleE6Display = (int)Math.round(sampleE6Intensity);
+			sampleF1Display = (int)Math.round(sampleF1Intensity);
+			sampleF2Display = (int)Math.round(sampleF2Intensity);
+			sampleF3Display = (int)Math.round(sampleF3Intensity);
+			sampleF4Display = (int)Math.round(sampleF4Intensity);
+			sampleF5Display = (int)Math.round(sampleF5Intensity);
+			sampleF6Display = (int)Math.round(sampleF6Intensity);
+
+			timeCount = timeCount + 10;
+			Log.d("count + offset time ", timeCount+"");
 
             Parameters params2 = camera.getParameters();
             float focusDistances[] = new float[3];
             params2.getFocusDistances(focusDistances);
 
-            sampleValuesString[12] = String.valueOf(timeCount);
-            sampleValuesString[13] = (focusDistances[0]+"");
-            sampleValuesString[14] = (focusDistances[1]+"");
-            sampleValuesString[15] = (focusDistances[2]+"");
+            sampleValuesString[36] = String.valueOf(timeCount);
+            sampleValuesString[37] = (focusDistances[0]+"");
+            sampleValuesString[38] = (focusDistances[1]+"");
+            sampleValuesString[39] = (focusDistances[2]+"");
 			
 			// write it
 			csvWriter.writeNext(sampleValuesString);
 			
 			// display the average intensity of these two squares in the test area
-			recordingReactionTextViewDisplayIntensity00.setText(String.valueOf(sample00Display));
-			recordingReactionTextViewDisplayIntensity01.setText(String.valueOf(sample01Display));
-			recordingReactionTextViewDisplayIntensity02.setText(String.valueOf(sample02Display));
-			recordingReactionTextViewDisplayIntensity03.setText(String.valueOf(sample03Display));
-			recordingReactionTextViewDisplayIntensity10.setText(String.valueOf(sample10Display));
-			recordingReactionTextViewDisplayIntensity11.setText(String.valueOf(sample11Display));
-			recordingReactionTextViewDisplayIntensity12.setText(String.valueOf(sample12Display));
-			recordingReactionTextViewDisplayIntensity13.setText(String.valueOf(sample13Display));
-			recordingReactionTextViewDisplayIntensity20.setText(String.valueOf(sample20Display));
-			recordingReactionTextViewDisplayIntensity21.setText(String.valueOf(sample21Display));
-			recordingReactionTextViewDisplayIntensity22.setText(String.valueOf(sample22Display));
-			recordingReactionTextViewDisplayIntensity23.setText(String.valueOf(sample23Display));
+			recordingReactionTextViewDisplayIntensityA1.setText(String.valueOf(sampleA1Display));
+			recordingReactionTextViewDisplayIntensityA2.setText(String.valueOf(sampleA2Display));
+			recordingReactionTextViewDisplayIntensityA3.setText(String.valueOf(sampleA3Display));
+			recordingReactionTextViewDisplayIntensityA4.setText(String.valueOf(sampleA4Display));
+			recordingReactionTextViewDisplayIntensityA5.setText(String.valueOf(sampleA5Display));
+			recordingReactionTextViewDisplayIntensityA6.setText(String.valueOf(sampleA6Display));
+			recordingReactionTextViewDisplayIntensityB1.setText(String.valueOf(sampleB1Display));
+			recordingReactionTextViewDisplayIntensityB2.setText(String.valueOf(sampleB2Display));
+			recordingReactionTextViewDisplayIntensityB3.setText(String.valueOf(sampleB3Display));
+			recordingReactionTextViewDisplayIntensityB4.setText(String.valueOf(sampleB4Display));
+			recordingReactionTextViewDisplayIntensityB5.setText(String.valueOf(sampleB5Display));
+			recordingReactionTextViewDisplayIntensityB6.setText(String.valueOf(sampleB6Display));
+			recordingReactionTextViewDisplayIntensityC1.setText(String.valueOf(sampleC1Display));
+			recordingReactionTextViewDisplayIntensityC2.setText(String.valueOf(sampleC2Display));
+			recordingReactionTextViewDisplayIntensityC3.setText(String.valueOf(sampleC3Display));
+			recordingReactionTextViewDisplayIntensityC4.setText(String.valueOf(sampleC4Display));
+			recordingReactionTextViewDisplayIntensityC5.setText(String.valueOf(sampleC5Display));
+			recordingReactionTextViewDisplayIntensityC6.setText(String.valueOf(sampleC6Display));
+			recordingReactionTextViewDisplayIntensityD1.setText(String.valueOf(sampleD1Display));
+			recordingReactionTextViewDisplayIntensityD2.setText(String.valueOf(sampleD2Display));
+			recordingReactionTextViewDisplayIntensityD3.setText(String.valueOf(sampleD3Display));
+			recordingReactionTextViewDisplayIntensityD4.setText(String.valueOf(sampleD4Display));
+			recordingReactionTextViewDisplayIntensityD5.setText(String.valueOf(sampleD5Display));
+			recordingReactionTextViewDisplayIntensityD6.setText(String.valueOf(sampleD6Display));
+			recordingReactionTextViewDisplayIntensityE1.setText(String.valueOf(sampleE1Display));
+			recordingReactionTextViewDisplayIntensityE2.setText(String.valueOf(sampleE2Display));
+			recordingReactionTextViewDisplayIntensityE3.setText(String.valueOf(sampleE3Display));
+			recordingReactionTextViewDisplayIntensityE4.setText(String.valueOf(sampleE4Display));
+			recordingReactionTextViewDisplayIntensityE5.setText(String.valueOf(sampleE5Display));
+			recordingReactionTextViewDisplayIntensityE6.setText(String.valueOf(sampleE6Display));
+			recordingReactionTextViewDisplayIntensityF1.setText(String.valueOf(sampleF1Display));
+			recordingReactionTextViewDisplayIntensityF2.setText(String.valueOf(sampleF2Display));
+			recordingReactionTextViewDisplayIntensityF3.setText(String.valueOf(sampleF3Display));
+			recordingReactionTextViewDisplayIntensityF4.setText(String.valueOf(sampleF4Display));
+			recordingReactionTextViewDisplayIntensityF5.setText(String.valueOf(sampleF5Display));
+			recordingReactionTextViewDisplayIntensityF6.setText(String.valueOf(sampleF6Display));
 			
 			camera.startPreview();
 

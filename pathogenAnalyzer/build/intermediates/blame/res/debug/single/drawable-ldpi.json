@@ -4,16 +4,24 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial3of12.png"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/opencv_logo_white.png",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/opencv_logo_white.png"
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/tutorial9of12.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial9of12.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/overlaytest.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/overlaytest.png"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/tutorial9of12.png",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial9of12.png"
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/opencv_logo_white.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/opencv_logo_white.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/viewfinder_new.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/viewfinder_new.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/viewfinder_new_2.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/viewfinder_new_2.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/find_location.png",
@@ -32,16 +40,20 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/calibration_diagram.png"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/tutorial8of12.png",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial8of12.png"
-    },
-    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/view_finder_new.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/view_finder_new.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/tutorial8of12.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial8of12.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/fex.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/fex.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/s7_recording_viewfinder.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/s7_recording_viewfinder.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/sample_results.png",
@@ -62,6 +74,10 @@
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/tutorial10of12.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/tutorial10of12.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/s7_prep_viewfinder.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/s7_prep_viewfinder.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi/tutorial2of12.png",
