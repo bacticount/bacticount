@@ -336,9 +336,9 @@ public class RecordingReaction extends Activity {
         camera.setParameters(params);
         camera.autoFocus(myAutoFocusCallback);
 
-        // countDownTimer2 = new MyCountDownTimer(3000000, 10000);
+        countDownTimer2 = new MyCountDownTimer(3000000, 10000);
 
-        countDownTimer2 = new MyCountDownTimer(40000, 10000);
+        // countDownTimer2 = new MyCountDownTimer(180000, 5000);
 
         RefreshTimer();
         countDownTimer2.Start();
@@ -381,44 +381,46 @@ public class RecordingReaction extends Activity {
 			Mat A;
 			A = Imgcodecs.imread(tempPhotoPath, Imgcodecs.CV_LOAD_IMAGE_ANYDEPTH | Imgcodecs.CV_LOAD_IMAGE_COLOR);
 
-			int rad = 62;
-
-			sampleA1Intensity = vialAreaIntensity(rad, 1990, 1518, A);
-			sampleA2Intensity = vialAreaIntensity(rad, 1792, 1519, A);
-			sampleA3Intensity = vialAreaIntensity(rad, 1595, 1519, A);
-			sampleA4Intensity = vialAreaIntensity(rad, 1399, 1519, A);
-			sampleA5Intensity = vialAreaIntensity(rad, 1200, 1519, A);
-			sampleA6Intensity = vialAreaIntensity(rad, 1009, 1519, A);
-			sampleB1Intensity = vialAreaIntensity(rad, 1989, 1714, A);
-			sampleB2Intensity = vialAreaIntensity(rad, 1790, 1714, A);
-			sampleB3Intensity = vialAreaIntensity(rad, 1597, 1717, A);
-			sampleB4Intensity = vialAreaIntensity(rad, 1401, 1717, A);
-			sampleB5Intensity = vialAreaIntensity(rad, 1205, 1717, A);
-			sampleB6Intensity = vialAreaIntensity(rad, 1006, 1717, A);
-			sampleC1Intensity = vialAreaIntensity(rad, 1990, 1910, A);
-			sampleC2Intensity = vialAreaIntensity(rad, 1791, 1909, A);
-			sampleC3Intensity = vialAreaIntensity(rad, 1597, 1908, A);
-			sampleC4Intensity = vialAreaIntensity(rad, 1405, 1906, A);
-			sampleC5Intensity = vialAreaIntensity(rad, 1208, 1908, A);
-			sampleC6Intensity = vialAreaIntensity(rad, 1014, 1911, A);
-			sampleD1Intensity = vialAreaIntensity(rad, 1987, 2100, A);
-			sampleD2Intensity = vialAreaIntensity(rad, 1796, 2101, A);
-			sampleD3Intensity = vialAreaIntensity(rad, 1601, 2104, A);
-			sampleD4Intensity = vialAreaIntensity(rad, 1408, 2104, A);
-			sampleD5Intensity = vialAreaIntensity(rad, 1213, 2100, A);
-			sampleD6Intensity = vialAreaIntensity(rad, 1011, 2112, A);
-			sampleE1Intensity = vialAreaIntensity(rad, 1990, 2297, A);
-			sampleE2Intensity = vialAreaIntensity(rad, 1792, 2299, A);
-			sampleE3Intensity = vialAreaIntensity(rad, 1601, 2299, A);
-			sampleE4Intensity = vialAreaIntensity(rad, 1401, 2303, A);
-			sampleE5Intensity = vialAreaIntensity(rad, 1211, 2302, A);
-			sampleE6Intensity = vialAreaIntensity(rad, 1012, 2307, A);
-			sampleF1Intensity = vialAreaIntensity(rad, 1993, 2499, A);
-			sampleF2Intensity = vialAreaIntensity(rad, 1799, 2503, A);
-			sampleF3Intensity = vialAreaIntensity(rad, 1606, 2507, A);
-			sampleF4Intensity = vialAreaIntensity(rad, 1405, 2503, A);
-			sampleF5Intensity = vialAreaIntensity(rad, 1210, 2506, A);
-			sampleF6Intensity = vialAreaIntensity(rad, 1009, 2512, A);
+			int rad = 57;
+			int xCalDelta = -76;
+			// convention is y,x for openCV, note distinctly different from viewfinder which is not
+			// not only a different orientation but a DIFFERENT image altogether, rotated 90_deg
+			sampleA1Intensity = vialAreaIntensity(rad, 1990, (1518 + xCalDelta), A);
+			sampleA2Intensity = vialAreaIntensity(rad, 1792, (1519 + xCalDelta), A);
+			sampleA3Intensity = vialAreaIntensity(rad, 1595, (1519 + xCalDelta), A);
+			sampleA4Intensity = vialAreaIntensity(rad, 1399, (1519 + xCalDelta), A);
+			sampleA5Intensity = vialAreaIntensity(rad, 1200, (1519 + xCalDelta), A);
+			sampleA6Intensity = vialAreaIntensity(rad, 1009, (1519 + xCalDelta), A);
+			sampleB1Intensity = vialAreaIntensity(rad, 1989, (1714 + xCalDelta), A);
+			sampleB2Intensity = vialAreaIntensity(rad, 1790, (1714 + xCalDelta), A);
+			sampleB3Intensity = vialAreaIntensity(rad, 1597, (1717 + xCalDelta), A);
+			sampleB4Intensity = vialAreaIntensity(rad, 1401, (1717 + xCalDelta), A);
+			sampleB5Intensity = vialAreaIntensity(rad, 1205, (1717 + xCalDelta), A);
+			sampleB6Intensity = vialAreaIntensity(rad, 1006, (1717 + xCalDelta), A);
+			sampleC1Intensity = vialAreaIntensity(rad, 1990, (1910 + xCalDelta), A);
+			sampleC2Intensity = vialAreaIntensity(rad, 1791, (1909 + xCalDelta), A);
+			sampleC3Intensity = vialAreaIntensity(rad, 1597, (1908 + xCalDelta), A);
+			sampleC4Intensity = vialAreaIntensity(rad, 1405, (1906 + xCalDelta), A);
+			sampleC5Intensity = vialAreaIntensity(rad, 1208, (1908 + xCalDelta), A);
+			sampleC6Intensity = vialAreaIntensity(rad, 1014, (1911 + xCalDelta), A);
+			sampleD1Intensity = vialAreaIntensity(rad, 1987, (2100 + xCalDelta), A);
+			sampleD2Intensity = vialAreaIntensity(rad, 1796, (2101 + xCalDelta), A);
+			sampleD3Intensity = vialAreaIntensity(rad, 1601, (2104 + xCalDelta), A);
+			sampleD4Intensity = vialAreaIntensity(rad, 1408, (2104 + xCalDelta), A);
+			sampleD5Intensity = vialAreaIntensity(rad, 1213, (2100 + xCalDelta), A);
+			sampleD6Intensity = vialAreaIntensity(rad, 1011, (2112 + xCalDelta), A);
+			sampleE1Intensity = vialAreaIntensity(rad, 1990, (2297 + xCalDelta), A);
+			sampleE2Intensity = vialAreaIntensity(rad, 1792, (2299 + xCalDelta), A);
+			sampleE3Intensity = vialAreaIntensity(rad, 1601, (2299 + xCalDelta), A);
+			sampleE4Intensity = vialAreaIntensity(rad, 1401, (2303 + xCalDelta), A);
+			sampleE5Intensity = vialAreaIntensity(rad, 1211, (2302 + xCalDelta), A);
+			sampleE6Intensity = vialAreaIntensity(rad, 1012, (2307 + xCalDelta), A);
+			sampleF1Intensity = vialAreaIntensity(rad, 1993, (2499 + xCalDelta), A);
+			sampleF2Intensity = vialAreaIntensity(rad, 1799, (2503 + xCalDelta), A);
+			sampleF3Intensity = vialAreaIntensity(rad, 1606, (2507 + xCalDelta), A);
+			sampleF4Intensity = vialAreaIntensity(rad, 1405, (2503 + xCalDelta), A);
+			sampleF5Intensity = vialAreaIntensity(rad, 1210, (2506 + xCalDelta), A);
+			sampleF6Intensity = vialAreaIntensity(rad, 1009, (2512 + xCalDelta), A);
 			
 			// filling an array string with the values to be copied into the csv
 			sampleValuesString[0] =  String.valueOf(sampleA1Intensity);
