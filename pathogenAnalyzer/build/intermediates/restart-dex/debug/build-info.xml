@@ -5,33 +5,47 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="562400626263685"
+    timestamp="224900939825344"
     token="5932510578272109573"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="503" />
+        duration="277" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="2403" />
     <task
         name="instant-run-transform"
-        duration="1116" />
+        duration="23" />
     <task
         name="verifier"
-        duration="109" />
+        duration="2" />
 
     <artifact
-        location="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/outputs/apk/pathogenAnalyzer-debug.apk"
-        type="MAIN" />
+        location="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="562400626263685"
+        timestamp="224331040306422"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/outputs/apk/pathogenAnalyzer-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="224646210492513"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/builds/debug/224646210492513/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="224900939825344"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
