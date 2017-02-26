@@ -6,6 +6,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.Arrays;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.text.ParseException;
 
 import org.apache.commons.math3.stat.regression.SimpleRegression;
 
@@ -31,7 +34,12 @@ public class ReactionResults extends Activity {
 	public final static int SAMPLE = 2;
 	public final static String TIMECOUNT = "com.garynfox.pathogenanalyzer.TIMECOUNT";
 	public final static String DATA_POINTS = "com.garynfox.pathogenanalyzer.DATA_POINTS";
+	public final static String SOURCE_TYPE = "com.garynfox.pathogenanalyzer.SOURCE_TYPE";
 	// public final static int MINUTES = 4;
+	public final static int BLOOD = 1;
+	public final static int URINE = 2;
+	public final static int FECES = 3;
+	public final static int OTHER = 4;
 	
 	// Stuff being packed into the bundle
 	static String[] standardCurveInfo = new String[3];
@@ -44,7 +52,7 @@ public class ReactionResults extends Activity {
 	static int[] sampleTimes = new int[36];
 	static double[] ampCheckArr = new double[36];
 
-	double[] inclusionArr = new double[36];
+	int[] inclusionArr = new int[36];
 	int inclusionCount = 0;
 	
 	// Strings
@@ -60,6 +68,7 @@ public class ReactionResults extends Activity {
 	String savedResults; // to write to disk
 	
 	String dataPath = "dummy";
+	String sourceType = "dummy";
 
 	boolean negControl = true;
 	boolean posControl = true;
@@ -98,6 +107,9 @@ public class ReactionResults extends Activity {
 		recordingType = bundleReceived.getInt(RecordingReaction.RECORDING_TYPE);
 		timeCount = bundleReceived.getInt(RecordingReaction.TIMECOUNT);
 		dataPoints = bundleReceived.getInt(RecordingReaction.DATA_POINTS);
+		sourceType = bundleReceived.getString(RecordingReaction.SOURCE_TYPE);
+		android.util.Log.d("source type: ", " " + sourceType );
+		android.util.Log.d("source type: ", "" + standardCurveInfo[2]);
 		
 		if(recordingType == STANDARD_CURVE){
 			dataPath = standardCurveInfo[2];
@@ -159,8 +171,17 @@ public class ReactionResults extends Activity {
 		}
 		*/
 
-		double[] stdCurveKnownValues = new double[]{50000000, 5000000, 500000, 50000, 5000, -999999999, 50000000, 5000000, 500000, 50000, 5000, -999999999};
-		for(int i = 0; i < 12; i++){
+		double[] stdCurveKnownValues = new double[]{50000000, 5000000, 500000, 50000, 5000, 50000000, 5000000, 500000, 50000, 5000};
+
+
+		if((sourceType.equals("feces")) || (sourceType.equals("urine"))){
+			for(int i = 0; i < 10; i++){
+
+				stdCurveKnownValues[i] = stdCurveKnownValues[i] / 2;
+			}
+		}
+
+		for(int i = 0; i < 10; i++){
 			stdCurveKnownValues[i] = Math.log10(stdCurveKnownValues[i]);
 			android.util.Log.d("log10 test", String.valueOf(stdCurveKnownValues[i]));
 		}
@@ -174,17 +195,71 @@ public class ReactionResults extends Activity {
 			// android.util.Log.d("amp test result", String.valueOf(inclusionArr[i]));
 		}
 
+		// ignoring C6 and D6 for the std curve check, and times once computed for offset
+		int[] stdCurveTimesExControl = new int[10];
+		double[] stdCurveAmpCheckExControl = new double[10];
+
+		stdCurveAmpCheckExControl[0] = stdCurveAmpCheck[12];
+		stdCurveAmpCheckExControl[1] = stdCurveAmpCheck[13];
+		stdCurveAmpCheckExControl[2] = stdCurveAmpCheck[14];
+		stdCurveAmpCheckExControl[3] = stdCurveAmpCheck[15];
+		stdCurveAmpCheckExControl[4] = stdCurveAmpCheck[16];
+		// skip C6 NEG
+		stdCurveAmpCheckExControl[5] = stdCurveAmpCheck[18];
+		stdCurveAmpCheckExControl[6] = stdCurveAmpCheck[19];
+		stdCurveAmpCheckExControl[7] = stdCurveAmpCheck[20];
+		stdCurveAmpCheckExControl[8] = stdCurveAmpCheck[21];
+		stdCurveAmpCheckExControl[9] = stdCurveAmpCheck[22];
+		// skip D6 NEG
+
+		stdCurveTimesExControl[0] = stdCurveTimes[12]; // 1e7
+		stdCurveTimesExControl[1] = stdCurveTimes[13]; // 1e6
+		stdCurveTimesExControl[2] = stdCurveTimes[14]; // 1e5
+		stdCurveTimesExControl[3] = stdCurveTimes[15]; // 1e4
+		stdCurveTimesExControl[4] = stdCurveTimes[16]; // 1e3
+		// skip C6
+		stdCurveTimesExControl[5] = stdCurveTimes[18]; // 1e7
+		stdCurveTimesExControl[6] = stdCurveTimes[19]; // 1e6
+		stdCurveTimesExControl[7] = stdCurveTimes[20]; // 1e5
+		stdCurveTimesExControl[8] = stdCurveTimes[21]; // 1e4
+		stdCurveTimesExControl[9] = stdCurveTimes[22]; // 1e3
+		// skip D6
+
+
+
+		// standard curve negative control test
 
 		int thresholdValue = 400;
 
-		for(int i = 12; i < 24; i++){
-			if(stdCurveAmpCheck[i] >= thresholdValue){
-				inclusionArr[i] = 1;
+		double stdCurveNegTest_C6 = stdCurveAmpCheck[17];
+		double stdCurveNegTest_D6 = stdCurveAmpCheck[23];
+		int stdCurveNegTest_C6_result;
+		int stdCurveNegTest_D6_result;
+		if(stdCurveNegTest_C6 > thresholdValue){
+			stdCurveNegTest_C6_result = 0;
+		} else {
+			stdCurveNegTest_C6_result = 1;
+		}
+		if(stdCurveNegTest_D6 > thresholdValue){
+			stdCurveNegTest_D6_result = 0;
+		} else {
+			stdCurveNegTest_D6_result = 1;
+		}
+
+
+		// special inclusionArr for stdCurve as it is only looking at 10 values
+		int[] inclusionArrStdCurve = new int[10];
+
+		for(int i = 0; i < 10; i++){
+			if(stdCurveAmpCheckExControl[i] >= thresholdValue){
+				inclusionArrStdCurve[i] = 1;
 				inclusionCount = inclusionCount + 1;
 			} else {
-				inclusionArr[i] = 0;
+				inclusionArrStdCurve[i] = 0;
 			}
-			android.util.Log.d("amp test result", String.valueOf(inclusionArr[i]));
+			android.util.Log.d("amp test result", String.valueOf(stdCurveAmpCheckExControl[i]));
+			android.util.Log.d("amp test result", String.valueOf(inclusionArrStdCurve[i]));
+
 		}
 
 		double[] stdCurveKnownValuesAdjusted = new double[inclusionCount];
@@ -193,13 +268,15 @@ public class ReactionResults extends Activity {
 
 
 		int indexCountAdjusted = 0;
-		for(int i = 12; i < 24; i++){
-			if(inclusionArr[i] == 1){
-				stdCurveKnownValuesAdjusted[indexCountAdjusted] = stdCurveKnownValues[i - 12];
-				stdCurveTimesAdjusted[indexCountAdjusted] = stdCurveTimes[i];
+		for(int i = 0; i < 10; i++){
+			if(inclusionArrStdCurve[i] == 1){
+				stdCurveKnownValuesAdjusted[indexCountAdjusted] = stdCurveKnownValues[i];
+				stdCurveTimesAdjusted[indexCountAdjusted] = stdCurveTimesExControl[i];
 				indexCountAdjusted = indexCountAdjusted + 1;
 			}
 		}
+
+		android.util.Log.d("inclusion count: ", "" + inclusionCount);
 
 		SimpleRegression stdCurveRegression = new SimpleRegression();
 		for(int i = 0; i < inclusionCount; i++){
@@ -224,11 +301,25 @@ public class ReactionResults extends Activity {
 
 
 		analyzeSet(sampleInfo[1]);
+
+		for(int i = 0; i < 36; i++){
+			if(ampCheckArr[i] >= thresholdValue){
+				inclusionArr[i] = 1;
+			} else {
+				inclusionArr[i] = 0;
+			}
+			android.util.Log.d("amp test result, sample", String.valueOf(inclusionArr[i]));
+		}
+
 		double sampleOffsetTime = offsetTime[0];
 		Long L2 = Math.round(sampleOffsetTime);
 		int sampleOffsetTimeInt = Integer.valueOf(L2.intValue());
 
+		for(int i = 0; i < 36; i++){
+			sampleTimes[i] = sampleTimes[i] + sampleOffsetTimeInt;
+		}
 
+		/*
 		if(negControl == true) {
 			Log.d("Sample negative control passed");
 			negPassSample = true;
@@ -242,39 +333,91 @@ public class ReactionResults extends Activity {
 		} else {
 			Log.d("Sample negative control failed");
 		}
+		*/
 
 
 
-		int calibrationTime;
-		calibrationTime = sampleTimes[1] - stdCurveTimes[1];
-		for(int i = 0; i < 12; i++){
-			sampleTimes[i] = sampleTimes[i] - calibrationTime;
-		}
-		double[] results = new double[12];
-		BigDecimal[] resultsRounded = new BigDecimal[12];
-		for(int i = 0; i < 12; i++){
+		double[] results = new double[36];
+		BigDecimal[] resultsRounded = new BigDecimal[36];
+		for(int i = 0; i < 36; i++){
 			results[i] = (sampleTimes[i] * stdCurveSlope) + stdCurveIntercept;
 			resultsRounded[i] = new BigDecimal(String.valueOf(results[i]));
 			resultsRounded[i] = resultsRounded[i].setScale(2, BigDecimal.ROUND_HALF_UP);
 		}
 
-		Log.d("1e0 " + results[4]);
-		Log.d("1e1 " + results[5]);
-		Log.d("1e2 " + results[6]);
-		Log.d("1e3 " + results[7]);
-		Log.d("1e4 " + results[8]);
-		Log.d("1e5 " + results[9]);
-		Log.d("1e6 " + results[10]);
-		Log.d("1e7 " + results[11]);
+		Log.d("A1 " + results[0]);
+		Log.d("A2 " + results[1]);
+		Log.d("A3 " + results[2]);
+		Log.d("A4 " + results[3]);
+		Log.d("A5 " + results[4]);
+		Log.d("A6 " + results[5]);
+		Log.d("B1 " + results[6]);
+		Log.d("B2 " + results[7]);
+		Log.d("B3 " + results[8]);
+		Log.d("B4 " + results[9]);
+		Log.d("B5 " + results[10]);
+		Log.d("B6 " + results[11]);
+		Log.d("C1 " + results[12]);
+		Log.d("C2 " + results[13]);
+		Log.d("C3 " + results[14]);
+		Log.d("C4 " + results[15]);
+		Log.d("C5 " + results[16]);
+		Log.d("C6 " + results[17]);
+		Log.d("D1 " + results[18]);
+		Log.d("D2 " + results[19]);
+		Log.d("D3 " + results[20]);
+		Log.d("D4 " + results[21]);
+		Log.d("D5 " + results[22]);
+		Log.d("D6 " + results[23]);
+		Log.d("E1 " + results[24]);
+		Log.d("E2 " + results[25]);
+		Log.d("E3 " + results[26]);
+		Log.d("E4 " + results[27]);
+		Log.d("E5 " + results[28]);
+		Log.d("E6 " + results[29]);
+		Log.d("F1 " + results[30]);
+		Log.d("F2 " + results[31]);
+		Log.d("F3 " + results[32]);
+		Log.d("F4 " + results[33]);
+		Log.d("F5 " + results[34]);
+		Log.d("F6 " + results[35]);
 
-		Log.d("1e0 rounded " + resultsRounded[4]);
-		Log.d("1e1 rounded " + resultsRounded[5]);
-		Log.d("1e2 rounded " + resultsRounded[6]);
-		Log.d("1e3 rounded " + resultsRounded[7]);
-		Log.d("1e4 rounded " + resultsRounded[8]);
-		Log.d("1e5 rounded " + resultsRounded[9]);
-		Log.d("1e6 rounded " + resultsRounded[10]);
-		Log.d("1e7 rounded " + resultsRounded[11]);
+		Log.d("A1 rounded " + resultsRounded[0]);
+		Log.d("A2 rounded " + resultsRounded[1]);
+		Log.d("A3 rounded " + resultsRounded[2]);
+		Log.d("A4 rounded " + resultsRounded[3]);
+		Log.d("A5 rounded " + resultsRounded[4]);
+		Log.d("A6 rounded " + resultsRounded[5]);
+		Log.d("B1 rounded " + resultsRounded[6]);
+		Log.d("B2 rounded " + resultsRounded[7]);
+		Log.d("B3 rounded " + resultsRounded[8]);
+		Log.d("B4 rounded " + resultsRounded[9]);
+		Log.d("B5 rounded " + resultsRounded[10]);
+		Log.d("B6 rounded " + resultsRounded[11]);
+		Log.d("C1 rounded " + resultsRounded[12]);
+		Log.d("C2 rounded " + resultsRounded[13]);
+		Log.d("C3 rounded " + resultsRounded[14]);
+		Log.d("C4 rounded " + resultsRounded[15]);
+		Log.d("C5 rounded " + resultsRounded[16]);
+		Log.d("C6 rounded " + resultsRounded[17]);
+		Log.d("D1 rounded " + resultsRounded[18]);
+		Log.d("D2 rounded " + resultsRounded[19]);
+		Log.d("D3 rounded " + resultsRounded[20]);
+		Log.d("D4 rounded " + resultsRounded[21]);
+		Log.d("D5 rounded " + resultsRounded[22]);
+		Log.d("D6 rounded " + resultsRounded[23]);
+		Log.d("E1 rounded " + resultsRounded[24]);
+		Log.d("E2 rounded " + resultsRounded[25]);
+		Log.d("E3 rounded " + resultsRounded[26]);
+		Log.d("E4 rounded " + resultsRounded[27]);
+		Log.d("E5 rounded " + resultsRounded[28]);
+		Log.d("E6 rounded " + resultsRounded[29]);
+		Log.d("F1 rounded " + resultsRounded[30]);
+		Log.d("F2 rounded " + resultsRounded[31]);
+		Log.d("F3 rounded " + resultsRounded[32]);
+		Log.d("F4 rounded " + resultsRounded[33]);
+		Log.d("F5 rounded " + resultsRounded[34]);
+		Log.d("F6 rounded " + resultsRounded[35]);
 
 		// logic checking for pos and neg control on both curves
 		if(posPassSample == true && posPassStdCurve == true){
@@ -303,7 +446,7 @@ public class ReactionResults extends Activity {
 		reactionResultsTextViewRsq.setText("R^2 = " + rsqRounded);
 		
 
-		for(int i = 0; i < 12; i++){
+		for(int i = 0; i < 36; i++){
 			Log.d("sample " + i + " " + sampleTimes[i]);
 		}
 		
@@ -314,28 +457,69 @@ public class ReactionResults extends Activity {
 		String fullSampleNameEraseParr = removeParr(sampleInfo[1]);
 		Log.d("getting rid of .parr " + fullSampleNameEraseParr);
 
-		savedResults = fullSampleNameEraseParr + "_analysis" + ".txt";
+		savedResults = fullSampleNameEraseParr + "_analysis";
 		Log.d("Results analysis name path etc " + savedResults);
 
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+		String analysisTime  = dateFormat.format(new Date());
+
 		try {
-			FileWriter textWriter = new FileWriter(savedResults);
+			FileWriter textWriter = new FileWriter(savedResults + "_" + analysisTime + ".txt");
 			textWriter.write("sample file analyzed, " + sampleInfo[0] + "\n");
 			textWriter.write("standard curve used, " + standardCurveInfo[0] + "\n");
+			textWriter.write("pathogenic standard curve and unknown sample medium (or source), " + sourceType + "\n");
+			textWriter.write("NOTE: 'blood' and 'other use concentration 5e7, 5e6, etc. for curve fitting. 'urine' and 'feces' 2.5e7, 2.5e6, etc. " + "\n");
+			textWriter.write(" " + "\n");
+			textWriter.write("standard curve intercept, " + stdCurveIntercept + "\n");
+			textWriter.write("standard curve slope, " + stdCurveSlope + "\n");
 			textWriter.write("standard curve r_squared, " + stdCurveRsq + "\n");
-			textWriter.write("standard curve positive control, " + String.valueOf(posPassStdCurve) + "\n");
-			textWriter.write("standard curve negative control, " + String.valueOf(negPassStdCurve) + "\n");
-			textWriter.write("sample initial concentration vial 00, 1e" + results[0] + "\n");
-			textWriter.write("sample initial concentration vial 03, 1e" + results[3] + "\n");
-			textWriter.write("sample initial concentration vial 10, 1e" + results[4] + "\n");
-			textWriter.write("sample initial concentration vial 11, 1e" + results[5] + "\n");
-			textWriter.write("sample initial concentration vial 12, 1e" + results[6] + "\n");
-			textWriter.write("sample initial concentration vial 13, 1e" + results[7] + "\n");
-			textWriter.write("sample initial concentration vial 20, 1e" + results[8] + "\n");
-			textWriter.write("sample initial concentration vial 21, 1e" + results[9] + "\n");
-			textWriter.write("sample initial concentration vial 22, 1e" + results[10] + "\n");
-			textWriter.write("sample initial concentration vial 23, 1e" + results[11] + "\n");
-			textWriter.write("sample positive control, " + String.valueOf(posPassSample) + "\n");
-			textWriter.write("sample negative control, " + String.valueOf(negPassSample) + "\n");
+			textWriter.write("standard curve negative control test, well C6, (pass = 1, fail = 0), " + stdCurveNegTest_C6_result + "\n");
+			textWriter.write("standard curve negative control test, well D6, (pass = 1, fail = 0), " + stdCurveNegTest_D6_result + "\n");
+			textWriter.write(" " + "\n");
+			textWriter.write("standard curve data points"  + "\n");
+			for(int i = 0; i < inclusionCount; i++){
+				textWriter.write("point: " + i + ", log [k]: " + stdCurveKnownValuesAdjusted[i] + ", t_T: " + stdCurveTimesAdjusted[i]+  "\n");
+			}
+			textWriter.write(" " +"\n");
+			textWriter.write("unknown specimen results and information about the results " +"\n");
+			textWriter.write("1 = AMP, 0 = amplification failed" + "\n");
+			textWriter.write("Convention: first value is concentration(10^_), second amp check algo, third amp result" + "\n");
+			textWriter.write("A1  " + results[0] + ", " + ampCheckArr[0] + ", " + inclusionArr[0]+ "\n");
+			textWriter.write("A2  " + results[1] + ", " + ampCheckArr[1] + ", " + inclusionArr[1]+ "\n");
+			textWriter.write("A3  " + results[2] + ", " + ampCheckArr[2] + ", " + inclusionArr[2]+ "\n");
+			textWriter.write("A4  " + results[3] + ", " + ampCheckArr[3] + ", " + inclusionArr[3]+ "\n");
+			textWriter.write("A5  " + results[4] + ", " + ampCheckArr[4] + ", " + inclusionArr[4]+ "\n");
+			textWriter.write("A6  " + results[5] + ", " + ampCheckArr[5] + ", " + inclusionArr[5]+ "\n");
+			textWriter.write("B1  " + results[6] + ", " + ampCheckArr[6] + ", " + inclusionArr[6]+ "\n");
+			textWriter.write("B2  " + results[7] + ", " + ampCheckArr[7] + ", " + inclusionArr[7]+ "\n");
+			textWriter.write("B3  " + results[8] + ", " + ampCheckArr[8] + ", " + inclusionArr[8]+ "\n");
+			textWriter.write("B4  " + results[9] + ", " + ampCheckArr[9] + ", " + inclusionArr[9]+ "\n");
+			textWriter.write("B5  " + results[10] + ", " + ampCheckArr[10] + ", " + inclusionArr[10]+ "\n");
+			textWriter.write("B6  " + results[11] + ", " + ampCheckArr[11] + ", " + inclusionArr[11]+ "\n");
+			textWriter.write("C1  " + results[12] + ", " + ampCheckArr[12] + ", " + inclusionArr[12]+ "\n");
+			textWriter.write("C2  " + results[13] + ", " + ampCheckArr[13] + ", " + inclusionArr[13]+ "\n");
+			textWriter.write("C3  " + results[14] + ", " + ampCheckArr[14] + ", " + inclusionArr[14]+ "\n");
+			textWriter.write("C4  " + results[15] + ", " + ampCheckArr[15] + ", " + inclusionArr[15]+ "\n");
+			textWriter.write("C5  " + results[16] + ", " + ampCheckArr[16] + ", " + inclusionArr[16]+ "\n");
+			textWriter.write("C6  " + results[17] + ", " + ampCheckArr[17] + ", " + inclusionArr[17]+ "\n");
+			textWriter.write("D1  " + results[18] + ", " + ampCheckArr[18] + ", " + inclusionArr[18]+ "\n");
+			textWriter.write("D2  " + results[19] + ", " + ampCheckArr[19] + ", " + inclusionArr[19]+ "\n");
+			textWriter.write("D3  " + results[20] + ", " + ampCheckArr[20] + ", " + inclusionArr[20]+ "\n");
+			textWriter.write("D4  " + results[21] + ", " + ampCheckArr[21] + ", " + inclusionArr[21]+ "\n");
+			textWriter.write("D5  " + results[22] + ", " + ampCheckArr[22] + ", " + inclusionArr[22]+ "\n");
+			textWriter.write("D6  " + results[23] + ", " + ampCheckArr[23] + ", " + inclusionArr[23]+ "\n");
+			textWriter.write("E1  " + results[24] + ", " + ampCheckArr[24] + ", " + inclusionArr[24]+ "\n");
+			textWriter.write("E2  " + results[25] + ", " + ampCheckArr[25] + ", " + inclusionArr[25]+ "\n");
+			textWriter.write("E3  " + results[26] + ", " + ampCheckArr[26] + ", " + inclusionArr[26]+ "\n");
+			textWriter.write("E4  " + results[27] + ", " + ampCheckArr[27] + ", " + inclusionArr[27]+ "\n");
+			textWriter.write("E5  " + results[28] + ", " + ampCheckArr[28] + ", " + inclusionArr[28]+ "\n");
+			textWriter.write("E6  " + results[29] + ", " + ampCheckArr[29] + ", " + inclusionArr[29]+ "\n");
+			textWriter.write("F1  " + results[30] + ", " + ampCheckArr[30] + ", " + inclusionArr[30]+ "\n");
+			textWriter.write("F2  " + results[31] + ", " + ampCheckArr[31] + ", " + inclusionArr[31]+ "\n");
+			textWriter.write("F3  " + results[32] + ", " + ampCheckArr[32] + ", " + inclusionArr[32]+ "\n");
+			textWriter.write("F4  " + results[33] + ", " + ampCheckArr[33] + ", " + inclusionArr[33]+ "\n");
+			textWriter.write("F5  " + results[34] + ", " + ampCheckArr[34] + ", " + inclusionArr[34]+ "\n");
+			textWriter.write("F6  " + results[35] + ", " + ampCheckArr[35] + ", " + inclusionArr[35]+ "\n");
 			textWriter.flush();
 			textWriter.close();
 		} catch (IOException ioe) {

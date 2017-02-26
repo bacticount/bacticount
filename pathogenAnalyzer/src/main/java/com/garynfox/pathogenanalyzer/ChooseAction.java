@@ -34,6 +34,7 @@ public class ChooseAction extends Activity {
 	public final static String SOURCE_TYPE = "com.garynfox.pathogenanalyzer.SOURCE_TYPE";
 	public final static int STANDARD_CURVE = 1;
 	public final static int SAMPLE = 2;
+
 	
 	// Declare buttons	
 	Button chooseActionButtonRecordStandardCurve;
@@ -82,7 +83,7 @@ public class ChooseAction extends Activity {
 		// Unpacking bundle from previous intent, mainly to pass to next intent
 		Bundle bundleReceived = previousScreen.getExtras();
 		sourceType = bundleReceived.getString(ChooseSource.SOURCE_TYPE);
-		Log.d("reaction source type", sourceType);
+		Log.d("reaction source type", sourceType + "");
 
 		// Inflate the GUI
 		setContentView(R.layout.activity_choose_action);
@@ -413,6 +414,8 @@ public class ChooseAction extends Activity {
 				b3.putStringArray(REFERENCE_INFO, referenceInfo);
 				b3.putStringArray(REACTION_INFO, sampleInfo);
 				b3.putInt(RECORDING_TYPE, recordingType);
+				b3.putString(SOURCE_TYPE, sourceType);
+				android.util.Log.d("checking results bundle", "" + sourceType);
 				intentViewResults.putExtras(b3);
                 startActivity(intentViewResults);
 

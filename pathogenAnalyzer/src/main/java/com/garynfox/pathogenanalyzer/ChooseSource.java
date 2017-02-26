@@ -45,6 +45,7 @@ public class ChooseSource extends Activity{
                 sourceType = "blood";
                 Bundle b1 = new Bundle();
                 b1.putString(SOURCE_TYPE, sourceType);
+                // b1.putString(SOURCE_TYPE, sourceType);
                 intentChooseAction.putExtras(b1);
                 startActivity(intentChooseAction);
             }
@@ -55,7 +56,7 @@ public class ChooseSource extends Activity{
             public void onClick(View view1) {
 
                 // prepare the bundle to send the correct source type for the rest of the system
-                sourceType = "Urine";
+                sourceType = "urine";
                 Bundle b1 = new Bundle();
                 b1.putString(SOURCE_TYPE, sourceType);
                 intentChooseAction.putExtras(b1);

@@ -68,6 +68,10 @@ public class RecordingReaction extends Activity {
 	public final static String TIMECOUNT = "com.garynfox.pathogenanalyzer.TIMECOUNT";
 	public final static String DATA_POINTS = "com.garynfox.pathogenanalyzer.DATA_POINTS";
 	public final static int TIME_OFFSET = 0;
+	public final static int BLOOD = 1;
+	public final static int URINE = 2;
+	public final static int FECES = 3;
+	public final static int OTHER = 4;
 	
 	// Stuff being packed into the bundle
 	static String[] standardCurveInfo = new String[3];

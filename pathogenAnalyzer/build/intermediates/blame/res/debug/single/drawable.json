@@ -52,12 +52,12 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_light.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_search_dropdown_light.xml"
-    },
-    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_dark.xml",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_textfield_searchview_right_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_light.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable/abc_search_dropdown_light.xml"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_dark.xml",

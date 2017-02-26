@@ -167,7 +167,7 @@ public class ChooseReferenceFile extends Activity {
 					Bundle b1 = new Bundle();
 					b1.putStringArray(STANDARD_CURVE_INFO, standardCurveInfo);
 					b1.putStringArray(REACTION_INFO, sampleInfo);
-					// b1.putInt(RECORDING_TYPE, recordingType);
+					b1.putString(SOURCE_TYPE, sourceType);
 					i.putExtras(b1);
 					startActivity(i);
 				}
