@@ -283,7 +283,7 @@ public class ReactionResults extends Activity {
 
 		// standard curve negative control test
 
-		int thresholdValue = 400;
+		int thresholdValue = 250;
 
 		double stdCurveNegTest_C6 = stdCurveAmpCheck[17];
 		double stdCurveNegTest_D6 = stdCurveAmpCheck[23];
