@@ -9,6 +9,7 @@ import java.util.Arrays;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.text.ParseException;
+import java.text.DecimalFormat;
 
 import org.apache.commons.math3.stat.regression.SimpleRegression;
 
@@ -81,19 +82,46 @@ public class ReactionResults extends Activity {
 	Button reactionResultsButtonHome;
 	
 	// On-screen results
-	TextView reactionResultsTextViewDisplayIntensity00;
-	TextView reactionResultsTextViewDisplayIntensity01;
-	TextView reactionResultsTextViewDisplayIntensity02;
-	TextView reactionResultsTextViewDisplayIntensity03;
-	TextView reactionResultsTextViewDisplayIntensity10;
-	TextView reactionResultsTextViewDisplayIntensity11;
-	TextView reactionResultsTextViewDisplayIntensity12;
-	TextView reactionResultsTextViewDisplayIntensity13;
-	TextView reactionResultsTextViewDisplayIntensity20;
-	TextView reactionResultsTextViewDisplayIntensity21;
-	TextView reactionResultsTextViewDisplayIntensity22;
-	TextView reactionResultsTextViewDisplayIntensity23;
+
 	TextView reactionResultsTextViewRsq;
+	TextView reactionResultsTextViewDisplayStdCurveC1result;
+	TextView reactionResultsTextViewDisplayStdCurveD1result;
+	TextView reactionResultsTextViewDisplayConcentrationA1; //
+	TextView reactionResultsTextViewDisplayConcentrationA2; //
+	TextView reactionResultsTextViewDisplayConcentrationA3; //
+	TextView reactionResultsTextViewDisplayConcentrationA4; //
+	TextView reactionResultsTextViewDisplayConcentrationA5; //
+	TextView reactionResultsTextViewDisplayConcentrationA6; //
+	TextView reactionResultsTextViewDisplayConcentrationB1; //
+	TextView reactionResultsTextViewDisplayConcentrationB2; //
+	TextView reactionResultsTextViewDisplayConcentrationB3; //
+	TextView reactionResultsTextViewDisplayConcentrationB4; //
+	TextView reactionResultsTextViewDisplayConcentrationB5; //
+	TextView reactionResultsTextViewDisplayConcentrationB6; //
+	TextView reactionResultsTextViewDisplayConcentrationC1; //
+	TextView reactionResultsTextViewDisplayConcentrationC2; //
+	TextView reactionResultsTextViewDisplayConcentrationC3; //
+	TextView reactionResultsTextViewDisplayConcentrationC4; //
+	TextView reactionResultsTextViewDisplayConcentrationC5; //
+	TextView reactionResultsTextViewDisplayConcentrationC6; //
+	TextView reactionResultsTextViewDisplayConcentrationD1; //
+	TextView reactionResultsTextViewDisplayConcentrationD2; //
+	TextView reactionResultsTextViewDisplayConcentrationD3; //
+	TextView reactionResultsTextViewDisplayConcentrationD4; //
+	TextView reactionResultsTextViewDisplayConcentrationD5; //
+	TextView reactionResultsTextViewDisplayConcentrationD6; //
+	TextView reactionResultsTextViewDisplayConcentrationE1; //
+	TextView reactionResultsTextViewDisplayConcentrationE2; //
+	TextView reactionResultsTextViewDisplayConcentrationE3; //
+	TextView reactionResultsTextViewDisplayConcentrationE4; //
+	TextView reactionResultsTextViewDisplayConcentrationE5; //
+	TextView reactionResultsTextViewDisplayConcentrationE6; //
+	TextView reactionResultsTextViewDisplayConcentrationF1; //
+	TextView reactionResultsTextViewDisplayConcentrationF2; //
+	TextView reactionResultsTextViewDisplayConcentrationF3; //
+	TextView reactionResultsTextViewDisplayConcentrationF4; //
+	TextView reactionResultsTextViewDisplayConcentrationF5; //
+	TextView reactionResultsTextViewDisplayConcentrationF6; //
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -130,19 +158,45 @@ public class ReactionResults extends Activity {
 		setButtonOnClickListeners();
 
 		// display the text view that shows intensity
-		reactionResultsTextViewDisplayIntensity00 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayIntensity00);
-		reactionResultsTextViewDisplayIntensity01 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayIntensity01);
-		reactionResultsTextViewDisplayIntensity02 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayIntensity02);
-		reactionResultsTextViewDisplayIntensity03 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayIntensity03);
-		reactionResultsTextViewDisplayIntensity10 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayIntensity10);
-		reactionResultsTextViewDisplayIntensity11 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayIntensity11);
-		reactionResultsTextViewDisplayIntensity12 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayIntensity12);
-		reactionResultsTextViewDisplayIntensity13 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayIntensity13);
-		reactionResultsTextViewDisplayIntensity20 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayIntensity20);
-		reactionResultsTextViewDisplayIntensity21 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayIntensity21);
-		reactionResultsTextViewDisplayIntensity22 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayIntensity22);
-		reactionResultsTextViewDisplayIntensity23 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayIntensity23);
 		reactionResultsTextViewRsq = (TextView) findViewById(R.id.reactionResultsTextViewRsq);
+		reactionResultsTextViewDisplayStdCurveC1result = (TextView) findViewById(R.id.reactionResultsTextViewDisplayStdCurveC1result);
+		reactionResultsTextViewDisplayStdCurveD1result = (TextView) findViewById(R.id.reactionResultsTextViewDisplayStdCurveD1result);
+		reactionResultsTextViewDisplayConcentrationA1 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationA1); //
+		reactionResultsTextViewDisplayConcentrationA2 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationA2); //
+		reactionResultsTextViewDisplayConcentrationA3 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationA3); //
+		reactionResultsTextViewDisplayConcentrationA4 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationA4); //
+		reactionResultsTextViewDisplayConcentrationA5 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationA5); //
+		reactionResultsTextViewDisplayConcentrationA6 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationA6); //
+		reactionResultsTextViewDisplayConcentrationB1 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationB1); //
+		reactionResultsTextViewDisplayConcentrationB2 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationB2); //
+		reactionResultsTextViewDisplayConcentrationB3 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationB3); //
+		reactionResultsTextViewDisplayConcentrationB4 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationB4); //
+		reactionResultsTextViewDisplayConcentrationB5 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationB5); //
+		reactionResultsTextViewDisplayConcentrationB6 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationB6); //
+		reactionResultsTextViewDisplayConcentrationC1 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationC1); //
+		reactionResultsTextViewDisplayConcentrationC2 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationC2); //
+		reactionResultsTextViewDisplayConcentrationC3 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationC3); //
+		reactionResultsTextViewDisplayConcentrationC4 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationC4); //
+		reactionResultsTextViewDisplayConcentrationC5 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationC5); //
+		reactionResultsTextViewDisplayConcentrationC6 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationC6); //
+		reactionResultsTextViewDisplayConcentrationD1 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationD1); //
+		reactionResultsTextViewDisplayConcentrationD2 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationD2); //
+		reactionResultsTextViewDisplayConcentrationD3 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationD3); //
+		reactionResultsTextViewDisplayConcentrationD4 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationD4); //
+		reactionResultsTextViewDisplayConcentrationD5 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationD5); //
+		reactionResultsTextViewDisplayConcentrationD6 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationD6); //
+		reactionResultsTextViewDisplayConcentrationE1 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationE1); //
+		reactionResultsTextViewDisplayConcentrationE2 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationE2); //
+		reactionResultsTextViewDisplayConcentrationE3 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationE3); //
+		reactionResultsTextViewDisplayConcentrationE4 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationE4); //
+		reactionResultsTextViewDisplayConcentrationE5 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationE5); //
+		reactionResultsTextViewDisplayConcentrationE6 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationE6); //
+		reactionResultsTextViewDisplayConcentrationF1 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationF1); //
+		reactionResultsTextViewDisplayConcentrationF2 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationF2); //
+		reactionResultsTextViewDisplayConcentrationF3 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationF3); //
+		reactionResultsTextViewDisplayConcentrationF4 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationF4); //
+		reactionResultsTextViewDisplayConcentrationF5 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationF5); //
+		reactionResultsTextViewDisplayConcentrationF6 = (TextView) findViewById(R.id.reactionResultsTextViewDisplayConcentrationF6); //
 
 
 		// analyzing and preparing the standard curve information
@@ -335,52 +389,57 @@ public class ReactionResults extends Activity {
 		}
 		*/
 
-
+		DecimalFormat df = new DecimalFormat("0.0000000000E00");
+		DecimalFormat dfR = new DecimalFormat("0.00E00");
 
 		double[] results = new double[36];
+		String[] resultsSn = new String[36];
+		String[] resultsSnR = new String[36];
 		BigDecimal[] resultsRounded = new BigDecimal[36];
 		for(int i = 0; i < 36; i++){
-			results[i] = (sampleTimes[i] * stdCurveSlope) + stdCurveIntercept;
-			resultsRounded[i] = new BigDecimal(String.valueOf(results[i]));
-			resultsRounded[i] = resultsRounded[i].setScale(2, BigDecimal.ROUND_HALF_UP);
+			results[i] = Math.pow(10, ((sampleTimes[i] * stdCurveSlope) + stdCurveIntercept));
+			resultsSn[i] = df.format(results[i]);
+			resultsSnR[i] = dfR.format(results[i]);
+			// resultsRounded[i] = new BigDecimal(String.valueOf(results[i]));
+			// resultsRounded[i] = resultsRounded[i].setScale(2, BigDecimal.ROUND_HALF_UP);
 		}
 
-		Log.d("A1 " + results[0]);
-		Log.d("A2 " + results[1]);
-		Log.d("A3 " + results[2]);
-		Log.d("A4 " + results[3]);
-		Log.d("A5 " + results[4]);
-		Log.d("A6 " + results[5]);
-		Log.d("B1 " + results[6]);
-		Log.d("B2 " + results[7]);
-		Log.d("B3 " + results[8]);
-		Log.d("B4 " + results[9]);
-		Log.d("B5 " + results[10]);
-		Log.d("B6 " + results[11]);
-		Log.d("C1 " + results[12]);
-		Log.d("C2 " + results[13]);
-		Log.d("C3 " + results[14]);
-		Log.d("C4 " + results[15]);
-		Log.d("C5 " + results[16]);
-		Log.d("C6 " + results[17]);
-		Log.d("D1 " + results[18]);
-		Log.d("D2 " + results[19]);
-		Log.d("D3 " + results[20]);
-		Log.d("D4 " + results[21]);
-		Log.d("D5 " + results[22]);
-		Log.d("D6 " + results[23]);
-		Log.d("E1 " + results[24]);
-		Log.d("E2 " + results[25]);
-		Log.d("E3 " + results[26]);
-		Log.d("E4 " + results[27]);
-		Log.d("E5 " + results[28]);
-		Log.d("E6 " + results[29]);
-		Log.d("F1 " + results[30]);
-		Log.d("F2 " + results[31]);
-		Log.d("F3 " + results[32]);
-		Log.d("F4 " + results[33]);
-		Log.d("F5 " + results[34]);
-		Log.d("F6 " + results[35]);
+		Log.d("A1 " + resultsSnR[0]);
+		Log.d("A2 " + resultsSnR[1]);
+		Log.d("A3 " + resultsSnR[2]);
+		Log.d("A4 " + resultsSn[3]);
+		Log.d("A5 " + resultsSn[4]);
+		Log.d("A6 " + resultsSn[5]);
+		Log.d("B1 " + resultsSn[6]);
+		Log.d("B2 " + resultsSn[7]);
+		Log.d("B3 " + resultsSn[8]);
+		Log.d("B4 " + resultsSn[9]);
+		Log.d("B5 " + resultsSn[10]);
+		Log.d("B6 " + resultsSn[11]);
+		Log.d("C1 " + resultsSn[12]);
+		Log.d("C2 " + resultsSn[13]);
+		Log.d("C3 " + resultsSn[14]);
+		Log.d("C4 " + resultsSn[15]);
+		Log.d("C5 " + resultsSn[16]);
+		Log.d("C6 " + resultsSn[17]);
+		Log.d("D1 " + resultsSn[18]);
+		Log.d("D2 " + resultsSn[19]);
+		Log.d("D3 " + resultsSn[20]);
+		Log.d("D4 " + resultsSn[21]);
+		Log.d("D5 " + resultsSn[22]);
+		Log.d("D6 " + resultsSn[23]);
+		Log.d("E1 " + resultsSn[24]);
+		Log.d("E2 " + resultsSn[25]);
+		Log.d("E3 " + resultsSn[26]);
+		Log.d("E4 " + resultsSn[27]);
+		Log.d("E5 " + resultsSn[28]);
+		Log.d("E6 " + resultsSn[29]);
+		Log.d("F1 " + resultsSn[30]);
+		Log.d("F2 " + resultsSn[31]);
+		Log.d("F3 " + resultsSn[32]);
+		Log.d("F4 " + resultsSn[33]);
+		Log.d("F5 " + resultsSn[34]);
+		Log.d("F6 " + resultsSn[35]);
 
 		Log.d("A1 rounded " + resultsRounded[0]);
 		Log.d("A2 rounded " + resultsRounded[1]);
@@ -420,6 +479,7 @@ public class ReactionResults extends Activity {
 		Log.d("F6 rounded " + resultsRounded[35]);
 
 		// logic checking for pos and neg control on both curves
+		/*
 		if(posPassSample == true && posPassStdCurve == true){
 			reactionResultsTextViewDisplayIntensity01.setText("YES");
 		} else {
@@ -431,19 +491,47 @@ public class ReactionResults extends Activity {
 		} else {
 			reactionResultsTextViewDisplayIntensity02.setText("NO");
 			reactionResultsTextViewDisplayIntensity02.setTextColor(Color.RED);
-		}
+		}*/
 
-		reactionResultsTextViewDisplayIntensity00.setText(resultsRounded[0] + "");
-		reactionResultsTextViewDisplayIntensity03.setText(resultsRounded[3] + "");
-		reactionResultsTextViewDisplayIntensity10.setText(resultsRounded[4] + "");
-		reactionResultsTextViewDisplayIntensity11.setText(resultsRounded[5] + "");
-		reactionResultsTextViewDisplayIntensity12.setText(resultsRounded[6] + "");
-		reactionResultsTextViewDisplayIntensity13.setText(resultsRounded[7] + "");
-		reactionResultsTextViewDisplayIntensity20.setText(resultsRounded[8] + "");
-		reactionResultsTextViewDisplayIntensity21.setText(resultsRounded[9] + "");
-		reactionResultsTextViewDisplayIntensity22.setText(resultsRounded[10] + "");
-		reactionResultsTextViewDisplayIntensity23.setText(resultsRounded[11] + "");
-		reactionResultsTextViewRsq.setText("R^2 = " + rsqRounded);
+		reactionResultsTextViewDisplayStdCurveC1result.setText("std crv C1 (-): " + stdCurveNegTest_C6_result);
+		reactionResultsTextViewDisplayStdCurveD1result.setText("std crv D1 (-): " + stdCurveNegTest_D6_result);
+		reactionResultsTextViewDisplayConcentrationA1.setText("A1: " + resultsSnR[0] + ", amp? : " + inclusionArr[0] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationA2.setText("A2: " + resultsSnR[1] + ", amp? : " + inclusionArr[1] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationA3.setText("A3: " + resultsSnR[2] + ", amp? : " + inclusionArr[2] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationA4.setText("A4: " + resultsSnR[3] + ", amp? : " + inclusionArr[3] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationA5.setText("A5: " + resultsSnR[4] + ", amp? : " + inclusionArr[4] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationA6.setText("A6: " + resultsSnR[5] + ", amp? : " + inclusionArr[5] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationB1.setText("B1: " + resultsSnR[6] + ", amp? : " + inclusionArr[6] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationB2.setText("B2: " + resultsSnR[7] + ", amp? : " + inclusionArr[7] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationB3.setText("B3: " + resultsSnR[8] + ", amp? : " + inclusionArr[8] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationB4.setText("B4: " + resultsSnR[9] + ", amp? : " + inclusionArr[9] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationB5.setText("B5: " + resultsSnR[10] + ", amp? : " + inclusionArr[10] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationB6.setText("B6: " + resultsSnR[11] + ", amp? : " + inclusionArr[11] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationC1.setText("C1: " + resultsSnR[12] + ", amp? : " + inclusionArr[12] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationC2.setText("C2: " + resultsSnR[13] + ", amp? : " + inclusionArr[13] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationC3.setText("C3: " + resultsSnR[14] + ", amp? : " + inclusionArr[14] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationC4.setText("C4: " + resultsSnR[15] + ", amp? : " + inclusionArr[15] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationC5.setText("C5: " + resultsSnR[16] + ", amp? : " + inclusionArr[16] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationC6.setText("C6: " + resultsSnR[17] + ", amp? : " + inclusionArr[17] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationD1.setText("D1: " + resultsSnR[18] + ", amp? : " + inclusionArr[18] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationD2.setText("D2: " + resultsSnR[19] + ", amp? : " + inclusionArr[19] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationD3.setText("D3: " + resultsSnR[20] + ", amp? : " + inclusionArr[20] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationD4.setText("D4: " + resultsSnR[21] + ", amp? : " + inclusionArr[21] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationD5.setText("D5: " + resultsSnR[22] + ", amp? : " + inclusionArr[22] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationD6.setText("D6: " + resultsSnR[23] + ", amp? : " + inclusionArr[23] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationE1.setText("E1: " + resultsSnR[24] + ", amp? : " + inclusionArr[24] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationE2.setText("E2: " + resultsSnR[25] + ", amp? : " + inclusionArr[25] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationE3.setText("E3: " + resultsSnR[26] + ", amp? : " + inclusionArr[26] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationE4.setText("E4: " + resultsSnR[27] + ", amp? : " + inclusionArr[27] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationE5.setText("E5: " + resultsSnR[28] + ", amp? : " + inclusionArr[28] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationE6.setText("E6: " + resultsSnR[29] + ", amp? : " + inclusionArr[29] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationF1.setText("F1: " + resultsSnR[30] + ", amp? : " + inclusionArr[30] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationF2.setText("F2: " + resultsSnR[31] + ", amp? : " + inclusionArr[31] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationF3.setText("F3: " + resultsSnR[32] + ", amp? : " + inclusionArr[32] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationF4.setText("F4: " + resultsSnR[33] + ", amp? : " + inclusionArr[33] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationF5.setText("F5: " + resultsSnR[34] + ", amp? : " + inclusionArr[34] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationF6.setText("F6: " + resultsSnR[35] + ", amp? : " + inclusionArr[35] + "  |  "); //
+		reactionResultsTextViewRsq.setText("R^2 = " + rsqRounded + ", " + sourceType);
 		
 
 		for(int i = 0; i < 36; i++){
@@ -483,43 +571,43 @@ public class ReactionResults extends Activity {
 			textWriter.write(" " +"\n");
 			textWriter.write("unknown specimen results and information about the results " +"\n");
 			textWriter.write("1 = AMP, 0 = amplification failed" + "\n");
-			textWriter.write("Convention: first value is concentration(10^_), second amp check algo, third amp result" + "\n");
-			textWriter.write("A1  " + results[0] + ", " + ampCheckArr[0] + ", " + inclusionArr[0]+ "\n");
-			textWriter.write("A2  " + results[1] + ", " + ampCheckArr[1] + ", " + inclusionArr[1]+ "\n");
-			textWriter.write("A3  " + results[2] + ", " + ampCheckArr[2] + ", " + inclusionArr[2]+ "\n");
-			textWriter.write("A4  " + results[3] + ", " + ampCheckArr[3] + ", " + inclusionArr[3]+ "\n");
-			textWriter.write("A5  " + results[4] + ", " + ampCheckArr[4] + ", " + inclusionArr[4]+ "\n");
-			textWriter.write("A6  " + results[5] + ", " + ampCheckArr[5] + ", " + inclusionArr[5]+ "\n");
-			textWriter.write("B1  " + results[6] + ", " + ampCheckArr[6] + ", " + inclusionArr[6]+ "\n");
-			textWriter.write("B2  " + results[7] + ", " + ampCheckArr[7] + ", " + inclusionArr[7]+ "\n");
-			textWriter.write("B3  " + results[8] + ", " + ampCheckArr[8] + ", " + inclusionArr[8]+ "\n");
-			textWriter.write("B4  " + results[9] + ", " + ampCheckArr[9] + ", " + inclusionArr[9]+ "\n");
-			textWriter.write("B5  " + results[10] + ", " + ampCheckArr[10] + ", " + inclusionArr[10]+ "\n");
-			textWriter.write("B6  " + results[11] + ", " + ampCheckArr[11] + ", " + inclusionArr[11]+ "\n");
-			textWriter.write("C1  " + results[12] + ", " + ampCheckArr[12] + ", " + inclusionArr[12]+ "\n");
-			textWriter.write("C2  " + results[13] + ", " + ampCheckArr[13] + ", " + inclusionArr[13]+ "\n");
-			textWriter.write("C3  " + results[14] + ", " + ampCheckArr[14] + ", " + inclusionArr[14]+ "\n");
-			textWriter.write("C4  " + results[15] + ", " + ampCheckArr[15] + ", " + inclusionArr[15]+ "\n");
-			textWriter.write("C5  " + results[16] + ", " + ampCheckArr[16] + ", " + inclusionArr[16]+ "\n");
-			textWriter.write("C6  " + results[17] + ", " + ampCheckArr[17] + ", " + inclusionArr[17]+ "\n");
-			textWriter.write("D1  " + results[18] + ", " + ampCheckArr[18] + ", " + inclusionArr[18]+ "\n");
-			textWriter.write("D2  " + results[19] + ", " + ampCheckArr[19] + ", " + inclusionArr[19]+ "\n");
-			textWriter.write("D3  " + results[20] + ", " + ampCheckArr[20] + ", " + inclusionArr[20]+ "\n");
-			textWriter.write("D4  " + results[21] + ", " + ampCheckArr[21] + ", " + inclusionArr[21]+ "\n");
-			textWriter.write("D5  " + results[22] + ", " + ampCheckArr[22] + ", " + inclusionArr[22]+ "\n");
-			textWriter.write("D6  " + results[23] + ", " + ampCheckArr[23] + ", " + inclusionArr[23]+ "\n");
-			textWriter.write("E1  " + results[24] + ", " + ampCheckArr[24] + ", " + inclusionArr[24]+ "\n");
-			textWriter.write("E2  " + results[25] + ", " + ampCheckArr[25] + ", " + inclusionArr[25]+ "\n");
-			textWriter.write("E3  " + results[26] + ", " + ampCheckArr[26] + ", " + inclusionArr[26]+ "\n");
-			textWriter.write("E4  " + results[27] + ", " + ampCheckArr[27] + ", " + inclusionArr[27]+ "\n");
-			textWriter.write("E5  " + results[28] + ", " + ampCheckArr[28] + ", " + inclusionArr[28]+ "\n");
-			textWriter.write("E6  " + results[29] + ", " + ampCheckArr[29] + ", " + inclusionArr[29]+ "\n");
-			textWriter.write("F1  " + results[30] + ", " + ampCheckArr[30] + ", " + inclusionArr[30]+ "\n");
-			textWriter.write("F2  " + results[31] + ", " + ampCheckArr[31] + ", " + inclusionArr[31]+ "\n");
-			textWriter.write("F3  " + results[32] + ", " + ampCheckArr[32] + ", " + inclusionArr[32]+ "\n");
-			textWriter.write("F4  " + results[33] + ", " + ampCheckArr[33] + ", " + inclusionArr[33]+ "\n");
-			textWriter.write("F5  " + results[34] + ", " + ampCheckArr[34] + ", " + inclusionArr[34]+ "\n");
-			textWriter.write("F6  " + results[35] + ", " + ampCheckArr[35] + ", " + inclusionArr[35]+ "\n");
+			textWriter.write("Convention: first value is [k], second amp check algo, third amp result" + "\n");
+			textWriter.write("A1  " + resultsSn[0] + ", " + ampCheckArr[0] + ", " + inclusionArr[0]+ "\n");
+			textWriter.write("A2  " + resultsSn[1] + ", " + ampCheckArr[1] + ", " + inclusionArr[1]+ "\n");
+			textWriter.write("A3  " + resultsSn[2] + ", " + ampCheckArr[2] + ", " + inclusionArr[2]+ "\n");
+			textWriter.write("A4  " + resultsSn[3] + ", " + ampCheckArr[3] + ", " + inclusionArr[3]+ "\n");
+			textWriter.write("A5  " + resultsSn[4] + ", " + ampCheckArr[4] + ", " + inclusionArr[4]+ "\n");
+			textWriter.write("A6  " + resultsSn[5] + ", " + ampCheckArr[5] + ", " + inclusionArr[5]+ "\n");
+			textWriter.write("B1  " + resultsSn[6] + ", " + ampCheckArr[6] + ", " + inclusionArr[6]+ "\n");
+			textWriter.write("B2  " + resultsSn[7] + ", " + ampCheckArr[7] + ", " + inclusionArr[7]+ "\n");
+			textWriter.write("B3  " + resultsSn[8] + ", " + ampCheckArr[8] + ", " + inclusionArr[8]+ "\n");
+			textWriter.write("B4  " + resultsSn[9] + ", " + ampCheckArr[9] + ", " + inclusionArr[9]+ "\n");
+			textWriter.write("B5  " + resultsSn[10] + ", " + ampCheckArr[10] + ", " + inclusionArr[10]+ "\n");
+			textWriter.write("B6  " + resultsSn[11] + ", " + ampCheckArr[11] + ", " + inclusionArr[11]+ "\n");
+			textWriter.write("C1  " + resultsSn[12] + ", " + ampCheckArr[12] + ", " + inclusionArr[12]+ "\n");
+			textWriter.write("C2  " + resultsSn[13] + ", " + ampCheckArr[13] + ", " + inclusionArr[13]+ "\n");
+			textWriter.write("C3  " + resultsSn[14] + ", " + ampCheckArr[14] + ", " + inclusionArr[14]+ "\n");
+			textWriter.write("C4  " + resultsSn[15] + ", " + ampCheckArr[15] + ", " + inclusionArr[15]+ "\n");
+			textWriter.write("C5  " + resultsSn[16] + ", " + ampCheckArr[16] + ", " + inclusionArr[16]+ "\n");
+			textWriter.write("C6  " + resultsSn[17] + ", " + ampCheckArr[17] + ", " + inclusionArr[17]+ "\n");
+			textWriter.write("D1  " + resultsSn[18] + ", " + ampCheckArr[18] + ", " + inclusionArr[18]+ "\n");
+			textWriter.write("D2  " + resultsSn[19] + ", " + ampCheckArr[19] + ", " + inclusionArr[19]+ "\n");
+			textWriter.write("D3  " + resultsSn[20] + ", " + ampCheckArr[20] + ", " + inclusionArr[20]+ "\n");
+			textWriter.write("D4  " + resultsSn[21] + ", " + ampCheckArr[21] + ", " + inclusionArr[21]+ "\n");
+			textWriter.write("D5  " + resultsSn[22] + ", " + ampCheckArr[22] + ", " + inclusionArr[22]+ "\n");
+			textWriter.write("D6  " + resultsSn[23] + ", " + ampCheckArr[23] + ", " + inclusionArr[23]+ "\n");
+			textWriter.write("E1  " + resultsSn[24] + ", " + ampCheckArr[24] + ", " + inclusionArr[24]+ "\n");
+			textWriter.write("E2  " + resultsSn[25] + ", " + ampCheckArr[25] + ", " + inclusionArr[25]+ "\n");
+			textWriter.write("E3  " + resultsSn[26] + ", " + ampCheckArr[26] + ", " + inclusionArr[26]+ "\n");
+			textWriter.write("E4  " + resultsSn[27] + ", " + ampCheckArr[27] + ", " + inclusionArr[27]+ "\n");
+			textWriter.write("E5  " + resultsSn[28] + ", " + ampCheckArr[28] + ", " + inclusionArr[28]+ "\n");
+			textWriter.write("E6  " + resultsSn[29] + ", " + ampCheckArr[29] + ", " + inclusionArr[29]+ "\n");
+			textWriter.write("F1  " + resultsSn[30] + ", " + ampCheckArr[30] + ", " + inclusionArr[30]+ "\n");
+			textWriter.write("F2  " + resultsSn[31] + ", " + ampCheckArr[31] + ", " + inclusionArr[31]+ "\n");
+			textWriter.write("F3  " + resultsSn[32] + ", " + ampCheckArr[32] + ", " + inclusionArr[32]+ "\n");
+			textWriter.write("F4  " + resultsSn[33] + ", " + ampCheckArr[33] + ", " + inclusionArr[33]+ "\n");
+			textWriter.write("F5  " + resultsSn[34] + ", " + ampCheckArr[34] + ", " + inclusionArr[34]+ "\n");
+			textWriter.write("F6  " + resultsSn[35] + ", " + ampCheckArr[35] + ", " + inclusionArr[35]+ "\n");
 			textWriter.flush();
 			textWriter.close();
 		} catch (IOException ioe) {
