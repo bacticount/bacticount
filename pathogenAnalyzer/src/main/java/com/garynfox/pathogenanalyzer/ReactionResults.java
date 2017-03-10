@@ -227,8 +227,12 @@ public class ReactionResults extends Activity {
 
 		double[] stdCurveKnownValues = new double[]{50000000, 5000000, 500000, 50000, 5000, 50000000, 5000000, 500000, 50000, 5000};
 
+		int thresholdValue = 250;
 
-		if((sourceType.equals("feces")) || (sourceType.equals("urine"))){
+		if((sourceType.equals("feces")) || (sourceType.equals("urine")) || (sourceType.equals("other"))){
+
+			thresholdValue = 500;
+
 			for(int i = 0; i < 10; i++){
 
 				stdCurveKnownValues[i] = stdCurveKnownValues[i] / 2;
@@ -283,7 +287,7 @@ public class ReactionResults extends Activity {
 
 		// standard curve negative control test
 
-		int thresholdValue = 250;
+
 
 		double stdCurveNegTest_C6 = stdCurveAmpCheck[17];
 		double stdCurveNegTest_D6 = stdCurveAmpCheck[23];
@@ -298,6 +302,21 @@ public class ReactionResults extends Activity {
 			stdCurveNegTest_D6_result = 0;
 		} else {
 			stdCurveNegTest_D6_result = 1;
+		}
+
+		String stdCurveNegTest_C6_result_word;
+		String stdCurveNegTest_D6_result_word;
+
+		if(stdCurveNegTest_C6_result == 1){
+			stdCurveNegTest_C6_result_word = "pass";
+		} else {
+			stdCurveNegTest_C6_result_word = "FAIL";
+		}
+
+		if(stdCurveNegTest_D6_result == 1){
+			stdCurveNegTest_D6_result_word = "pass";
+		} else {
+			stdCurveNegTest_D6_result_word = "FAIL";
 		}
 
 
@@ -493,50 +512,56 @@ public class ReactionResults extends Activity {
 			reactionResultsTextViewDisplayIntensity02.setTextColor(Color.RED);
 		}*/
 
-		reactionResultsTextViewDisplayStdCurveC1result.setText("std crv C1 (-): " + stdCurveNegTest_C6_result);
-		reactionResultsTextViewDisplayStdCurveD1result.setText("std crv D1 (-): " + stdCurveNegTest_D6_result);
-		reactionResultsTextViewDisplayConcentrationA1.setText("A1: " + resultsSnR[0] + ", amp? : " + inclusionArr[0] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationA2.setText("A2: " + resultsSnR[1] + ", amp? : " + inclusionArr[1] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationA3.setText("A3: " + resultsSnR[2] + ", amp? : " + inclusionArr[2] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationA4.setText("A4: " + resultsSnR[3] + ", amp? : " + inclusionArr[3] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationA5.setText("A5: " + resultsSnR[4] + ", amp? : " + inclusionArr[4] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationA6.setText("A6: " + resultsSnR[5] + ", amp? : " + inclusionArr[5] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationB1.setText("B1: " + resultsSnR[6] + ", amp? : " + inclusionArr[6] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationB2.setText("B2: " + resultsSnR[7] + ", amp? : " + inclusionArr[7] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationB3.setText("B3: " + resultsSnR[8] + ", amp? : " + inclusionArr[8] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationB4.setText("B4: " + resultsSnR[9] + ", amp? : " + inclusionArr[9] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationB5.setText("B5: " + resultsSnR[10] + ", amp? : " + inclusionArr[10] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationB6.setText("B6: " + resultsSnR[11] + ", amp? : " + inclusionArr[11] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationC1.setText("C1: " + resultsSnR[12] + ", amp? : " + inclusionArr[12] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationC2.setText("C2: " + resultsSnR[13] + ", amp? : " + inclusionArr[13] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationC3.setText("C3: " + resultsSnR[14] + ", amp? : " + inclusionArr[14] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationC4.setText("C4: " + resultsSnR[15] + ", amp? : " + inclusionArr[15] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationC5.setText("C5: " + resultsSnR[16] + ", amp? : " + inclusionArr[16] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationC6.setText("C6: " + resultsSnR[17] + ", amp? : " + inclusionArr[17] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationD1.setText("D1: " + resultsSnR[18] + ", amp? : " + inclusionArr[18] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationD2.setText("D2: " + resultsSnR[19] + ", amp? : " + inclusionArr[19] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationD3.setText("D3: " + resultsSnR[20] + ", amp? : " + inclusionArr[20] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationD4.setText("D4: " + resultsSnR[21] + ", amp? : " + inclusionArr[21] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationD5.setText("D5: " + resultsSnR[22] + ", amp? : " + inclusionArr[22] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationD6.setText("D6: " + resultsSnR[23] + ", amp? : " + inclusionArr[23] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationE1.setText("E1: " + resultsSnR[24] + ", amp? : " + inclusionArr[24] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationE2.setText("E2: " + resultsSnR[25] + ", amp? : " + inclusionArr[25] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationE3.setText("E3: " + resultsSnR[26] + ", amp? : " + inclusionArr[26] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationE4.setText("E4: " + resultsSnR[27] + ", amp? : " + inclusionArr[27] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationE5.setText("E5: " + resultsSnR[28] + ", amp? : " + inclusionArr[28] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationE6.setText("E6: " + resultsSnR[29] + ", amp? : " + inclusionArr[29] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationF1.setText("F1: " + resultsSnR[30] + ", amp? : " + inclusionArr[30] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationF2.setText("F2: " + resultsSnR[31] + ", amp? : " + inclusionArr[31] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationF3.setText("F3: " + resultsSnR[32] + ", amp? : " + inclusionArr[32] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationF4.setText("F4: " + resultsSnR[33] + ", amp? : " + inclusionArr[33] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationF5.setText("F5: " + resultsSnR[34] + ", amp? : " + inclusionArr[34] + "  |  "); //
-		reactionResultsTextViewDisplayConcentrationF6.setText("F6: " + resultsSnR[35] + ", amp? : " + inclusionArr[35] + "  |  "); //
-		reactionResultsTextViewRsq.setText("R^2 = " + rsqRounded + ", " + sourceType);
-		
+		String[] inclusionArrMsg = new String[36];
 
 		for(int i = 0; i < 36; i++){
 			Log.d("sample " + i + " " + sampleTimes[i]);
+			if(inclusionArr[i] == 1){
+				inclusionArrMsg[i] = "AMP";
+			} else if(inclusionArr[i] == 0){
+				inclusionArrMsg[i] = "no";
+			}
 		}
+
+		reactionResultsTextViewDisplayStdCurveC1result.setText("std crv C1 (-): " + stdCurveNegTest_C6_result_word);
+		reactionResultsTextViewDisplayStdCurveD1result.setText("std crv D1 (-): " + stdCurveNegTest_D6_result_word);
+		reactionResultsTextViewDisplayConcentrationA1.setText("A1: " + resultsSnR[0] + ", amp? : " + inclusionArrMsg[0] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationA2.setText("A2: " + resultsSnR[1] + ", amp? : " + inclusionArrMsg[1] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationA3.setText("A3: " + resultsSnR[2] + ", amp? : " + inclusionArrMsg[2] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationA4.setText("A4: " + resultsSnR[3] + ", amp? : " + inclusionArrMsg[3] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationA5.setText("A5: " + resultsSnR[4] + ", amp? : " + inclusionArrMsg[4] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationA6.setText("A6: " + resultsSnR[5] + ", amp? : " + inclusionArrMsg[5] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationB1.setText("B1: " + resultsSnR[6] + ", amp? : " + inclusionArrMsg[6] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationB2.setText("B2: " + resultsSnR[7] + ", amp? : " + inclusionArrMsg[7] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationB3.setText("B3: " + resultsSnR[8] + ", amp? : " + inclusionArrMsg[8] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationB4.setText("B4: " + resultsSnR[9] + ", amp? : " + inclusionArrMsg[9] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationB5.setText("B5: " + resultsSnR[10] + ", amp? : " + inclusionArrMsg[10] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationB6.setText("B6: " + resultsSnR[11] + ", amp? : " + inclusionArrMsg[11] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationC1.setText("C1: " + resultsSnR[12] + ", amp? : " + inclusionArrMsg[12] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationC2.setText("C2: " + resultsSnR[13] + ", amp? : " + inclusionArrMsg[13] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationC3.setText("C3: " + resultsSnR[14] + ", amp? : " + inclusionArrMsg[14] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationC4.setText("C4: " + resultsSnR[15] + ", amp? : " + inclusionArrMsg[15] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationC5.setText("C5: " + resultsSnR[16] + ", amp? : " + inclusionArrMsg[16] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationC6.setText("C6: " + resultsSnR[17] + ", amp? : " + inclusionArrMsg[17] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationD1.setText("D1: " + resultsSnR[18] + ", amp? : " + inclusionArrMsg[18] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationD2.setText("D2: " + resultsSnR[19] + ", amp? : " + inclusionArrMsg[19] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationD3.setText("D3: " + resultsSnR[20] + ", amp? : " + inclusionArrMsg[20] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationD4.setText("D4: " + resultsSnR[21] + ", amp? : " + inclusionArrMsg[21] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationD5.setText("D5: " + resultsSnR[22] + ", amp? : " + inclusionArrMsg[22] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationD6.setText("D6: " + resultsSnR[23] + ", amp? : " + inclusionArrMsg[23] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationE1.setText("E1: " + resultsSnR[24] + ", amp? : " + inclusionArrMsg[24] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationE2.setText("E2: " + resultsSnR[25] + ", amp? : " + inclusionArrMsg[25] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationE3.setText("E3: " + resultsSnR[26] + ", amp? : " + inclusionArrMsg[26] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationE4.setText("E4: " + resultsSnR[27] + ", amp? : " + inclusionArrMsg[27] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationE5.setText("E5: " + resultsSnR[28] + ", amp? : " + inclusionArrMsg[28] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationE6.setText("E6: " + resultsSnR[29] + ", amp? : " + inclusionArrMsg[29] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationF1.setText("F1: " + resultsSnR[30] + ", amp? : " + inclusionArrMsg[30] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationF2.setText("F2: " + resultsSnR[31] + ", amp? : " + inclusionArrMsg[31] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationF3.setText("F3: " + resultsSnR[32] + ", amp? : " + inclusionArrMsg[32] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationF4.setText("F4: " + resultsSnR[33] + ", amp? : " + inclusionArrMsg[33] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationF5.setText("F5: " + resultsSnR[34] + ", amp? : " + inclusionArrMsg[34] + "  |  "); //
+		reactionResultsTextViewDisplayConcentrationF6.setText("F6: " + resultsSnR[35] + ", amp? : " + inclusionArrMsg[35] + "  |  "); //
+		reactionResultsTextViewRsq.setText("R^2 = " + rsqRounded + ", " + sourceType);
 		
 		Log.d("Sample info 0 " + sampleInfo[0]);
 		Log.d("Sample info 1 " + sampleInfo[1]);
@@ -572,42 +597,42 @@ public class ReactionResults extends Activity {
 			textWriter.write("unknown specimen results and information about the results " +"\n");
 			textWriter.write("1 = AMP, 0 = amplification failed" + "\n");
 			textWriter.write("Convention: first value is [k], second amp check algo, third amp result" + "\n");
-			textWriter.write("A1  " + resultsSn[0] + ", " + ampCheckArr[0] + ", " + inclusionArr[0]+ "\n");
-			textWriter.write("A2  " + resultsSn[1] + ", " + ampCheckArr[1] + ", " + inclusionArr[1]+ "\n");
-			textWriter.write("A3  " + resultsSn[2] + ", " + ampCheckArr[2] + ", " + inclusionArr[2]+ "\n");
-			textWriter.write("A4  " + resultsSn[3] + ", " + ampCheckArr[3] + ", " + inclusionArr[3]+ "\n");
-			textWriter.write("A5  " + resultsSn[4] + ", " + ampCheckArr[4] + ", " + inclusionArr[4]+ "\n");
-			textWriter.write("A6  " + resultsSn[5] + ", " + ampCheckArr[5] + ", " + inclusionArr[5]+ "\n");
-			textWriter.write("B1  " + resultsSn[6] + ", " + ampCheckArr[6] + ", " + inclusionArr[6]+ "\n");
-			textWriter.write("B2  " + resultsSn[7] + ", " + ampCheckArr[7] + ", " + inclusionArr[7]+ "\n");
-			textWriter.write("B3  " + resultsSn[8] + ", " + ampCheckArr[8] + ", " + inclusionArr[8]+ "\n");
-			textWriter.write("B4  " + resultsSn[9] + ", " + ampCheckArr[9] + ", " + inclusionArr[9]+ "\n");
-			textWriter.write("B5  " + resultsSn[10] + ", " + ampCheckArr[10] + ", " + inclusionArr[10]+ "\n");
-			textWriter.write("B6  " + resultsSn[11] + ", " + ampCheckArr[11] + ", " + inclusionArr[11]+ "\n");
-			textWriter.write("C1  " + resultsSn[12] + ", " + ampCheckArr[12] + ", " + inclusionArr[12]+ "\n");
-			textWriter.write("C2  " + resultsSn[13] + ", " + ampCheckArr[13] + ", " + inclusionArr[13]+ "\n");
-			textWriter.write("C3  " + resultsSn[14] + ", " + ampCheckArr[14] + ", " + inclusionArr[14]+ "\n");
-			textWriter.write("C4  " + resultsSn[15] + ", " + ampCheckArr[15] + ", " + inclusionArr[15]+ "\n");
-			textWriter.write("C5  " + resultsSn[16] + ", " + ampCheckArr[16] + ", " + inclusionArr[16]+ "\n");
-			textWriter.write("C6  " + resultsSn[17] + ", " + ampCheckArr[17] + ", " + inclusionArr[17]+ "\n");
-			textWriter.write("D1  " + resultsSn[18] + ", " + ampCheckArr[18] + ", " + inclusionArr[18]+ "\n");
-			textWriter.write("D2  " + resultsSn[19] + ", " + ampCheckArr[19] + ", " + inclusionArr[19]+ "\n");
-			textWriter.write("D3  " + resultsSn[20] + ", " + ampCheckArr[20] + ", " + inclusionArr[20]+ "\n");
-			textWriter.write("D4  " + resultsSn[21] + ", " + ampCheckArr[21] + ", " + inclusionArr[21]+ "\n");
-			textWriter.write("D5  " + resultsSn[22] + ", " + ampCheckArr[22] + ", " + inclusionArr[22]+ "\n");
-			textWriter.write("D6  " + resultsSn[23] + ", " + ampCheckArr[23] + ", " + inclusionArr[23]+ "\n");
-			textWriter.write("E1  " + resultsSn[24] + ", " + ampCheckArr[24] + ", " + inclusionArr[24]+ "\n");
-			textWriter.write("E2  " + resultsSn[25] + ", " + ampCheckArr[25] + ", " + inclusionArr[25]+ "\n");
-			textWriter.write("E3  " + resultsSn[26] + ", " + ampCheckArr[26] + ", " + inclusionArr[26]+ "\n");
-			textWriter.write("E4  " + resultsSn[27] + ", " + ampCheckArr[27] + ", " + inclusionArr[27]+ "\n");
-			textWriter.write("E5  " + resultsSn[28] + ", " + ampCheckArr[28] + ", " + inclusionArr[28]+ "\n");
-			textWriter.write("E6  " + resultsSn[29] + ", " + ampCheckArr[29] + ", " + inclusionArr[29]+ "\n");
-			textWriter.write("F1  " + resultsSn[30] + ", " + ampCheckArr[30] + ", " + inclusionArr[30]+ "\n");
-			textWriter.write("F2  " + resultsSn[31] + ", " + ampCheckArr[31] + ", " + inclusionArr[31]+ "\n");
-			textWriter.write("F3  " + resultsSn[32] + ", " + ampCheckArr[32] + ", " + inclusionArr[32]+ "\n");
-			textWriter.write("F4  " + resultsSn[33] + ", " + ampCheckArr[33] + ", " + inclusionArr[33]+ "\n");
-			textWriter.write("F5  " + resultsSn[34] + ", " + ampCheckArr[34] + ", " + inclusionArr[34]+ "\n");
-			textWriter.write("F6  " + resultsSn[35] + ", " + ampCheckArr[35] + ", " + inclusionArr[35]+ "\n");
+			textWriter.write("A1  " + resultsSn[0] + ", " + ampCheckArr[0] + ", " + inclusionArrMsg[0]+ "\n");
+			textWriter.write("A2  " + resultsSn[1] + ", " + ampCheckArr[1] + ", " + inclusionArrMsg[1]+ "\n");
+			textWriter.write("A3  " + resultsSn[2] + ", " + ampCheckArr[2] + ", " + inclusionArrMsg[2]+ "\n");
+			textWriter.write("A4  " + resultsSn[3] + ", " + ampCheckArr[3] + ", " + inclusionArrMsg[3]+ "\n");
+			textWriter.write("A5  " + resultsSn[4] + ", " + ampCheckArr[4] + ", " + inclusionArrMsg[4]+ "\n");
+			textWriter.write("A6  " + resultsSn[5] + ", " + ampCheckArr[5] + ", " + inclusionArrMsg[5]+ "\n");
+			textWriter.write("B1  " + resultsSn[6] + ", " + ampCheckArr[6] + ", " + inclusionArrMsg[6]+ "\n");
+			textWriter.write("B2  " + resultsSn[7] + ", " + ampCheckArr[7] + ", " + inclusionArrMsg[7]+ "\n");
+			textWriter.write("B3  " + resultsSn[8] + ", " + ampCheckArr[8] + ", " + inclusionArrMsg[8]+ "\n");
+			textWriter.write("B4  " + resultsSn[9] + ", " + ampCheckArr[9] + ", " + inclusionArrMsg[9]+ "\n");
+			textWriter.write("B5  " + resultsSn[10] + ", " + ampCheckArr[10] + ", " + inclusionArrMsg[10]+ "\n");
+			textWriter.write("B6  " + resultsSn[11] + ", " + ampCheckArr[11] + ", " + inclusionArrMsg[11]+ "\n");
+			textWriter.write("C1  " + resultsSn[12] + ", " + ampCheckArr[12] + ", " + inclusionArrMsg[12]+ "\n");
+			textWriter.write("C2  " + resultsSn[13] + ", " + ampCheckArr[13] + ", " + inclusionArrMsg[13]+ "\n");
+			textWriter.write("C3  " + resultsSn[14] + ", " + ampCheckArr[14] + ", " + inclusionArrMsg[14]+ "\n");
+			textWriter.write("C4  " + resultsSn[15] + ", " + ampCheckArr[15] + ", " + inclusionArrMsg[15]+ "\n");
+			textWriter.write("C5  " + resultsSn[16] + ", " + ampCheckArr[16] + ", " + inclusionArrMsg[16]+ "\n");
+			textWriter.write("C6  " + resultsSn[17] + ", " + ampCheckArr[17] + ", " + inclusionArrMsg[17]+ "\n");
+			textWriter.write("D1  " + resultsSn[18] + ", " + ampCheckArr[18] + ", " + inclusionArrMsg[18]+ "\n");
+			textWriter.write("D2  " + resultsSn[19] + ", " + ampCheckArr[19] + ", " + inclusionArrMsg[19]+ "\n");
+			textWriter.write("D3  " + resultsSn[20] + ", " + ampCheckArr[20] + ", " + inclusionArrMsg[20]+ "\n");
+			textWriter.write("D4  " + resultsSn[21] + ", " + ampCheckArr[21] + ", " + inclusionArrMsg[21]+ "\n");
+			textWriter.write("D5  " + resultsSn[22] + ", " + ampCheckArr[22] + ", " + inclusionArrMsg[22]+ "\n");
+			textWriter.write("D6  " + resultsSn[23] + ", " + ampCheckArr[23] + ", " + inclusionArrMsg[23]+ "\n");
+			textWriter.write("E1  " + resultsSn[24] + ", " + ampCheckArr[24] + ", " + inclusionArrMsg[24]+ "\n");
+			textWriter.write("E2  " + resultsSn[25] + ", " + ampCheckArr[25] + ", " + inclusionArrMsg[25]+ "\n");
+			textWriter.write("E3  " + resultsSn[26] + ", " + ampCheckArr[26] + ", " + inclusionArrMsg[26]+ "\n");
+			textWriter.write("E4  " + resultsSn[27] + ", " + ampCheckArr[27] + ", " + inclusionArrMsg[27]+ "\n");
+			textWriter.write("E5  " + resultsSn[28] + ", " + ampCheckArr[28] + ", " + inclusionArrMsg[28]+ "\n");
+			textWriter.write("E6  " + resultsSn[29] + ", " + ampCheckArr[29] + ", " + inclusionArrMsg[29]+ "\n");
+			textWriter.write("F1  " + resultsSn[30] + ", " + ampCheckArr[30] + ", " + inclusionArrMsg[30]+ "\n");
+			textWriter.write("F2  " + resultsSn[31] + ", " + ampCheckArr[31] + ", " + inclusionArrMsg[31]+ "\n");
+			textWriter.write("F3  " + resultsSn[32] + ", " + ampCheckArr[32] + ", " + inclusionArrMsg[32]+ "\n");
+			textWriter.write("F4  " + resultsSn[33] + ", " + ampCheckArr[33] + ", " + inclusionArrMsg[33]+ "\n");
+			textWriter.write("F5  " + resultsSn[34] + ", " + ampCheckArr[34] + ", " + inclusionArrMsg[34]+ "\n");
+			textWriter.write("F6  " + resultsSn[35] + ", " + ampCheckArr[35] + ", " + inclusionArrMsg[35]+ "\n");
 			textWriter.flush();
 			textWriter.close();
 		} catch (IOException ioe) {
