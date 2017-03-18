@@ -5,29 +5,29 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="668066090122025"
+    timestamp="984088807523208"
     token="5932510578272109573"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="608" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1404" />
+        duration="0" />
     <task
         name="verifier"
-        duration="105" />
+        duration="0" />
 
     <artifact
         location="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/outputs/apk/pathogenAnalyzer-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="668066090122025"
+        timestamp="984088807523208"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/outputs/apk/pathogenAnalyzer-debug.apk"

@@ -21,19 +21,7 @@ tools:context=".ChooseSource" >
     android:layout_centerHorizontal="true"
     android:layout_marginTop="31dp" />
 
-<Button
-    android:id="@+id/chooseSourceButtonUrine"
-    android:layout_width="349dp"
-    android:layout_height="70dp"
-    android:text="@string/choose_source_button_urine"
-    android:textColor="#FFE033"
-    android:textSize="20sp"
-    android:layout_below="@+id/chooseSourceButtonBlood"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentStart="true"
-    android:layout_marginTop="34dp" />
-
-<TextView
+    <TextView
     android:id="@+id/chooseSourceTextViewTopMessage"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -43,44 +31,59 @@ tools:context=".ChooseSource" >
     android:layout_centerHorizontal="true"
     android:layout_marginTop="22dp" />
 
-<Button
-    android:id="@+id/chooseSourceButtonOther"
-    android:layout_width="349dp"
-    android:layout_height="70dp"
-    android:text="@string/choose_source_button_other"
-    android:textColor="#000000"
-    android:textSize="20sp"
-    android:layout_below="@+id/chooseSourceButtonFeces"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentStart="true"
-    android:layout_marginTop="31dp" />
+    <!--
+    <EditText
+        android:id="@+id/testPathDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chooseSourceButtonRecordSample"
+        android:layout_alignParentBottom="true"
+        android:ems="10"
+        android:hint="@string/testing_purposes_only"
+        android:inputType="text"
+        android:textSize="15sp" >
 
-<!--
-<EditText
-    android:id="@+id/testPathDisplay"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_alignLeft="@+id/chooseSourceButtonRecordSample"
-    android:layout_alignParentBottom="true"
-    android:ems="10"
-    android:hint="@string/testing_purposes_only"
-    android:inputType="text"
-    android:textSize="15sp" >
+        <requestFocus />
+    </EditText>
 
-    <requestFocus />
-</EditText>
--->
+        <Button
+        android:id="@+id/chooseSourceButtonOther"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:text="@string/choose_source_button_other"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/chooseSourceButtonFeces"
+        android:layout_alignLeft="@+id/chooseSourceButtonFeces"
+        android:layout_alignStart="@+id/chooseSourceButtonFeces" />
 
-<Button
-    android:id="@+id/chooseSourceButtonFeces"
-    android:layout_width="349dp"
-    android:layout_height="70dp"
-    android:text="@string/choose_source_button_feces"
-    android:textColor="#808000"
-    android:textSize="20sp"
-    android:layout_below="@+id/chooseSourceButtonUrine"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentStart="true"
-    android:layout_marginTop="31dp" />
+    -->
+
+    <Button
+        android:id="@+id/chooseSourceButtonUrine"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:text="@string/choose_source_button_urine"
+        android:textColor="#FFE033"
+        android:textSize="20sp"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/chooseSourceButtonBlood"
+        android:layout_alignLeft="@+id/chooseSourceButtonBlood"
+        android:layout_alignStart="@+id/chooseSourceButtonBlood" />
+
+    <Button
+        android:id="@+id/chooseSourceButtonFeces"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:text="@string/choose_source_button_feces"
+        android:textColor="#808000"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/chooseSourceButtonUrine"
+        android:layout_alignLeft="@+id/chooseSourceButtonUrine"
+        android:layout_alignStart="@+id/chooseSourceButtonUrine" />
+
+
 
 </RelativeLayout>

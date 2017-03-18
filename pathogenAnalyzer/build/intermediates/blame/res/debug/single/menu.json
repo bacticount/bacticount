@@ -4,18 +4,6 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/tutorial1of4.xml"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_tutorial3of12.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/menu_tutorial3of12.xml"
-    },
-    {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/open_cvtest.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/open_cvtest.xml"
-    },
-    {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/menu_main.xml"
-    },
-    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/choose_action.xml",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/choose_action.xml"
     },
@@ -28,24 +16,12 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/choose_reference_file.xml"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/prepare_recording.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/prepare_recording.xml"
-    },
-    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_recording_success.xml",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/menu_recording_success.xml"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/tutorial2of4.xml",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/tutorial2of4.xml"
-    },
-    {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_tutorial9of12.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/menu_tutorial9of12.xml"
-    },
-    {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_tutorial6of12.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/menu_tutorial6of12.xml"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_tutorial2of12.xml",
@@ -72,6 +48,34 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/tutorial4of4.xml"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_tutorial10of12.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/menu_tutorial10of12.xml"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_tutorial3of12.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/menu_tutorial3of12.xml"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/open_cvtest.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/open_cvtest.xml"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/prepare_recording.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/prepare_recording.xml"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_tutorial9of12.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/menu_tutorial9of12.xml"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_tutorial6of12.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/menu_tutorial6of12.xml"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/reaction_results.xml",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/reaction_results.xml"
     },
@@ -86,10 +90,6 @@
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_tutorial7of12.xml",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/menu_tutorial7of12.xml"
-    },
-    {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/menu_tutorial10of12.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/menu/menu_tutorial10of12.xml"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/menu/home_screen.xml",

@@ -51,7 +51,7 @@ public class PrepareRecording extends Activity implements PictureCallback {
     Button prepareRecordingButtonFocusImage;
     
     // Declare Text View for test of passing from bundles
-    TextView textViewTest;
+    // TextView textViewTest;
     
     // Unsure what this is for, but using it I think as a path identifier
     protected static final String EXTRA_IMAGE_PATH = "com.garynfox.cameratest.EXTRA_IMAGE_PATH";       
@@ -94,15 +94,17 @@ public class PrepareRecording extends Activity implements PictureCallback {
         setResult(RESULT_CANCELED);
 		prepareRecordingButtonStartRecordingReaction = (Button) findViewById(R.id.prepareRecordingButtonStartRecordingReaction);
 		prepareRecordingButtonFocusImage = (Button) findViewById(R.id.prepareRecordingButtonFocusImage);
-		textViewTest = (TextView) findViewById(R.id.textViewTest);
+		// textViewTest = (TextView) findViewById(R.id.textViewTest);
 		
 		// set path on screen for testing purposes
+		/*
 		if(recordingType == STANDARD_CURVE) {
 			textViewTest.setText(standardCurveInfo[1]);
 		} else if(recordingType == SAMPLE) {
 			textViewTest.setText(sampleInfo[1]);
 		}
-		
+		*/
+
 		// call button listener method
 		setButtonOnClickListeners();
 		camera = getCameraInstance();

@@ -3,11 +3,14 @@
 
     <string name="app_name">BACTICOUNT</string>
     <string name="action_settings">Settings</string>
-    <string name="home_screen_text_view_welcome">Welcome to BACTICOUNT</string>
-    <string name="home_screen_button_start_analysis">Start!</string>
-    <string name="home_screen_button_start_tutorial">Tutorial</string>
+    <string name="home_screen_text_view_welcome">Welcome to BACTICOUNT 1.0</string>
+    <string name="home_screen_button_start_analysis">Start Bacterial Analysis</string>
+    <string name="home_screen_button_start_tutorial">Tutorial / Experimental Setup</string>
     <string name="home_screen_text_view_file_location_instructions">Within ES File Explorer files are found in /Pictures</string>
-    <string name="home_screen_text_view_ES_file_viewer">ES File Explorer (available from the Google Play Store free!) is recommended for viewing photos and results from this application.</string>
+    <string name="home_screen_text_view_ES_file_viewer">ES File Explorer and OpenCV Manager (tap above to get them, free!) required for viewing BACTICOUNT results and assets</string>
+    <string name="home_screen_button_ES_File">ES File Explorer Link</string>
+    <string name="home_screen_button_Open_CV">OpenCV Manager Link</string>
+    <string name="home_screen_button_Export">How to export results</string>
     <string name="title_activity_tutorial1of4">Tutorial1of4</string>
     <string name="tutorial_1of4_button_to_page_2of4">OK, got it! What\'s next?</string>
     <string name="tutorial_1of4_text_view_intructions1"><b>1. Calibrating BACTICOUNT to count bacterial DNA in a blood sample.</b> You\'ll need known concentrations of genomic DNA samples arranged like so on a hotplate: </string>
@@ -24,16 +27,16 @@
     <string name="title_activity_tutorial3of4">Tutorial3of4</string>
     <string name="title_activity_tutorial4of4">Tutorial4of4</string>
     <string name="recording_reaction_button_cancel"><b>does nothing :D</b></string>
-    <string name="recording_reaction_text_view_time_lapsed">Time Lapsed:</string>
+    <string name="recording_reaction_text_view_time_lapsed">Seconds remaining:</string>
     <string name="recording_reaction_text_view_time_left">dummy</string>
     <string name="recording_reaction_text_view_recording_now"><b>NOW RECORDING. Do not move device, tap any buttons, unplug power, or respond to notifications.</b></string>
     <string name="recording_reaction_text_view_top_message">Snapping 1 photo every 10 seconds for 50 minutes, 300 photos total.</string>
     <string name="recording_reaction_chronometer_dummy">This will not actually be displayed</string>
     <string name="title_activity_prepare_recording">PrepareRecording</string>
-    <string name="prepare_recording_text_view_top_message">Aim camera directly at reaction vials and line up to grid as carefully as possible. Place camera in stable position on box and hit record. Ensure that the camera WILL NOT MOVE during recording.  Before recording begins, as a precaution it is required that the user close all other applications that utilize the camera (Snapchat, Stock Camera, Instagram, etc) else results cannot be guaranteed.  The device must be left in an undisturbed state during recording, and it is recommended that auto-updates, notifications, and all other active or interrupting activities be disabled.  Putting the device into airplane mode is one such option. </string>
+    <string name="prepare_recording_text_view_top_message">Aim camera directly at reaction vials and line up to grid as carefully as possible. Place camera in stable position on box and hit record. Ensure that the camera WILL NOT MOVE during recording.  Before recording begins, it is required that the user close all applications except Bacticount, else results cannot be guaranteed.  Device must be left in an undisturbed state during recording.  Device <b><i><u>MUST be put in airplane mode, else may fail.</u></i></b>. The phone ceases to be a phone and becomes a scientific instrument and should be treated as such during recording.</string>
     <string name="prepare_recording_button_start_recording_reaction">Begin Recording Amplification</string>
     <string name="prepare_recording_viewfinder_grid_image_description">This is the exact grid the vials will need to be aligned to</string>
-    <string name="prepare_recording_text_view_timer_indicator">Timer placeholder</string>
+    <string name="prepare_recording_text_view_timer_indicator">Offset Time:</string>
     <string name="prepare_recording_chronometer_dummy">This will not actually be displayed</string>
     <string name="image_description_sample_cam_view">Merely a sample of what the viewfinder will actually look like</string>
     <string name="title_activity_recording_reaction">RecordingReaction</string>
@@ -42,20 +45,20 @@
     <string name="reaction_results_text_view_top_message">The positive (+) and negative (-) indicate success of a sample if both are marked YES.  Bottom 2 rows show the initial concentration, in powers of 10 of the bacterial concentration.  For example, if one shows 3.14, this indicates there is 1 x 10^3.14 bacteria per milliliter in that vial sample.</string>
     <string name="image_description_sample_results">This is what the results might look like</string>
     <string name="title_activity_choose_action">ChooseAction</string>
-    <string name="choose_action_text_view_top_message">Please select an action. You may record a standard curve, record a sample for analysis, or view results.</string>
-    <string name="choose_action_button_record_standard_curve">Record Standard Curve</string>
+    <string name="choose_action_text_view_top_message">Please choose a bacterial count analysis step. They should be completed in order, but after standard curve and sample have been recorded, analysis may be repeated.</string>
+    <string name="choose_action_button_record_standard_curve">1.  Record Standard Curve</string>
     <string name="choose_action_button_view_standard_curve">Select Standard Curve</string>
-    <string name="choose_action_button_record_sample">Record Sample</string>
+    <string name="choose_action_button_record_sample">2.  Record Sample</string>
     <string name="choose_action_button_view_sample">Select Sample</string>
     <string name="choose_action_button_back">Back</string>
-    <string name="choose_action_button_proceed_results">Select and view results</string>
+    <string name="choose_action_button_proceed_results">3.  Select and view results</string>
     <string name="choose_action_demo_working_features_message">AS OF RIGHT NOW, ONLY THE "RECORD STANDARD CURVE"; BUTTON WORKS. That and the back button&#8230;</string>
-    <string name="dialog_choose_action_record_standard_curve_message">Enter a name of this standard curve for recording. Only the characters Aa&#8211;Zz, 0&#8211;9, and the underscore symbol (_) are allowed, no periods (.), special characters, or spaces please!</string>
-    <string name="dialog_choose_action_record_reaction_message">Enter a name of this sample for recording. Only the characters Aa&#8211;Zz, 0&#8211;9, and the underscore symbol (_) are allowed, no periods (.), special characters, or spaces please!</string>
+    <string name="dialog_choose_action_record_standard_curve_message">Enter a name of this standard curve for recording. Only the characters Aa&#8211;Zz, 0&#8211;9, and the underscore symbol (_) are allowed, no periods (.), special characters, or spaces please!  Press OK <u>immediately after loading vials.</u>  <i>If not ready, please press cancel and refer to tutorial.</i>  <b>Timing is critical for this step.</b></string>
+    <string name="dialog_choose_action_record_reaction_message">Enter a name of this sample for recording. Only the characters Aa&#8211;Zz, 0&#8211;9, and the underscore symbol (_) are allowed, no periods (.), special characters, or spaces please!  Press OK <u>immediately after loading vials.</u>  <i>If not ready, please press cancel and refer to tutorial.</i>  <b>Timing is critical for this step.</b></string>
     <string name="testing_purposes_only">This field is for testing and debugging</string>
     <string name="title_activity_choose_reference_file">ChooseReferenceFile</string>
-    <string name="choose_reference_file_text_view_instructions">Please select a valid ".pasc" calibration file and a sample to test it against.  Such files are located in the "Pictures" directory in their corresponding folder, then tap "proceed" to set up your recording.</string>
-    <string name="choose_reference_file_button_proceed">Proceed!</string>
+    <string name="choose_reference_file_text_view_instructions">Analyze a set of unknown samples (.parr) against a calibrated standard curve (.pasc).  Such files are located in the "Pictures" directory in their corresponding recording folder.</string>
+    <string name="choose_reference_file_button_proceed">Run BACTICOUNT analysis!</string>
     <string name="choose_reference_file_button_select_PASC_file">Select ".pasc" file</string>
     <string name="choose_reference_file_button_select_PARR_file">Select ".parr" file</string>
     <string name="title_activity_open_cvtest">OpenCVTest</string>
@@ -120,6 +123,6 @@
     <string name="choose_source_button_urine">Urine</string>
     <string name="choose_source_button_feces">Feces</string>
     <string name="choose_source_button_other">Other</string>
-    <string name="choose_source_text_view_top_message">Please choose the source of the bacteria you wish to count:</string>
+    <string name="choose_source_text_view_top_message">Please choose the sample type (also called the medium or biomatrix) of the bacteria you wish to count:</string>
 
 </resources>

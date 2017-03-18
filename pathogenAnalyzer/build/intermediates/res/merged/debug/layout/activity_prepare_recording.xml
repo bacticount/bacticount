@@ -23,7 +23,7 @@
         android:text="@string/prepare_recording_text_view_top_message"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#FFFF00"
-        android:textSize="12sp" />
+        android:textSize="14sp" />
 
     <!--  
     <ImageView
@@ -45,12 +45,15 @@
         android:textColor="#00CC33"
         android:text="@string/prepare_recording_button_start_recording_reaction" />
 
+
+    <!--
     <TextView
         android:id="@+id/textViewTest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:textSize="12sp"/>
+        -->
 
 
     <ImageView

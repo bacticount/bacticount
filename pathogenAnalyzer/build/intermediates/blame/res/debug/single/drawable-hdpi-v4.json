@@ -8,6 +8,10 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-hdpi-v4/add.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi-v4/opencv_hor_900_1.jpg",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/opencv_hor_900_1.jpg"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi-v4/no.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-hdpi-v4/no.png"
     },

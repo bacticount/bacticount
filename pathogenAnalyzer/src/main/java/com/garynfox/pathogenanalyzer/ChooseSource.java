@@ -28,7 +28,7 @@ public class ChooseSource extends Activity{
         chooseSourceButtonBlood = (Button) findViewById(R.id.chooseSourceButtonBlood);
         chooseSourceButtonUrine = (Button) findViewById(R.id.chooseSourceButtonUrine);
         chooseSourceButtonFeces = (Button) findViewById(R.id.chooseSourceButtonFeces);
-        chooseSourceButtonOther = (Button) findViewById(R.id.chooseSourceButtonOther);
+        // chooseSourceButtonOther = (Button) findViewById(R.id.chooseSourceButtonOther);
 
         setButtonOnClickListeners();
 
@@ -77,6 +77,8 @@ public class ChooseSource extends Activity{
             }
         });
 
+
+        /*
         chooseSourceButtonOther.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view1) {
@@ -89,6 +91,7 @@ public class ChooseSource extends Activity{
                 startActivity(intentChooseAction);
             }
         });
+        */
 
     }
 

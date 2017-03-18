@@ -21,18 +21,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="31dp" />
 
-    <Button
-        android:id="@+id/chooseActionButtonRecordSample"
-        android:layout_width="349dp"
-        android:layout_height="70dp"
-        android:text="@string/choose_action_button_record_sample"
-        android:textColor="#0000FF"
-        android:textSize="20sp"
-        android:layout_below="@+id/chooseActionButtonRecordStandardCurve"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="34dp" />
-
     <TextView
         android:id="@+id/chooseActionTextViewTopMessage"
         android:layout_width="wrap_content"
@@ -43,17 +31,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp" />
 
-    <Button
-        android:id="@+id/chooseActionButtonBack"
-        android:layout_width="349dp"
-        android:layout_height="70dp"
-        android:text="@string/choose_action_button_back"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:layout_below="@+id/chooseActionButtonProceedResults"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="31dp" />
+
 
     <!--
     <EditText
@@ -69,7 +47,44 @@
 
         <requestFocus />
     </EditText>
+
+    <Button
+        android:id="@+id/chooseActionButtonBack"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:text="@string/choose_action_button_back"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_below="@+id/chooseActionButtonProceedResults"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:id="@+id/chooseActionButtonBack"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:text="@string/choose_action_button_back"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_below="@+id/chooseActionButtonProceedResults"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
     -->
+
+    <Button
+        android:id="@+id/chooseActionButtonRecordSample"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:text="@string/choose_action_button_record_sample"
+        android:textColor="#0000FF"
+        android:textSize="20sp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/chooseActionButtonRecordStandardCurve"
+        android:layout_alignLeft="@+id/chooseActionButtonRecordStandardCurve"
+        android:layout_alignStart="@+id/chooseActionButtonRecordStandardCurve" />
 
     <Button
         android:id="@+id/chooseActionButtonProceedResults"
@@ -78,9 +93,9 @@
         android:text="@string/choose_action_button_proceed_results"
         android:textColor="#009900"
         android:textSize="20sp"
+        android:layout_marginTop="31dp"
         android:layout_below="@+id/chooseActionButtonRecordSample"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="31dp" />
+        android:layout_alignLeft="@+id/chooseActionButtonRecordSample"
+        android:layout_alignStart="@+id/chooseActionButtonRecordSample" />
 
 </RelativeLayout>

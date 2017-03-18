@@ -93,7 +93,7 @@ public class ChooseAction extends Activity {
 		// chooseActionButtonViewStandardCurve = (Button) findViewById(R.id.chooseActionButtonViewStandardCurve);
 		chooseActionButtonRecordSample = (Button) findViewById(R.id.chooseActionButtonRecordSample);
 		// chooseActionButtonViewSample = (Button) findViewById(R.id.chooseActionButtonViewSample);
-		chooseActionButtonBack = (Button) findViewById(R.id.chooseActionButtonBack);
+		// chooseActionButtonBack = (Button) findViewById(R.id.chooseActionButtonBack);
 		chooseActionButtonProceedResults = (Button) findViewById(R.id.chooseActionButtonProceedResults);
 				
 		// EditTexts for entering new file names (not displaying on this screen)
@@ -422,7 +422,8 @@ public class ChooseAction extends Activity {
 
 			}
 		});
-		
+
+		/*
 		// Take user back to home screen if back is clicked
 		chooseActionButtonBack.setOnClickListener(new OnClickListener(){
 			@Override
@@ -432,6 +433,7 @@ public class ChooseAction extends Activity {
 				startActivity(i2);	
 			}		
 		});
+		*/
 				
 	}
 	

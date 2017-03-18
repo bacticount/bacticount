@@ -1,5 +1,6 @@
 package com.garynfox.pathogenanalyzer;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -13,6 +14,9 @@ public class HomeScreen extends Activity {
 	// Declare buttons	
 	Button homeScreenButtonStartTutorial;
 	Button homeScreenButtonStartAnalysis;
+	Button homeScreenButtonOpenCVManager;
+	Button homeScreenButtonESFile;
+	Button homeScreenButtonExport;
 	
 	// Debugging
 	// Button openCVTesting;
@@ -27,6 +31,10 @@ public class HomeScreen extends Activity {
 		// Establish buttons for listening		
 		homeScreenButtonStartTutorial = (Button) findViewById(R.id.homeScreenButtonStartTutorial);
 		homeScreenButtonStartAnalysis = (Button) findViewById(R.id.homeScreenButtonStartAnalysis);
+		homeScreenButtonOpenCVManager = (Button) findViewById(R.id.homeScreenButtonOpenCVManager);
+		homeScreenButtonESFile = (Button) findViewById(R.id.homeScreenButtonESFile);
+		homeScreenButtonExport = (Button) findViewById(R.id.homeScreenButtonExport);
+
 		// openCVTesting = (Button) findViewById(R.id.openCVTesting);
 		// call button listener method
 		setButtonOnClickListeners();		
@@ -54,7 +62,38 @@ public class HomeScreen extends Activity {
 				Intent i2 = new Intent(HomeScreen.this, ChooseSource.class);
 				startActivity(i2);	
 			}		
-		});		
+		});
+
+		homeScreenButtonESFile.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View view3) {
+				// Point user to ES File Explorer on App Store
+				Intent i5 = new Intent(Intent.ACTION_VIEW);
+				i5.setData(Uri.parse("market://details?id=com.estrongs.android.pop"));
+				startActivity(i5);
+			}
+		});
+
+		homeScreenButtonOpenCVManager.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View view4) {
+				// Point user to Open CV Manager
+				Intent i4 = new Intent(Intent.ACTION_VIEW);
+				i4.setData(Uri.parse("market://details?id=org.opencv.engine"));
+				startActivity(i4);
+			}
+		});
+
+		homeScreenButtonExport.setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View view5) {
+				// Point user to export procedure
+
+			}
+		});
 
 		/*
 		// THIS PART IS FOR OPEN CV TESTING
