@@ -59,8 +59,10 @@
     <string name="title_activity_choose_reference_file">ChooseReferenceFile</string>
     <string name="choose_reference_file_text_view_instructions">Analyze a set of unknown samples (.parr) against a calibrated standard curve (.pasc).  Such files are located in the "Pictures" directory in their corresponding recording folder.</string>
     <string name="choose_reference_file_button_proceed">Run BACTICOUNT analysis!</string>
-    <string name="choose_reference_file_button_select_PASC_file">Select ".pasc" file</string>
-    <string name="choose_reference_file_button_select_PARR_file">Select ".parr" file</string>
+    <string name="choose_reference_file_button_select_PASC_file">Select \".pasc\" file</string>
+    <string name="choose_reference_file_button_select_PARR_file">Select \".parr\" file</string>
+    <string name="no_file_selected_pasc">No \".pasc\" file selected</string>
+    <string name="no_file_selected_parr">No \".parr\" file selected</string>
     <string name="title_activity_open_cvtest">OpenCVTest</string>
     <string name="yxA1">0.A1</string>
     <string name="yxA2">0.A2</string>

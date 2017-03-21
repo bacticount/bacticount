@@ -1,15 +1,92 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:background="@color/white"
     tools:context=".HomeScreen" >
 
+    <TextView
+        android:id="@+id/homeScreenTextViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_screen_text_view_welcome"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/homeScreenButtonStartAnalysis"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/home_screen_button_start_analysis"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/primary_button_background"
+        android:layout_below="@+id/homeScreenTextViewWelcome"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/bacticount_logo_background"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/homeScreenButtonStartTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/home_screen_button_start_tutorial"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/secondary_button_background"
+            android:layout_below="@+id/homeScreenButtonStartAnalysis"
+            android:layout_centerHorizontal="true" />
+        <Button
+        android:id="@+id/homeScreenButtonESFile"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/home_screen_button_ES_File"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/secondary_button_background" />
+
+    <Button
+        android:id="@+id/homeScreenButtonOpenCVManager"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/home_screen_button_Open_CV"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/secondary_button_background" />
+
+    <Button
+        android:id="@+id/homeScreenButtonExport"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/home_screen_button_Export"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/secondary_button_background" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--
 
     <TextView
         android:id="@+id/textView"
@@ -22,72 +99,6 @@
         android:layout_alignRight="@+id/homeScreenTextViewESFile"
         android:layout_alignEnd="@+id/homeScreenTextViewESFile" />
 
-    <TextView
-        android:id="@+id/homeScreenTextViewWelcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/home_screen_text_view_welcome"
-        android:textSize="28sp"
-        android:textIsSelectable="true"
-        android:paddingBottom="25sp"
-        android:paddingTop="5sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:id="@+id/homeScreenButtonStartAnalysis"
-        android:layout_width="349dp"
-        android:layout_height="80dp"
-        android:text="@string/home_screen_button_start_analysis"
-        android:textColor="#00FA9A"
-        android:textSize="25sp"
-        android:layout_below="@+id/homeScreenTextViewWelcome"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:id="@+id/homeScreenButtonStartTutorial"
-        android:layout_width="349dp"
-        android:layout_height="80dp"
-        android:text="@string/home_screen_button_start_tutorial"
-        android:textColor="#7B68EE"
-        android:textSize="25sp"
-        android:layout_below="@+id/homeScreenButtonStartAnalysis"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:id="@+id/homeScreenButtonESFile"
-        android:layout_width="349dp"
-        android:layout_height="80dp"
-        android:text="@string/home_screen_button_ES_File"
-        android:textColor="#7B68EE"
-        android:textSize="25sp"
-        android:layout_below="@+id/homeScreenButtonStartTutorial"
-        android:layout_alignLeft="@+id/homeScreenButtonStartTutorial"
-        android:layout_alignStart="@+id/homeScreenButtonStartTutorial" />
-
-    <Button
-        android:id="@+id/homeScreenButtonOpenCVManager"
-        android:layout_width="349dp"
-        android:layout_height="80dp"
-        android:text="@string/home_screen_button_Open_CV"
-        android:textColor="#7B68EE"
-        android:textSize="25sp"
-        android:layout_below="@+id/homeScreenButtonESFile"
-        android:layout_alignLeft="@+id/homeScreenButtonExport"
-        android:layout_alignStart="@+id/homeScreenButtonExport" />
-
-    <Button
-        android:id="@+id/homeScreenButtonExport"
-        android:layout_width="349dp"
-        android:layout_height="80dp"
-        android:text="@string/home_screen_button_Export"
-        android:textColor="#7B68EE"
-        android:textSize="25sp"
-        android:layout_below="@+id/homeScreenButtonOpenCVManager"
-        android:layout_alignLeft="@+id/homeScreenButtonESFile"
-        android:layout_alignStart="@+id/homeScreenButtonESFile" />
-
-    <!--
    <ImageView
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
@@ -150,5 +161,5 @@
        android:text="Open CV Testing Lol Stacy" />
        -->
 
-</RelativeLayout>
+</LinearLayout>
 
