@@ -7,11 +7,24 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.support.v4.view.ViewPager;
+import android.support.v4.view.PagerAdapter;
 
 
 public class Tutorial1of12 extends ActionBarActivity {
 
     Button tutorial1of12ButtonNextScreen;
+    ViewPager slideShow;
+    CustomPagerAdapter mCustomPagerAdapter;
+
+    int[] mResources = {
+            R.drawable.tutorial1of12,
+            R.drawable.tutorial2of12,
+            R.drawable.tutorial3of12,
+            R.drawable.tutorial4of12,
+            R.drawable.tutorial5of12,
+            R.drawable.tutorial6of12
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +32,14 @@ public class Tutorial1of12 extends ActionBarActivity {
         setContentView(R.layout.activity_tutorial1of12);
         // Establish buttons for listening
         tutorial1of12ButtonNextScreen = (Button) findViewById(R.id.tutorial1of12ButtonNextScreen);
+
+
+        mCustomPagerAdapter = new CustomPagerAdapter(this);
+
+        slideShow = (ViewPager) findViewById(R.id.slideShow);
+        //int numSlides = mResources.length;
+        slideShow.setAdapter(mCustomPagerAdapter);
+
         // call button listener method
         setButtonOnClickListeners();
     }

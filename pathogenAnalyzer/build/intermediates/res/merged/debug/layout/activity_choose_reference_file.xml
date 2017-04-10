@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -6,14 +6,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context=".ChooseReferenceFile" >
 
     <TextView
         android:id="@+id/chooseReferenceFileTextViewInstructions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:text="@string/choose_reference_file_text_view_instructions"
         android:textSize="20sp" />
@@ -21,53 +20,48 @@
     <Button
         android:id="@+id/chooseReferenceFileButtonSelectPASCFile"
         android:layout_width="349dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:text="@string/choose_reference_file_button_select_PASC_file"
         android:textSize="30sp"
-        android:layout_below="@+id/chooseReferenceFileTextViewInstructions"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="36dp" />
+        android:textColor="@color/white"
+        android:background="@drawable/secondary_button_background"
+        android:layout_marginTop="40dp" />
 
-    <Button
-        android:id="@+id/chooseReferenceFileButtonProceed"
-        android:layout_width="349dp"
+    <TextView
+        android:id="@+id/chooseReferenceFileTextViewPASCSelected"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/choose_reference_file_button_proceed"
-        android:textSize="30sp"
-        android:layout_marginBottom="30dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:text="@string/no_file_selected_pasc"
+        android:layout_marginTop="8dp" />
 
     <Button
         android:id="@+id/chooseReferenceFileButtonSelectPARRFile"
         android:layout_width="349dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:text="@string/choose_reference_file_button_select_PARR_file"
         android:textSize="30sp"
-        android:layout_marginTop="24dp"
-        android:layout_below="@+id/chooseReferenceFileTextViewPASCSelected"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/secondary_button_background"/>
 
     <TextView
         android:id="@+id/chooseReferenceFileTextViewPARRSelected"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/choose_reference_file_button_select_PARR_file"
-        android:layout_below="@+id/chooseReferenceFileButtonSelectPARRFile"
+        android:text="@string/no_file_selected_parr"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="8dp" />
 
-    <TextView
-        android:id="@+id/chooseReferenceFileTextViewPASCSelected"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/choose_reference_file_button_select_PASC_file"
-        android:layout_below="@+id/chooseReferenceFileButtonSelectPASCFile"
-        android:layout_alignRight="@+id/chooseReferenceFileTextViewPARRSelected"
-        android:layout_alignEnd="@+id/chooseReferenceFileTextViewPARRSelected"
-        android:layout_marginTop="19dp" />
+    <Button
+        android:id="@+id/chooseReferenceFileButtonProceed"
+        android:layout_width="349dp"
+        android:layout_height="100dp"
+        android:text="@string/choose_reference_file_button_proceed"
+        android:textSize="30sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/primary_button_background"/>
 
-</RelativeLayout>
+</LinearLayout>

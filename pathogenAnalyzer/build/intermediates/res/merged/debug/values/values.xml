@@ -72,10 +72,19 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="bacticount_red">#C25D4F</color>
+    <color name="bacticount_red_op50">#80C25D4F</color>
+    <color name="bacticount_red_op90">#E6C25D4F</color>
+    <color name="black">#000000</color>
+    <color name="black_op10">#10000000</color>
+    <color name="black_op40">#66000000</color>
+    <color name="black_op55">#8C000000</color>
+    <color name="black_op70">#B3000000</color>
     <color name="daidalos_active_file">#fff</color>
     <color name="daidalos_backgroud">#000</color>
     <color name="daidalos_gray">#888</color>
     <color name="daidalos_inactive_file">#888</color>
+    <color name="white">#FFFFFF</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
 
             
@@ -189,8 +198,8 @@
     <string name="choose_action_demo_working_features_message">AS OF RIGHT NOW, ONLY THE "RECORD STANDARD CURVE"; BUTTON WORKS. That and the back button…</string>
     <string name="choose_action_text_view_top_message">Please choose a bacterial count analysis step. They should be completed in order, but after standard curve and sample have been recorded, analysis may be repeated.</string>
     <string name="choose_reference_file_button_proceed">Run BACTICOUNT analysis!</string>
-    <string name="choose_reference_file_button_select_PARR_file">Select ".parr" file</string>
-    <string name="choose_reference_file_button_select_PASC_file">Select ".pasc" file</string>
+    <string name="choose_reference_file_button_select_PARR_file">Select \".parr\" file</string>
+    <string name="choose_reference_file_button_select_PASC_file">Select \".pasc\" file</string>
     <string name="choose_reference_file_text_view_instructions">Analyze a set of unknown samples (.parr) against a calibrated standard curve (.pasc).  Such files are located in the "Pictures" directory in their corresponding recording folder.</string>
     <string name="choose_source_button_blood">Blood</string>
     <string name="choose_source_button_feces">Feces</string>
@@ -227,6 +236,8 @@
     <string name="home_screen_text_view_welcome">Welcome to BACTICOUNT 1.0</string>
     <string name="image_description_sample_cam_view">Merely a sample of what the viewfinder will actually look like</string>
     <string name="image_description_sample_results">This is what the results might look like</string>
+    <string name="no_file_selected_parr">No \".parr\" file selected</string>
+    <string name="no_file_selected_pasc">No \".pasc\" file selected</string>
     <string name="openCVTestButtonTestResults">test the results</string>
     <string name="prepare_recording_button_start_recording_reaction">Begin Recording Amplification</string>
     <string name="prepare_recording_button_tap_to_focus">Tap To Focus</string>

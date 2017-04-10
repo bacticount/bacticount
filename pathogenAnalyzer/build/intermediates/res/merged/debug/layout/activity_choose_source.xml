@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 android:id="@+id/RelativeLayout1"
 android:layout_width="match_parent"
@@ -10,26 +10,26 @@ android:paddingRight="@dimen/activity_horizontal_margin"
 android:paddingTop="@dimen/activity_vertical_margin"
 tools:context=".ChooseSource" >
 
+    <TextView
+        android:id="@+id/chooseSourceTextViewTopMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_source_text_view_top_message"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
 <Button
     android:id="@+id/chooseSourceButtonBlood"
-    android:layout_width="349dp"
-    android:layout_height="70dp"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
     android:text="@string/choose_source_button_blood"
-    android:textColor="#C70039"
+    android:textColor="@color/white"
     android:textSize="20sp"
     android:layout_below="@+id/chooseSourceTextViewTopMessage"
+    android:background="@drawable/secondary_button_background"
     android:layout_centerHorizontal="true"
-    android:layout_marginTop="31dp" />
-
-    <TextView
-    android:id="@+id/chooseSourceTextViewTopMessage"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/choose_source_text_view_top_message"
-    android:textSize="20sp"
-    android:layout_alignParentTop="true"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="22dp" />
+    android:layout_marginTop="30dp" />
 
     <!--
     <EditText
@@ -62,28 +62,28 @@ tools:context=".ChooseSource" >
 
     <Button
         android:id="@+id/chooseSourceButtonUrine"
-        android:layout_width="349dp"
-        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
         android:text="@string/choose_source_button_urine"
-        android:textColor="#FFE033"
+        android:textColor="@color/white"
+        android:background="@drawable/secondary_button_background"
         android:textSize="20sp"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="30dp"
         android:layout_below="@+id/chooseSourceButtonBlood"
         android:layout_alignLeft="@+id/chooseSourceButtonBlood"
         android:layout_alignStart="@+id/chooseSourceButtonBlood" />
 
     <Button
         android:id="@+id/chooseSourceButtonFeces"
-        android:layout_width="349dp"
-        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
         android:text="@string/choose_source_button_feces"
-        android:textColor="#808000"
+        android:textColor="@color/white"
         android:textSize="20sp"
-        android:layout_marginTop="25dp"
+        android:background="@drawable/secondary_button_background"
+        android:layout_marginTop="30dp"
         android:layout_below="@+id/chooseSourceButtonUrine"
         android:layout_alignLeft="@+id/chooseSourceButtonUrine"
         android:layout_alignStart="@+id/chooseSourceButtonUrine" />
 
-
-
-</RelativeLayout>
+</LinearLayout>

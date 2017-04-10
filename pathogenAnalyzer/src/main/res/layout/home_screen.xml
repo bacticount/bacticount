@@ -32,11 +32,14 @@
         android:layout_centerHorizontal="true" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="390dp"
         android:background="@drawable/bacticount_logo_background"
         android:orientation="vertical"
+        android:scaleType="centerCrop"
         android:gravity="center"
-        android:layout_height="wrap_content">
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="390dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_marginLeft="15dp"
@@ -51,6 +54,8 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:background="@drawable/secondary_button_background"
             android:layout_below="@+id/homeScreenButtonStartAnalysis"
             android:layout_centerHorizontal="true" />
@@ -58,6 +63,8 @@
         android:id="@+id/homeScreenButtonESFile"
         android:layout_width="match_parent"
         android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
         android:text="@string/home_screen_button_ES_File"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -72,6 +79,8 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:background="@drawable/secondary_button_background" />
 
     <Button
@@ -79,6 +88,8 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:text="@string/home_screen_button_Export"
         android:textColor="@color/white"
         android:textSize="20sp"

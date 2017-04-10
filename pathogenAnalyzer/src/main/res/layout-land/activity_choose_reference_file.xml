@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ChooseReferenceFile" >
+
+    <TextView
+        android:id="@+id/chooseReferenceFileTextViewInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="@string/choose_reference_file_text_view_instructions"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/chooseReferenceFileButtonSelectPASCFile"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_reference_file_button_select_PASC_file"
+        android:textSize="30sp"
+        android:layout_below="@+id/chooseReferenceFileTextViewInstructions"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp" />
+
+    <Button
+        android:id="@+id/chooseReferenceFileButtonProceed"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_reference_file_button_proceed"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/chooseReferenceFileButtonSelectPARRFile"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_reference_file_button_select_PARR_file"
+        android:textSize="30sp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/chooseReferenceFileTextViewPASCSelected"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/chooseReferenceFileTextViewPARRSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_reference_file_button_select_PARR_file"
+        android:layout_below="@+id/chooseReferenceFileButtonSelectPARRFile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/chooseReferenceFileTextViewPASCSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_reference_file_button_select_PASC_file"
+        android:layout_below="@+id/chooseReferenceFileButtonSelectPASCFile"
+        android:layout_alignRight="@+id/chooseReferenceFileTextViewPARRSelected"
+        android:layout_alignEnd="@+id/chooseReferenceFileTextViewPARRSelected"
+        android:layout_marginTop="19dp" />
+
+</RelativeLayout>
