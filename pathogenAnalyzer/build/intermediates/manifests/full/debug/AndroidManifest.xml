@@ -74,6 +74,16 @@
             android:label="@string/title_activity_reaction_results"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.ReactionResultsSimpleActivity"
+            android:label="@string/title_activity_reaction_results"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.ReactionResultsDetailedActivity"
+            android:label="@string/title_activity_reaction_results"
+            android:screenOrientation="portrait" >
+        </activity>
         <activity android:name="ar.com.daidalos.afiledialog.FileChooserActivity" />
         <activity
             android:name="com.garynfox.pathogenanalyzer.ChooseAction"
@@ -149,6 +159,12 @@
             android:name="com.garynfox.pathogenanalyzer.Tutorial11of12"
             android:label="@string/title_activity_tutorial11of12"
             android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.TutorialPagerActivity"
+            android:label="Tutorial Pager Activity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
     </application>
 

@@ -28,12 +28,12 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout-land/activity_tutorial5of12.xml"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout-land/activity_tutorial9of12.xml",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout-land/activity_tutorial9of12.xml"
-    },
-    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout-land/activity_tutorial11of12.xml",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout-land/activity_tutorial11of12.xml"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout-land/activity_tutorial9of12.xml",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/layout-land/activity_tutorial9of12.xml"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout-land/activity_tutorial3of12.xml",

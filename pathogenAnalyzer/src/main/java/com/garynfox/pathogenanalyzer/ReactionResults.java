@@ -1,27 +1,25 @@
 package com.garynfox.pathogenanalyzer;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.math.BigDecimal;
-import java.util.Arrays;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.text.ParseException;
-import java.text.DecimalFormat;
-
-import org.apache.commons.math3.stat.regression.SimpleRegression;
-
-import android.graphics.Color;
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+
+import org.apache.commons.math3.stat.regression.SimpleRegression;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import au.com.bytecode.opencsv.CSVReader;
 
 public class ReactionResults extends Activity {
@@ -55,7 +53,7 @@ public class ReactionResults extends Activity {
 
 	int[] inclusionArr = new int[36];
 	int inclusionCount = 0;
-	
+
 	// Strings
 	String standardCurveName;			// 0
 	String standardCurvePath;			// 1
@@ -286,7 +284,6 @@ public class ReactionResults extends Activity {
 
 
 		// standard curve negative control test
-
 
 
 		double stdCurveNegTest_C6 = stdCurveAmpCheck[17];
@@ -562,6 +559,8 @@ public class ReactionResults extends Activity {
 		reactionResultsTextViewDisplayConcentrationF5.setText("F5: " + resultsSnR[34] + ", amp? : " + inclusionArrMsg[34] + "  |  "); //
 		reactionResultsTextViewDisplayConcentrationF6.setText("F6: " + resultsSnR[35] + ", amp? : " + inclusionArrMsg[35] + "  |  "); //
 		reactionResultsTextViewRsq.setText("R^2 = " + rsqRounded + ", " + sourceType);
+
+
 		
 		Log.d("Sample info 0 " + sampleInfo[0]);
 		Log.d("Sample info 1 " + sampleInfo[1]);
@@ -954,6 +953,7 @@ public class ReactionResults extends Activity {
 
 		CSVReader reader = null;
 
+		Log.d("");
 		try {
 			reader = new CSVReader(new FileReader(path));
 		} catch (FileNotFoundException e1) {
@@ -1065,6 +1065,7 @@ public class ReactionResults extends Activity {
 
 			sampleA1Intensity[i] =                                    sampleA1Intensity[(coarseDer / 2)];
 			sampleA1Intensity[(timeCount + (coarseDer /2) + i )] = sampleA1Intensity[(coarseDer / 2) + timeCount - 1];
+
 			sampleA2Intensity[i] =                                    sampleA2Intensity[(coarseDer / 2)];
 			sampleA2Intensity[(timeCount + (coarseDer /2) + i )] = sampleA2Intensity[(coarseDer / 2) + timeCount - 1];
 			sampleA3Intensity[i] =                                    sampleA3Intensity[(coarseDer / 2)];

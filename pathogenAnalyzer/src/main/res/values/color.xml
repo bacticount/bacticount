@@ -31,4 +31,6 @@
     <color name="black_op10">#10000000</color>
     <color name="black_op55">#8C000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="holo_red_dark_op40">#66CC0000</color>
+    <color name="greenish">#34BD34</color>
 </resources>

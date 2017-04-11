@@ -76,6 +76,17 @@
             android:label="@string/title_activity_reaction_results"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name=".ReactionResultsSimpleActivity"
+            android:label="@string/title_activity_reaction_results"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name=".ReactionResultsDetailedActivity"
+            android:label="@string/title_activity_reaction_results"
+            android:screenOrientation="portrait" >
+        </activity>
         <activity android:name="ar.com.daidalos.afiledialog.FileChooserActivity" />
         <activity
             android:name=".ChooseAction"
@@ -161,6 +172,12 @@
             android:label="@string/title_activity_tutorial11of12"
             android:screenOrientation="landscape"
             >
+        </activity>
+        <activity
+            android:name=".TutorialPagerActivity"
+            android:label="Tutorial Pager Activity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
         </activity>
     </application>
 

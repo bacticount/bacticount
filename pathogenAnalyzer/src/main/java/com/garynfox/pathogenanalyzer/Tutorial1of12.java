@@ -11,6 +11,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v4.view.PagerAdapter;
 
 
+
 public class Tutorial1of12 extends ActionBarActivity {
 
     Button tutorial1of12ButtonNextScreen;
@@ -26,13 +27,13 @@ public class Tutorial1of12 extends ActionBarActivity {
             R.drawable.tutorial6of12
     };
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tutorial1of12);
         // Establish buttons for listening
         tutorial1of12ButtonNextScreen = (Button) findViewById(R.id.tutorial1of12ButtonNextScreen);
-
 
         mCustomPagerAdapter = new CustomPagerAdapter(this);
 

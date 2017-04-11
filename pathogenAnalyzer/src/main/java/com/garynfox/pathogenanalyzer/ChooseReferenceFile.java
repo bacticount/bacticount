@@ -1,8 +1,6 @@
 package com.garynfox.pathogenanalyzer;
 
 
-import java.io.File;
-
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
@@ -14,7 +12,10 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-import ar.com.daidalos.afiledialog.*;
+
+import java.io.File;
+
+import ar.com.daidalos.afiledialog.FileChooserDialog;
 
 public class ChooseReferenceFile extends Activity {
 	
@@ -107,9 +108,8 @@ public class ChooseReferenceFile extends Activity {
 
 	private void setButtonOnClickListeners(){
 	
-		final Intent i = new Intent(ChooseReferenceFile.this, ReactionResults.class);
-		
-		
+		final Intent i = new Intent(ChooseReferenceFile.this, ReactionResultsSimpleActivity.class);
+
 		// button launches file browser to select a valid .pasc file
 		chooseReferenceFileButtonSelectPASCFile.setOnClickListener(new OnClickListener(){
 			

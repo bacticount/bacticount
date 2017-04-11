@@ -15,7 +15,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="964e038f-18d4-417b-b827-cc8cf58e56da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/multi/layout.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/TutorialViewFlipper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/TutorialViewFlipper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/tutorial_activity.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/TutorialViewFlipper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/TutorialViewFlipper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/TutorialViewFlipper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout/tutorial_activity.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -28,10 +37,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/ar/com/daidalos/afiledialog/R$drawable.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/ar/com/daidalos/afiledialog/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/ar/com/daidalos/afiledialog/R$id.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/ar/com/daidalos/afiledialog/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/ar/com/daidalos/afiledialog/R$layout.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/ar/com/daidalos/afiledialog/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/ChooseAction$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/ChooseAction$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/ChooseAction$2.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/ChooseAction$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/ChooseReferenceFile.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/ChooseReferenceFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/ChooseSource.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/ChooseSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/CustomPagerAdapter.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/CustomPagerAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/HomeScreen$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/HomeScreen$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/HomeScreen.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/HomeScreen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/R$color.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/R$dimen.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/R$dimen.class" />
@@ -44,30 +55,32 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/R$string.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/R$style.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/R$styleable.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/ReactionResults$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/ReactionResults$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/ReactionResults.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/ReactionResults.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial10of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial10of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial11of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial11of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial1of12$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial1of12$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial1of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial1of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial1of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial1of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial2of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial2of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial2of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial2of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial3of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial3of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial3of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial3of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial4of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial4of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial4of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial4of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial5of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial5of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial6of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial6of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial7of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial7of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial8of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial8of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial9of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/classes/debug/com/garynfox/pathogenanalyzer/Tutorial9of12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/ar/com/daidalos/afiledialog/R$drawable.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/ar/com/daidalos/afiledialog/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/ar/com/daidalos/afiledialog/R$id.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/ar/com/daidalos/afiledialog/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/ar/com/daidalos/afiledialog/R$layout.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/ar/com/daidalos/afiledialog/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/ChooseAction$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/ChooseAction$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/ChooseAction$2.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/ChooseAction$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/ChooseReferenceFile.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/ChooseReferenceFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/ChooseSource.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/ChooseSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/CustomPagerAdapter.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/CustomPagerAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/HomeScreen$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/HomeScreen$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/HomeScreen.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/HomeScreen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/R$color.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/R$dimen.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/R$dimen.class" />
@@ -80,17 +93,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/R$string.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/R$style.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/R$styleable.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/ReactionResults$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/ReactionResults$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/ReactionResults.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/ReactionResults.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial10of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial10of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial11of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial11of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial1of12$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial1of12$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial1of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial1of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial1of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial1of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial2of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial2of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial2of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial2of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial3of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial3of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial3of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial3of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial4of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial4of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial4of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial4of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial5of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial5of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial6of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial6of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial7of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental-verifier/debug/com/garynfox/pathogenanalyzer/Tutorial7of12.class" />
@@ -100,6 +111,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/ds3ZE2CSkbaTLnIX_XBcJ8ccyJ4=" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/ds3ZE2CSkbaTLnIX_XBcJ8ccyJ4=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/instant-run-support/debug/instant-run.zip" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/instant-run-support/debug/instant-run.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" />
@@ -108,10 +120,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/ar/com/daidalos/afiledialog/R$drawable.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/ar/com/daidalos/afiledialog/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/ar/com/daidalos/afiledialog/R$id.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/ar/com/daidalos/afiledialog/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/ar/com/daidalos/afiledialog/R$layout.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/ar/com/daidalos/afiledialog/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/ChooseAction$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/ChooseAction$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/ChooseAction$2.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/ChooseAction$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/ChooseReferenceFile.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/ChooseReferenceFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/ChooseSource.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/ChooseSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/CustomPagerAdapter.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/CustomPagerAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/HomeScreen$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/HomeScreen$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/HomeScreen.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/HomeScreen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/R$color.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/R$dimen.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/R$dimen.class" />
@@ -124,17 +138,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/R$string.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/R$style.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/R$styleable.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/ReactionResults$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/ReactionResults$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/ReactionResults.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/ReactionResults.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial10of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial10of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial11of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial11of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial1of12$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial1of12$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial1of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial1of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial1of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial1of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial2of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial2of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial2of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial2of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial3of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial3of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial3of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial3of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial4of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial4of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial4of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial4of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial5of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial5of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial6of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial6of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial7of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/garynfox/pathogenanalyzer/Tutorial7of12.class" />
@@ -143,7 +155,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/ChooseAction$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/ChooseAction$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/ChooseAction$2.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/ChooseAction$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/ChooseReferenceFile.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/ChooseReferenceFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/ChooseSource.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/ChooseSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/CustomPagerAdapter.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/CustomPagerAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/HomeScreen$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/HomeScreen$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/HomeScreen.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/HomeScreen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/R$color.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/R$dimen.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/R$dimen.class" />
@@ -156,17 +169,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/R$string.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/R$style.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/R$styleable.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/ReactionResults$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/ReactionResults$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/ReactionResults.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/ReactionResults.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial10of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial10of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial11of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial11of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial1of12$1.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial1of12$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial1of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial1of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial1of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial1of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial2of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial2of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial2of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial2of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial3of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial3of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial3of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial3of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial4of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial4of12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial4of4.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial4of4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial5of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial5of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial6of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial6of12.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial7of12.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/garynfox/pathogenanalyzer/Tutorial7of12.class" />
@@ -176,15 +187,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/ar/com/daidalos/afiledialog/R$drawable.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/ar/com/daidalos/afiledialog/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/ar/com/daidalos/afiledialog/R$id.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/ar/com/daidalos/afiledialog/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/ar/com/daidalos/afiledialog/R$layout.class" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/ar/com/daidalos/afiledialog/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/outputs/apk/pathogenAnalyzer-debug.apk" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/outputs/apk/pathogenAnalyzer-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aFileDialog/aFileDialog.iml" afterPath="$PROJECT_DIR$/aFileDialog/aFileDialog.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/generated/source/r/debug/ar/com/daidalos/afiledialog/R.java" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/generated/source/r/debug/ar/com/daidalos/afiledialog/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/generated/source/r/debug/com/garynfox/pathogenanalyzer/R.java" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/generated/source/r/debug/com/garynfox/pathogenanalyzer/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/layout-land.json" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/layout-land.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
@@ -192,22 +212,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/instant-run-support/debug/manifest.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout-land/activity_tutorial1of12.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout-land/activity_tutorial1of12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_choose_action.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_choose_action.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_choose_reference_file.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_choose_reference_file.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_choose_source.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_choose_source.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_tutorial1of12.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/activity_tutorial1of12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/home_screen.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/layout/home_screen.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/instant-run-support/debug/manifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/pathogenAnalyzer/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/pathogenAnalyzer.iml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/pathogenAnalyzer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ChooseReferenceFile.java" afterPath="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ChooseReferenceFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/HomeScreen.java" afterPath="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/HomeScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ReactionResults.java" afterPath="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ReactionResults.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/Tutorial1of12.java" afterPath="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/Tutorial1of12.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout-land/activity_tutorial1of12.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout-land/activity_tutorial1of12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout/activity_tutorial1of12.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout/activity_tutorial1of12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout/home_screen.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout/home_screen.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/values/color.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/values/color.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/values/strings.xml" />
     </list>
     <ignored path="pathogenanalyzer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -242,15 +262,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeScreen.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomeScreen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/HomeScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-              <folding>
-                <element signature="e#2752#2873#0" expanded="true" />
-                <element signature="e#2872#2873#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="50" column="77" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="77" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -258,8 +275,8 @@
       <file leaf-file-name="Tutorial1of12.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/Tutorial1of12.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="285">
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -267,15 +284,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomPagerAdapter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RecordingReaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/RecordingReaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11205">
+              <caret line="788" column="21" selection-start-line="788" selection-start-column="17" selection-end-line="788" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TutorialPagerActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/TutorialPagerActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="55" column="70" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomPagerAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/CustomPagerAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="87" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
+            <state relative-caret-position="180">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3684,7 +3719,6 @@
         <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/RecordingReaction.java" />
         <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ChooseReferenceFile.java" />
         <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ReactionResults.java" />
-        <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/HomeScreen.java" />
         <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout/activity_choose_source.xml" />
         <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout/activity_choose_action.xml" />
         <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ChooseSource.java" />
@@ -3700,15 +3734,18 @@
         <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout-land/activity_tutorial1of12.xml" />
         <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout/pager_item.xml" />
         <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/CustomPagerAdapter.java" />
+        <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ReactionResultsEntry.java" />
+        <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ReactionResultsSimpleActivity.java" />
         <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/Tutorial1of12.java" />
+        <option value="$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/HomeScreen.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1280" />
-    <option name="y" value="-517" />
-    <option name="width" value="1280" />
-    <option name="height" value="1417" />
+    <option name="x" value="-2560" />
+    <option name="y" value="-518" />
+    <option name="width" value="1461" />
+    <option name="height" value="1342" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -3735,12 +3772,67 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathogenanalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathogenAnalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathogenanalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathogenAnalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-xxhdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathogenanalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathogenanalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathogenanalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathogenanalyzer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3795,46 +3887,6 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity_tutorial1of12.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathogenanalyzer" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathogenAnalyzer" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathogenanalyzer" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathogenAnalyzer" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
@@ -3855,61 +3907,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathogenanalyzer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathogenAnalyzer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathogenanalyzer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathogenAnalyzer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xxhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathogenanalyzer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathogenanalyzer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathogenanalyzer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pathogenanalyzer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3923,14 +3920,14 @@
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlEditorPanel.WIDTH" value="398" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/drawable-hdpi" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/drawable-xxhdpi" />
       <recent name="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/drawable-mdpi" />
       <recent name="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/drawable-ldpi" />
-      <recent name="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/drawable-hdpi" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pathogenAnalyzer/src/main/res/drawable-hdpi" />
     </key>
   </component>
@@ -4251,33 +4248,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1280" y="-517" width="1280" height="1417" extended-state="0" />
-    <editor active="false" />
+    <frame x="-2560" y="-518" width="1461" height="1342" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35588008" sideWeight="0.1914378" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.122119814" sideWeight="0.6596692" order="7" side_tool="false" content_ui="tabs" x="-1916" y="-272" width="1715" height="1117" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.49697885" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24365872" sideWeight="0.78998387" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43701997" sideWeight="0.78752977" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.91384614" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718894" sideWeight="0.48905692" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35588008" sideWeight="0.8085622" order="2" side_tool="false" content_ui="tabs" x="46" y="22" width="1324" height="878" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43701997" sideWeight="0.21247022" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.122119814" sideWeight="0.6596692" order="7" side_tool="false" content_ui="tabs" x="-2560" y="-518" width="2560" height="1418" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.182708" sideWeight="0.5553206" order="2" side_tool="false" content_ui="tabs" x="46" y="22" width="1324" height="878" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718894" sideWeight="0.48768863" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27363566" sideWeight="0.4749596" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38585705" sideWeight="0.53069466" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30371568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.182708" sideWeight="0.44467935" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36081746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329105" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -4285,6 +4281,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.91384614" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -4340,34 +4337,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/BaseLoaderCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1108">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary249/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/Camera2Renderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4429,13 +4398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/RecordingReaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="42" column="71" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout/activity_choose_action.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -4443,7 +4405,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4454,7 +4415,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4479,7 +4439,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4524,7 +4483,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4543,7 +4501,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4554,7 +4511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4562,15 +4518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="887">
           <caret line="92" column="11" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ReactionResults.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3853">
-          <caret line="523" column="9" selection-start-line="523" selection-start-column="9" selection-end-line="523" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4586,7 +4533,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1335">
           <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4602,9 +4548,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          <folding>
-            <element signature="e#2820#2856#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4612,7 +4555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4620,7 +4562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4631,7 +4572,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4642,7 +4582,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4650,7 +4589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4658,7 +4596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4666,7 +4603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4674,7 +4610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4685,19 +4620,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout/activity_tutorial2of12.xml">
@@ -4707,7 +4641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4718,18 +4651,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/HomeScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-          <folding>
-            <element signature="e#2752#2873#0" expanded="true" />
-            <element signature="e#2872#2873#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4740,7 +4661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4748,14 +4668,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="86" column="32" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/Tutorial1of12.java">
+    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ReactionResultsSimpleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="1005">
+          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/res/layout/circular_result_button.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ReactionResultsEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/ReactionResults.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="577" column="13" selection-start-line="577" selection-start-column="13" selection-end-line="577" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/CustomPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -4773,15 +4723,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/CustomPagerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/Tutorial1of12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="87" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
+        <state relative-caret-position="285">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/RecordingReaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11205">
+          <caret line="788" column="21" selection-start-line="788" selection-start-column="17" selection-end-line="788" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/TutorialPagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="55" column="70" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pathogenAnalyzer/src/main/java/com/garynfox/pathogenanalyzer/HomeScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="50" column="77" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
