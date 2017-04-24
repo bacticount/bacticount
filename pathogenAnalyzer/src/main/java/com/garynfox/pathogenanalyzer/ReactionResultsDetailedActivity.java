@@ -12,11 +12,12 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.TextView;
+import android.widget.Button;
 
 import java.util.ArrayList;
 
-/**
- * Created by Sarah on 4/1/17.
+/*
+ * new!!
  */
 
 public class ReactionResultsDetailedActivity extends Activity {
@@ -25,10 +26,13 @@ public class ReactionResultsDetailedActivity extends Activity {
     String negTest2Result = "";
     String curveResult = "";
     String sourceType = "";
+    Button reactionResultsDetailedHome;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.results_view_detailed);
+
+        reactionResultsDetailedHome = (Button) findViewById(R.id.reactionResultsDeatiledButtonHome);
 
         // get stuff from bundle!
         Intent intent = getIntent();
@@ -92,7 +96,18 @@ public class ReactionResultsDetailedActivity extends Activity {
 
         notes.setText(text);
 
+        setButtonOnClickListeners();
 
+    }
 
+    private void setButtonOnClickListeners(){
+        reactionResultsDetailedHome.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view){
+                Intent i1 = new Intent(ReactionResultsDetailedActivity.this, HomeScreen.class);
+                startActivity(i1);
+            }
+        });
     }
 }

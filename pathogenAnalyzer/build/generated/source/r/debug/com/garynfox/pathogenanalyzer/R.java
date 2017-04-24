@@ -991,7 +991,6 @@ containing a value of this type.
         public static final int openCVTestButtonTestResults=0x7f0c0052;
         public static final int pathogenResultsGridView=0x7f0c00e8;
         public static final int pickPhoto=0x7f0c0050;
-        public static final int plaintextViewButton=0x7f0c00ea;
         public static final int prepareRecordingButtonFocusImage=0x7f0c0058;
         public static final int prepareRecordingButtonStartRecordingReaction=0x7f0c0056;
         public static final int prepareRecordingChrono=0x7f0c005a;
@@ -1002,6 +1001,7 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0c0005;
         public static final int radio=0x7f0c0032;
         public static final int reactionResultsButtonHome=0x7f0c005b;
+        public static final int reactionResultsDeatiledButtonHome=0x7f0c00ea;
         public static final int reactionResultsTextViewDisplayConcentrationA1=0x7f0c005f;
         public static final int reactionResultsTextViewDisplayConcentrationA2=0x7f0c0060;
         public static final int reactionResultsTextViewDisplayConcentrationA3=0x7f0c0061;

@@ -16,15 +16,16 @@ import org.w3c.dom.Text;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import au.com.bytecode.opencsv.CSVReader;
 
-/**
- * Created by Sarah on 4/1/17.
- */
+// the new version!
 
 public class ReactionResultsSimpleActivity extends Activity {
 
@@ -52,7 +53,7 @@ public class ReactionResultsSimpleActivity extends Activity {
     static double[] offsetTime = new double[dataPoints];
     int inclusionCount = 0;
 
-    static String stdCurveNegTest_C6, stdCurveNegTest_D6, stdCurveRsq;
+    static String stdCurveNegTest_C6, stdCurveNegTest_D6, stdCurveRsqString;
 
     static int[] sampleTimes;
     static double[] ampCheckArr;
@@ -60,6 +61,12 @@ public class ReactionResultsSimpleActivity extends Activity {
 
     String dataPath = "";
     String sourceType = "";
+    String savedResults = "";
+    double stdCurveIntercept;
+    double stdCurveSlope;
+    double stdCurveRsq;
+    double[] stdCurveKnownValuesAdjustedSave;
+    int[] stdCurveTimesAdjustedSave;
 
     ArrayList<ReactionResultsEntry> resultEntries;
 
@@ -115,13 +122,55 @@ public class ReactionResultsSimpleActivity extends Activity {
                 Bundle b1 = new Bundle();
                 b1.putString(NEG_TEST_C6, stdCurveNegTest_C6);
                 b1.putString(NEG_TEST_D6, stdCurveNegTest_D6);
-                b1.putString(CURVE_R2, stdCurveRsq);
+                b1.putString(CURVE_R2, stdCurveRsqString);
                 b1.putString(SOURCE_TYPE_STR, sourceType);
                 b1.putParcelableArrayList(RESULT_DATA, resultEntries);
                 i.putExtras(b1);
                 startActivity(i);
             }
         });
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+        String analysisTime  = dateFormat.format(new Date());
+
+        String fullSampleNameEraseParr = removeParr(sampleInfo[1]);
+        Log.d("getting rid of .parr " + fullSampleNameEraseParr);
+
+        savedResults = fullSampleNameEraseParr + "_analysis";
+        Log.d("Results analysis name path etc " + savedResults);
+
+        try {
+            FileWriter textWriter = new FileWriter(savedResults + "_" + analysisTime + ".txt");
+            textWriter.write("sample file analyzed, " + sampleInfo[0] + "\n");
+            textWriter.write("standard curve used, " + standardCurveInfo[0] + "\n");
+            textWriter.write("pathogenic standard curve and unknown sample medium (or source), " + sourceType + "\n");
+            textWriter.write("NOTE: 'blood' and 'other use concentration 5e7, 5e6, etc. for curve fitting. 'urine' and 'feces' 2.5e7, 2.5e6, etc. " + "\n");
+            textWriter.write(" " + "\n");
+            textWriter.write("standard curve intercept, " + stdCurveIntercept + "\n");
+            textWriter.write("standard curve slope, " + stdCurveSlope + "\n");
+            textWriter.write("standard curve r_squared, " + stdCurveRsq + "\n");
+            textWriter.write("standard curve negative control test, well C6, " + stdCurveNegTest_C6 + "\n");
+            textWriter.write("standard curve negative control test, well D6, " + stdCurveNegTest_D6 + "\n");
+            textWriter.write(" " + "\n");
+            textWriter.write("standard curve data points"  + "\n");
+            for(int i = 0; i < inclusionCount; i++){
+                textWriter.write("point: " + i + ", log10 [k]: " + stdCurveKnownValuesAdjustedSave[i] + ", t_T: " + stdCurveTimesAdjustedSave[i]+  "\n");
+            }
+            textWriter.write("" + "\n");
+            textWriter.write("unknown specimen results and information about the results " +"\n");
+            textWriter.write("Convention: first value is well, second is bacterial concentration [k], third amp result" + "\n");
+            for(ReactionResultsEntry e: resultEntries){
+                textWriter.write(e.getKey() + ", " + e.getValue() + ", ");
+                textWriter.write(e.isPathogenDetected? "Amplified!":"no amp");
+                textWriter.write("" + "\n");
+            }
+
+            textWriter.flush();
+            textWriter.close();
+        } catch (IOException ioe) {
+            Log.d("text writing didn't work... bummer!");
+        }
+
     }
 
     public void setupData(Intent previousScreenIntent) {
@@ -160,7 +209,7 @@ public class ReactionResultsSimpleActivity extends Activity {
             BigDecimal rsqRounded = new BigDecimal(standardResults[2]);
             rsqRounded = rsqRounded.setScale(3, BigDecimal.ROUND_HALF_UP);
 
-            stdCurveRsq = rsqRounded.toString();
+            stdCurveRsqString = rsqRounded.toString();
 
             analyzeDataSet(sampleInfo[1]);
 
@@ -383,6 +432,9 @@ public class ReactionResultsSimpleActivity extends Activity {
             }
         }
 
+        stdCurveKnownValuesAdjustedSave = stdCurveKnownValuesAdjusted;
+        stdCurveTimesAdjustedSave = stdCurveTimesAdjusted;
+
         android.util.Log.d("inclusion count: ", "" + inclusionCount);
 
         SimpleRegression stdCurveRegression = new SimpleRegression();
@@ -391,12 +443,14 @@ public class ReactionResultsSimpleActivity extends Activity {
             android.util.Log.d("t_T", String.valueOf(stdCurveTimesAdjusted[i]));
             stdCurveRegression.addData(stdCurveTimesAdjusted[i], stdCurveKnownValuesAdjusted[i]);
         }
-        double stdCurveIntercept = stdCurveRegression.getIntercept();
-        double stdCurveSlope = stdCurveRegression.getSlope();
-        double stdCurveRsq = stdCurveRegression.getRSquare();
+        stdCurveIntercept = stdCurveRegression.getIntercept();
+        stdCurveSlope = stdCurveRegression.getSlope();
+        stdCurveRsq = stdCurveRegression.getRSquare();
         android.util.Log.d("r sq", String.valueOf(stdCurveRsq));
         android.util.Log.d("intercept", String.valueOf(stdCurveIntercept));
         android.util.Log.d("slope", String.valueOf(stdCurveSlope));
+
+
 
         // subtract the positive control threshold time from all sample runs by comparison
         // with the positive control time from the std curve
@@ -425,6 +479,11 @@ public class ReactionResultsSimpleActivity extends Activity {
         }
 
         return results;
+    }
+
+    private String removeParr(String path){
+        path = path.substring(0, path.length() - 5);
+        return path;
     }
 
 }

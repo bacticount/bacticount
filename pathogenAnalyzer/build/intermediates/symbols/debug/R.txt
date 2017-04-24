@@ -386,7 +386,6 @@ int id notes 0x7f0c00e9
 int id openCVTestButtonTestResults 0x7f0c0052
 int id pathogenResultsGridView 0x7f0c00e8
 int id pickPhoto 0x7f0c0050
-int id plaintextViewButton 0x7f0c00ea
 int id prepareRecordingButtonFocusImage 0x7f0c0058
 int id prepareRecordingButtonStartRecordingReaction 0x7f0c0056
 int id prepareRecordingChrono 0x7f0c005a
@@ -397,6 +396,7 @@ int id progress_circular 0x7f0c0004
 int id progress_horizontal 0x7f0c0005
 int id radio 0x7f0c0032
 int id reactionResultsButtonHome 0x7f0c005b
+int id reactionResultsDeatiledButtonHome 0x7f0c00ea
 int id reactionResultsTextViewDisplayConcentrationA1 0x7f0c005f
 int id reactionResultsTextViewDisplayConcentrationA2 0x7f0c0060
 int id reactionResultsTextViewDisplayConcentrationA3 0x7f0c0061

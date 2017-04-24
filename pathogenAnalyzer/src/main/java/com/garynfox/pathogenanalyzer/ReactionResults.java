@@ -590,7 +590,7 @@ public class ReactionResults extends Activity {
 			textWriter.write(" " + "\n");
 			textWriter.write("standard curve data points"  + "\n");
 			for(int i = 0; i < inclusionCount; i++){
-				textWriter.write("point: " + i + ", log [k]: " + stdCurveKnownValuesAdjusted[i] + ", t_T: " + stdCurveTimesAdjusted[i]+  "\n");
+				textWriter.write("point: " + i + ", log10 [k]: " + stdCurveKnownValuesAdjusted[i] + ", t_T: " + stdCurveTimesAdjusted[i]+  "\n");
 			}
 			textWriter.write(" " +"\n");
 			textWriter.write("unknown specimen results and information about the results " +"\n");
