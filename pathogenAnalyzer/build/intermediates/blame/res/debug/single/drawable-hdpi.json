@@ -20,16 +20,20 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ab_stacked_transparent_dark_holo.9.png"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_menu_hardkey_panel_holo_light.9.png",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_menu_hardkey_panel_holo_light.9.png"
-    },
-    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tutorial10of12.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tutorial10of12.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_menu_hardkey_panel_holo_light.9.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_menu_hardkey_panel_holo_light.9.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tutorial2of12.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tutorial2of12.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut3.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut3.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_go.png",
@@ -42,6 +46,10 @@
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tutorial8of12.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tutorial8of12.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut10.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut10.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_go_search_api_holo_light.png",
@@ -64,8 +72,16 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/es_file_2.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut11.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut11.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/box_diagram_new.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/box_diagram_new.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut4.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut4.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tutorial11of12.png",
@@ -96,6 +112,10 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_tab_unselected_pressed_holo.9.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut7.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut7.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_cab_background_bottom_holo_dark.9.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_cab_background_bottom_holo_dark.9.png"
     },
@@ -108,12 +128,12 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/view_finder.png"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_clear_search_api_holo_light.png",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_clear_search_api_holo_light.png"
-    },
-    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/view_finder_motox2014.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/view_finder_motox2014.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_clear_search_api_holo_light.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_clear_search_api_holo_light.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_voice_search_api_holo_light.png",
@@ -142,6 +162,10 @@
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_light.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_menu_moreoverflow_normal_holo_light.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut6.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut6.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/s7_prep_viewfinder.png",
@@ -220,6 +244,10 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_voice_search.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut14.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut14.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_ab_stacked_transparent_light_holo.9.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ab_stacked_transparent_light_holo.9.png"
     },
@@ -244,12 +272,20 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ab_bottom_transparent_dark_holo.9.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut9.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut9.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_clear_search_api_disabled_holo_light.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_clear_search_api_disabled_holo_light.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_menu_share_holo_dark.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_menu_share_holo_dark.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut13.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut13.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_menu_hardkey_panel_holo_dark.9.png",
@@ -320,6 +356,10 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_list_divider_holo_light.9.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut12.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut12.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_longpressed_holo.9.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_list_longpressed_holo.9.png"
     },
@@ -364,12 +404,20 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_tab_selected_pressed_holo.9.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut8.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut8.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/overlaytest.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/overlaytest.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_textfield_search_selected_holo_light.9.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_textfield_search_selected_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut5.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut5.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_tab_selected_holo.9.png",
@@ -394,6 +442,10 @@
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/samplecamview.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/samplecamview.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/tut2.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-hdpi/tut2.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_focused_holo.9.png",

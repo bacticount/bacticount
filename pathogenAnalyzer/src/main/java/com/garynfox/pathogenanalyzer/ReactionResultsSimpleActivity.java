@@ -348,7 +348,7 @@ public class ReactionResultsSimpleActivity extends Activity {
 
         if(!isSourceTypeBlood){
             for(int i = 0; i < stdCurveKnownValues.length; i++){
-                stdCurveKnownValues[i] = stdCurveKnownValues[i] / 2;
+                stdCurveKnownValues[i] = stdCurveKnownValues[i] / 1;
             }
         }
 

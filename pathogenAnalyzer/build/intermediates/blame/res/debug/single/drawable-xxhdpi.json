@@ -20,6 +20,10 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut3.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut3.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_go.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_go.png"
     },
@@ -32,12 +36,12 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ab_solid_light_holo.9.png"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_spinner_ab_default_holo_light.9.png",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_spinner_ab_default_holo_light.9.png"
-    },
-    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ab_solid_dark_holo.9.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ab_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_spinner_ab_default_holo_light.9.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_spinner_ab_default_holo_light.9.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_spinner_ab_pressed_holo_dark.9.png",
@@ -64,12 +68,12 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/bacticount_logo.png"
     },
     {
-        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ab_stacked_solid_dark_holo.9.png",
-        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ab_stacked_solid_dark_holo.9.png"
-    },
-    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_spinner_ab_focused_holo_dark.9.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_spinner_ab_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ab_stacked_solid_dark_holo.9.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ab_stacked_solid_dark_holo.9.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_search.png",
@@ -100,6 +104,10 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/find_location.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut4.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut4.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_voice_search.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_voice_search.png"
     },
@@ -114,6 +122,10 @@
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_clear_disabled.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_clear_disabled.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut6.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut6.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tutorial11of12.png",
@@ -196,12 +208,20 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_menu_moreoverflow_normal_holo_light.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut10.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut10.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_search_api_holo_light.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_search_api_holo_light.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/viewfinder_new_2.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/viewfinder_new_2.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut9.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut9.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_tab_unselected_pressed_holo.9.png",
@@ -218,6 +238,10 @@
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_ab_back_holo_dark.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_ab_back_holo_dark.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut13.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut13.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/viewfinder_new.png",
@@ -276,6 +300,10 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/calibration_diagram_1.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut7.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut7.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_share_holo_dark.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_menu_share_holo_dark.png"
     },
@@ -286,6 +314,10 @@
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tutorial5of12.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tutorial5of12.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut14.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut14.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_menu_moreoverflow_normal_holo_dark.png",
@@ -310,6 +342,10 @@
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_cab_background_bottom_holo_light.9.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_cab_background_bottom_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut11.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut11.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_textfield_search_selected_holo_light.9.png",
@@ -360,6 +396,10 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut12.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut12.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_warning.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/ic_warning.png"
     },
@@ -380,6 +420,14 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tutorial10of12.png"
     },
     {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut2.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut2.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut5.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut5.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ab_transparent_light_holo.9.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ab_transparent_light_holo.9.png"
     },
@@ -390,6 +438,10 @@
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/view_finder_motox2014.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/view_finder_motox2014.png"
+    },
+    {
+        "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/tut8.png",
+        "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/drawable-xxhdpi/tut8.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_textfield_search_selected_holo_dark.9.png",

@@ -1,7 +1,4 @@
-#Sun Apr 23 20:44:18 PDT 2017
-base.0=/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a8d42be2149526bd7fd932952463fcf243a40003
-renamed.1=classes2.dex
+#Thu Jul 27 11:56:00 PDT 2017
+base.0=/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.1=/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_05b40393bed53cd98302afbd934dddb18a632073/classes.dex
-base.1=/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_05b40393bed53cd98302afbd934dddb18a632073
-file.0=/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a8d42be2149526bd7fd932952463fcf243a40003/classes.dex
+file.0=/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

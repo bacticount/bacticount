@@ -14,9 +14,19 @@ import android.widget.Toast;
 public class TutorialPagerActivity extends FragmentActivity {
 
     private final int[] mResources = {
-            R.drawable.tutorial1of12,
-            R.drawable.tutorial2of12,
-            R.drawable.tutorial3of12
+            R.drawable.tut2,
+            R.drawable.tut3,
+            R.drawable.tut4,
+            R.drawable.tut5,
+            R.drawable.tut6,
+            R.drawable.tut7,
+            R.drawable.tut8,
+            R.drawable.tut9,
+            R.drawable.tut10,
+            R.drawable.tut11,
+            R.drawable.tut12,
+            R.drawable.tut13,
+            R.drawable.tut14,
     };
 
     private ViewPager mPager;
