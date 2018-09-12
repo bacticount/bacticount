@@ -1,7 +1,8 @@
 package com.garynfox.pathogenanalyzer;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
+//import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class Tutorial7of12 extends ActionBarActivity {
+public class Tutorial7of12 extends Activity {
 
     Button tutorial7of12ButtonNextScreen;
 
@@ -37,6 +38,7 @@ public class Tutorial7of12 extends ActionBarActivity {
         });
     }
 
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -58,4 +60,5 @@ public class Tutorial7of12 extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    */
 }

@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ChooseAction" >
+
+    <Button
+        android:id="@+id/chooseActionButtonRecordStandardCurve"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:text="@string/choose_action_button_record_standard_curve"
+        android:textColor="@color/white"
+        android:background="@drawable/primary_button_background"
+        android:textSize="20sp"
+        android:layout_below="@+id/chooseActionTextViewTopMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:id="@+id/chooseActionTextViewTopMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_action_text_view_top_message"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+
+
+    <!--
+    <EditText
+        android:id="@+id/testPathDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chooseActionButtonRecordSample"
+        android:layout_alignParentBottom="true"
+        android:ems="10"
+        android:hint="@string/testing_purposes_only"
+        android:inputType="text"
+        android:textSize="15sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/chooseActionButtonBack"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:text="@string/choose_action_button_back"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_below="@+id/chooseActionButtonProceedResults"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:id="@+id/chooseActionButtonBack"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:text="@string/choose_action_button_back"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_below="@+id/chooseActionButtonProceedResults"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    -->
+
+    <Button
+        android:id="@+id/chooseActionButtonRecordSample"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:text="@string/choose_action_button_record_sample"
+        android:textColor="@color/white"
+        android:background="@drawable/secondary_button_background"        android:textSize="20sp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/chooseActionButtonRecordStandardCurve"
+        android:layout_alignLeft="@+id/chooseActionButtonRecordStandardCurve"
+        android:layout_alignStart="@+id/chooseActionButtonRecordStandardCurve" />
+
+    <Button
+        android:id="@+id/chooseActionButtonProceedResults"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:text="@string/choose_action_button_proceed_results"
+        android:textColor="@color/black"
+        android:background="@drawable/tertiary_button_background"
+        android:textSize="20sp"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/chooseActionButtonRecordSample"
+        android:layout_alignLeft="@+id/chooseActionButtonRecordSample"
+        android:layout_alignStart="@+id/chooseActionButtonRecordSample" />
+
+</RelativeLayout>

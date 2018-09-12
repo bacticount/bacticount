@@ -1,0 +1,575 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordingReaction" >
+    <!-- android:paddingBottom="@dimen/activity_vertical_margin" -->
+    <!-- android:paddingLeft="@dimen/activity_horizontal_margin" -->
+    <!-- android:paddingRight="@dimen/activity_horizontal_margin" -->
+    <!-- android:paddingTop="@dimen/activity_vertical_margin" -->
+    
+
+    <com.garynfox.pathogenanalyzer.CameraPreview
+      	android:id="@+id/camera_recording"
+      	android:layout_width="fill_parent"
+      	android:layout_height="fill_parent" />
+    
+    <TextView
+        android:id="@+id/recordingReactionTextViewTopMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recording_reaction_text_view_top_message"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00FF00"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="17sp"
+        android:layout_marginRight="10sp"
+        android:layout_gravity="top|center"/>
+
+    <!-- <ImageView -->
+    <!--    android:id="@+id/recordingReactionImageViewSampleCamView" -->
+    <!--    android:layout_width="wrap_content" -->
+    <!--    android:layout_height="wrap_content" -->
+    <!--    android:layout_alignLeft="@+id/recordingReactionTextViewTopMessage" -->
+    <!--    android:layout_alignParentTop="true" -->
+    <!--    android:contentDescription="@string/image_description_sample_cam_view" -->
+    <!--    android:src="@drawable/samplecamview" /> -->
+
+    <!--
+    <Button
+        android:id="@+id/recordingReactionButtonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/recording_reaction_button_cancel"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+        -->
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewRecordingMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="120dp"
+        android:background="#FFFF00"
+        android:text="@string/recording_reaction_text_view_recording_now"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="10sp"/>
+
+    <TextView
+        android:id="@+id/recordingReactionTextTimeLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginBottom="420dp"
+        android:layout_marginRight="-70dp"
+        android:layout_marginTop="65sp"
+        android:background="#FFFF00"
+        android:text="@string/recording_reaction_text_view_time_left"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35sp" />
+
+    <!-- <Chronometer
+        android:id="@+id/recordingReactionChronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="#FF00FF"
+        android:text="@string/recording_reaction_chronometer_dummy"
+        android:textSize="30sp" /> -->
+    
+    <TextView
+        android:id="@+id/recordingReactionTextViewTimeLapsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="72dp"
+        android:layout_marginRight="85dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/recording_reaction_text_view_time_lapsed"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="190dp"
+        android:layout_marginRight="125dp"
+        android:background="#0000FF"
+        android:text="@string/yxA1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="190dp"
+        android:layout_marginRight="75dp"
+        android:background="#0000FF"
+        android:text="@string/yxA2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="190dp"
+        android:layout_marginRight="25dp"
+        android:background="#0000FF"
+        android:text="@string/yxA3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityA4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="190dp"
+        android:layout_marginRight="-25dp"
+        android:background="#0000FF"
+        android:text="@string/yxA4"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityA5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="190dp"
+        android:layout_marginRight="-75dp"
+        android:background="#0000FF"
+        android:text="@string/yxA5"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityA6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="190dp"
+        android:layout_marginRight="-125dp"
+        android:background="#0000FF"
+        android:text="@string/yxA6"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="160dp"
+        android:layout_marginRight="125dp"
+        android:background="#0000FF"
+        android:text="@string/yxB1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="160dp"
+        android:layout_marginRight="75dp"
+        android:background="#0000FF"
+        android:text="@string/yxB2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="160dp"
+        android:layout_marginRight="25dp"
+        android:background="#0000FF"
+        android:text="@string/yxB3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityB4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="160dp"
+        android:layout_marginRight="-25dp"
+        android:background="#0000FF"
+        android:text="@string/yxB4"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityB5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="160dp"
+        android:layout_marginRight="-75dp"
+        android:background="#0000FF"
+        android:text="@string/yxB5"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityB6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="160dp"
+        android:layout_marginRight="-125dp"
+        android:background="#0000FF"
+        android:text="@string/yxB6"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityC1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="130dp"
+        android:layout_marginRight="125dp"
+        android:background="#0000FF"
+        android:text="@string/yxC1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityC2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="130dp"
+        android:layout_marginRight="75dp"
+        android:background="#0000FF"
+        android:text="@string/yxC2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityC3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="130dp"
+        android:layout_marginRight="25dp"
+        android:background="#0000FF"
+        android:text="@string/yxC3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityC4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="130dp"
+        android:layout_marginRight="-25dp"
+        android:background="#0000FF"
+        android:text="@string/yxC4"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityC5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="130dp"
+        android:layout_marginRight="-75dp"
+        android:background="#0000FF"
+        android:text="@string/yxC5"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityC6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="130dp"
+        android:layout_marginRight="-125dp"
+        android:background="#0000FF"
+        android:text="@string/yxC6"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="125dp"
+        android:background="#0000FF"
+        android:text="@string/yxD1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="75dp"
+        android:background="#0000FF"
+        android:text="@string/yxD2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="25dp"
+        android:background="#0000FF"
+        android:text="@string/yxD3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityD4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="-25dp"
+        android:background="#0000FF"
+        android:text="@string/yxD4"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityD5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="-75dp"
+        android:background="#0000FF"
+        android:text="@string/yxD5"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityD6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="-125dp"
+        android:background="#0000FF"
+        android:text="@string/yxD6"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityE1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="125dp"
+        android:background="#0000FF"
+        android:text="@string/yxE1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityE2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="75dp"
+        android:background="#0000FF"
+        android:text="@string/yxE2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityE3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="25dp"
+        android:background="#0000FF"
+        android:text="@string/yxE3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityE4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="-25dp"
+        android:background="#0000FF"
+        android:text="@string/yxE4"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityE5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="-75dp"
+        android:background="#0000FF"
+        android:text="@string/yxE5"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityE6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="-125dp"
+        android:background="#0000FF"
+        android:text="@string/yxE6"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityF1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="125dp"
+        android:background="#0000FF"
+        android:text="@string/yxF1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityF2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="75dp"
+        android:background="#0000FF"
+        android:text="@string/yxF2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityF3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="25dp"
+        android:background="#0000FF"
+        android:text="@string/yxF3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityF4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="-25dp"
+        android:background="#0000FF"
+        android:text="@string/yxF4"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityF5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="-75dp"
+        android:background="#0000FF"
+        android:text="@string/yxF5"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/recordingReactionTextViewDisplayIntensityF6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="-125dp"
+        android:background="#0000FF"
+        android:text="@string/yxF6"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/recordingReactionImageViewFinder"
+        android:contentDescription="@string/view_finder_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/s7_prep_viewfinder" />
+
+</FrameLayout>

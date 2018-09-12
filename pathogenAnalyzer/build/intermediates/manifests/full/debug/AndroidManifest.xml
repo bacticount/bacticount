@@ -6,18 +6,17 @@
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <uses-feature android:name="android.hardware.camera" />
+<!--     <uses-feature android:name="android.hardware.camera" /> -->
+
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:maxSdkVersion="21" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -106,66 +105,88 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.garynfox.pathogenanalyzer.Tutorial1of12"
-            android:label="@string/title_activity_tutorial1of12"
-            android:screenOrientation="landscape" >
-        </activity>
-        <activity
-            android:name="com.garynfox.pathogenanalyzer.Tutorial2of12"
-            android:label="@string/title_activity_tutorial2of12"
-            android:screenOrientation="landscape" >
-        </activity>
-        <activity
-            android:name="com.garynfox.pathogenanalyzer.Tutorial3of12"
-            android:label="@string/title_activity_tutorial3of12"
-            android:screenOrientation="landscape" >
-        </activity>
-        <activity
-            android:name="com.garynfox.pathogenanalyzer.Tutorial4of12"
-            android:label="@string/title_activity_tutorial4of12"
-            android:screenOrientation="landscape" >
-        </activity>
-        <activity
-            android:name="com.garynfox.pathogenanalyzer.Tutorial5of12"
-            android:label="@string/title_activity_tutorial5of12"
-            android:screenOrientation="landscape" >
-        </activity>
-        <activity
-            android:name="com.garynfox.pathogenanalyzer.Tutorial6of12"
-            android:label="@string/title_activity_tutorial6of12"
-            android:screenOrientation="landscape" >
-        </activity>
-        <activity
-            android:name="com.garynfox.pathogenanalyzer.Tutorial7of12"
-            android:label="@string/title_activity_tutorial7of12"
-            android:screenOrientation="landscape" >
-        </activity>
-        <activity
-            android:name="com.garynfox.pathogenanalyzer.Tutorial8of12"
-            android:label="Tutorial8of12"
-            android:screenOrientation="landscape" >
-        </activity>
-        <activity
-            android:name="com.garynfox.pathogenanalyzer.Tutorial9of12"
-            android:label="@string/title_activity_tutorial9of12"
-            android:screenOrientation="landscape" >
-        </activity>
-        <activity
-            android:name="com.garynfox.pathogenanalyzer.Tutorial10of12"
-            android:label="@string/title_activity_tutorial10of12"
-            android:screenOrientation="landscape" >
-        </activity>
-        <activity
-            android:name="com.garynfox.pathogenanalyzer.Tutorial11of12"
-            android:label="@string/title_activity_tutorial11of12"
-            android:screenOrientation="landscape" >
-        </activity>
-        <activity
             android:name="com.garynfox.pathogenanalyzer.TutorialPagerActivity"
             android:label="Tutorial Pager Activity"
             android:screenOrientation="landscape"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
+        <activity
+            android:name="com.garynfox.pathogenanalyzer.Tutorial1of12"
+            android:label="@string/title_activity_tutorial1of12"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
     </application>
 
-</manifest>
+</manifest><!--
+        <activity
+            android:name=".Tutorial1of12"
+            android:label="@string/title_activity_tutorial1of12"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Tutorial2of12"
+            android:label="@string/title_activity_tutorial2of12"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name=".Tutorial3of12"
+            android:label="@string/title_activity_tutorial3of12"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name=".Tutorial4of12"
+            android:label="@string/title_activity_tutorial4of12"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name=".Tutorial5of12"
+            android:label="@string/title_activity_tutorial5of12"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name=".Tutorial6of12"
+            android:label="@string/title_activity_tutorial6of12"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name=".Tutorial7of12"
+            android:label="@string/title_activity_tutorial7of12"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name=".Tutorial8of12"
+            android:label="Tutorial8of12"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name=".Tutorial9of12"
+            android:label="@string/title_activity_tutorial9of12"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name=".Tutorial10of12"
+            android:label="@string/title_activity_tutorial10of12"
+            android:screenOrientation="landscape"
+            >
+        </activity>
+        <activity
+            android:name=".Tutorial11of12"
+            android:label="@string/title_activity_tutorial11of12"
+            android:screenOrientation="landscape"
+            >
+-->

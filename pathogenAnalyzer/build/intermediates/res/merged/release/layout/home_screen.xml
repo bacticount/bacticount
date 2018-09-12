@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".HomeScreen" >
+
+    <TextView
+        android:id="@+id/homeScreenTextViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_screen_text_view_welcome"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/homeScreenButtonStartAnalysis"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/home_screen_button_start_analysis"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/primary_button_background"
+        android:layout_below="@+id/homeScreenTextViewWelcome"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:background="@drawable/bacticount_logo_background"
+        android:orientation="vertical"
+        android:scaleType="centerCrop"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="390dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/homeScreenButtonStartTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/home_screen_button_start_tutorial"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/secondary_button_background"
+            android:layout_below="@+id/homeScreenButtonStartAnalysis"
+            android:layout_centerHorizontal="true" />
+        <Button
+        android:id="@+id/homeScreenButtonESFile"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+        android:text="@string/home_screen_button_ES_File"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/secondary_button_background" />
+
+    <Button
+        android:id="@+id/homeScreenButtonOpenCVManager"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/home_screen_button_Open_CV"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/secondary_button_background" />
+
+    <Button
+        android:id="@+id/homeScreenButtonExport"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/home_screen_button_Export"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/secondary_button_background" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:text="@string/home_screen_text_view_file_location_instructions"
+        android:textSize="18sp"
+        android:paddingTop="5sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/homeScreenTextViewESFile"
+        android:layout_alignEnd="@+id/homeScreenTextViewESFile" />
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/imageView3"
+       android:src="@drawable/find_location"
+       android:paddingTop="5sp"
+       android:layout_below="@+id/homeScreenTextViewESFile"
+       android:layout_alignRight="@+id/imageView4"
+       android:layout_alignEnd="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/fex"
+        android:paddingTop="40sp"
+        android:layout_alignTop="@+id/homeScreenTextViewESFile"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/fex"
+        android:paddingTop="40sp"
+        android:layout_alignTop="@+id/homeScreenTextViewESFile"
+        android:layout_alignRight="@+id/homeScreenTextViewWelcome"
+        android:layout_alignEnd="@+id/homeScreenTextViewWelcome" />
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/imageView4"
+       android:src="@drawable/find_pictures"
+       android:layout_below="@+id/imageView3"
+       android:layout_centerHorizontal="true" />
+
+   <TextView
+       android:id="@+id/homeScreenTextViewESFile"
+       android:layout_width="280sp"
+       android:layout_height="wrap_content"
+       android:text="@string/home_screen_text_view_ES_file_viewer"
+       android:textSize="12sp"
+       android:paddingTop="30sp"
+       android:paddingBottom="15sp"
+       android:layout_below="@+id/homeScreenButtonStartTutorial"
+       android:layout_toRightOf="@+id/imageView5"
+       android:layout_toEndOf="@+id/imageView5" />
+
+
+   <Button
+       android:id="@+id/openCVTesting"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/homeScreenButtonStartTutorial"
+       android:layout_below="@+id/homeScreenButtonStartTutorial"
+       android:layout_marginLeft="111dp"
+       android:layout_marginTop="28dp"
+       android:text="Open CV Testing Lol Stacy" />
+       -->
+
+</LinearLayout>
+

@@ -8,6 +8,10 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/no.png"
     },
     {
+        "merged": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/tick.png",
+        "source": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/tick.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/document_gray.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/document_gray.png"
     },
@@ -16,12 +20,32 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/tick.png"
     },
     {
+        "merged": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/document.png",
+        "source": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/document.png"
+    },
+    {
+        "merged": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/add.png",
+        "source": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/add.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/add.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/add.png"
     },
     {
+        "merged": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/opencv_hor_900_1.jpg",
+        "source": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/src/main/res/drawable-ldpi/opencv_hor_900_1.jpg"
+    },
+    {
+        "merged": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/folder.png",
+        "source": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/folder.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/document_gray.png",
+        "source": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/document_gray.png"
     },
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/folder.png",
@@ -30,5 +54,13 @@
     {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/document.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/document.png"
+    },
+    {
+        "merged": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/drawable-ldpi-v4/no.png",
+        "source": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/res/drawable-ldpi-v4/no.png"
     }
 ]

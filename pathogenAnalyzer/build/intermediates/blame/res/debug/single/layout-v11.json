@@ -4,6 +4,14 @@
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout-v11/abc_action_bar_decor.xml"
     },
     {
+        "merged": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout-v11/abc_action_bar_decor.xml",
+        "source": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout-v11/abc_action_bar_decor.xml"
+    },
+    {
+        "merged": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout-v11/abc_simple_decor.xml",
+        "source": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout-v11/abc_simple_decor.xml"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/layout-v11/abc_simple_decor.xml",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout-v11/abc_simple_decor.xml"
     }

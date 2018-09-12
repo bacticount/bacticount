@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/mipmap-xxxhdpi/bacticount_logo.png",
+        "source": "/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/src/main/res/mipmap-xxxhdpi/bacticount_logo.png"
+    },
+    {
         "merged": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/res/merged/debug/mipmap-xxxhdpi/bacticount_logo.png",
         "source": "/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/src/main/res/mipmap-xxxhdpi/bacticount_logo.png"
     }

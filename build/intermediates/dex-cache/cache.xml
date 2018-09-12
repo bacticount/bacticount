@@ -3,57 +3,156 @@
 
     <item
         is-multidex="false"
-        jar="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/openCVLibrary310/unspecified/jars/classes.jar"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="21.1.2"
-        sha1="608e4700fb6772d37c8d0ba1e2e55ed0e1cde1a1">
-        <dex dex="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/pathogenanalyzer-openCVLibrary310-unspecified_17a426e5d3ae892cfdab8f4a87fc1fc0600cab8c.jar" />
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.1.0_a6534ceb17154f9e08631cbdc30cf9210492debc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/garyfox/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="21.1.2"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/support-v4-19.1.0_74a781c6fe523e7c9e144bb10e47cfbbaa45bd77.jar" />
+        sha1="2e797aad89741359570fab1ad411646436c49743">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/pathogenanalyzer-aFileDialog-unspecified_054e5dbaf80319a825ed5098f3883f0f869da88d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/libs/commons-math3-3.5.jar"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.1.0_371d639b52d80e4e5799a24b4fc65b86a998171a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/common-1.0.0_70f380b2c53e9b25e8ad9bb590119330720ed5ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-26.1.0_ad8e34051fd5110a34125c78d87a5a9f09c7585f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.1.0_0c63d97e118383377070423495d2fd561f160175.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-26.1.0_0fdb120bf9b4817ca88f9fe7379bf2998c9dd4ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/support-v4/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.1.0_e182808feb6ef144159a0d10dea0aa74d81f200a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0_31f1202fa8cc2e2daf20aa26610b65d167859c80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.1.0_500dd542185d658b5004e9394d3fab940e8989f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/openCVLibrary310/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1797ace83be73822526d3cc165f3c654b51449b2">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/pathogenanalyzer-openCVLibrary310-unspecified_9ef27b9bfa3629311cf315c831365101cc9d4485.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_1fca8ff71a2e1c4ad67b2a0f19f5557a659c622f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.1.0_6a89711f38774a7e1590d28927967298c17b34ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/common-1.0.0_6aaccb0a6754ff8ccfd9760f74dd22855558eacc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/libs/commons-math3-3.5.jar"
         jumboMode="false"
         optimize="true"
         revision="21.1.2"
         sha1="13af68e9a11576953f5c4b09436f8207be9d3a27">
-        <dex dex="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/commons-math3-3.5_ec55c3e9705152f559cca6b41635b1468fb37f44.jar" />
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/commons-math3-3.5_b20734e82610662e1f5a9be84b036a4108bf485c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/garyfox/pathogenanalyzer/opencsv/build/libs/opencsv.jar"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/opencsv/build/libs/opencsv.jar"
         jumboMode="false"
         optimize="true"
         revision="21.1.2"
-        sha1="42f14eeb1ff306c49c9f7c5be0f19b364e4ff98a">
-        <dex dex="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/opencsv_67386e2d4e68c9785e4cefcc4b275f5904764e84.jar" />
+        sha1="fb5725e5d5233433a825d72b02df6fb6b7a7b6fe">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/opencsv_fd0e37a68553b3713e655d8f79b63e17aae6adb6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jar="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="21.1.2"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
-        <dex dex="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-19.1.0_4080009ed2e4196c0665b7af173204c1c226e776.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/exploded-aar/pathogenanalyzer/aFileDialog/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="f2ae10a653d0a0f6ae3cc52210c5a0d2f05fc207">
-        <dex dex="/Users/garyfox/pathogenanalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/pathogenanalyzer-aFileDialog-unspecified_b531ad85b44744d6cceb95cd159b2a794f930ba1.jar" />
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/garyfox/Documents/pathogenAnalyzer/pathogenAnalyzer/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_eb789f83e9f7e790c9d801dc3488a049b7c61b45.jar" />
     </item>
 
 </items>

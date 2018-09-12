@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tutorialViewPager"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:visibility="gone"
+        android:background="@color/holo_red_dark_op40"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/tutorialButtonLayout"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/tutorialDoneButton"
+            android:text="Done"
+            android:layout_height="30dp"
+            android:textSize="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+
+        <View android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"/>
+
+        <Button
+            android:id="@+id/tutorialNextButton"
+            android:text="Next"
+            android:textSize="10dp"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

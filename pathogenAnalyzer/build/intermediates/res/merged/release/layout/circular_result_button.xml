@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.garynfox.pathogenanalyzer.SqaureLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/button"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/result_red_circle_background"
+android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/sampleName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|top"
+    android:layout_marginTop="2dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:textSize="13sp"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:text="A1" />
+    <TextView
+        android:id="@+id/sampleValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="15sp"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:text="5.8E10" />
+
+    <ImageView
+        android:id="@+id/statusImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="2dp"
+        android:visibility="visible"
+        android:tint="@color/white"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_warning" />
+</com.garynfox.pathogenanalyzer.SqaureLinearLayout>

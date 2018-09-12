@@ -1,0 +1,351 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ReactionResults"
+    android:weightSum="1">
+
+    <!--
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/reaction_results_text_view_top_message" />
+        -->
+
+
+    <Button
+        android:id="@+id/reactionResultsButtonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="21"
+        android:layout_column="0"
+        android:text="@string/reaction_results_button_home"
+        android:textSize="15sp" />
+
+
+
+    <TextView
+        android:id="@+id/reactionResultsTextViewRsq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="RSq test"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <TextView
+        android:text="C1 test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayStdCurveC1result"
+        android:layout_row="1"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="D1 test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayStdCurveD1result"
+        android:layout_row="2"
+        android:layout_column="0" />
+
+    <TextView
+        android:text="A1 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationA1"
+        android:layout_row="3"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="A2 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationA2"
+        android:layout_row="4"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="A3 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationA3"
+        android:layout_row="5"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="A4 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationA4"
+        android:layout_row="6"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="A5 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationA5"
+        android:layout_row="7"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="A6 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationA6"
+        android:layout_row="8"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="B1 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationB1"
+        android:layout_row="9"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="B2 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationB2"
+        android:layout_row="10"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="B3 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationB3"
+        android:layout_row="11"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="B4 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationB4"
+        android:layout_row="12"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="B5 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationB5"
+        android:layout_row="13"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="B6 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationB6"
+        android:layout_row="14"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="C1 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationC1"
+        android:layout_row="15"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="C2 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationC2"
+        android:layout_row="16"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="C3 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationC3"
+        android:layout_row="17"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="C4 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationC4"
+        android:layout_row="18"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="C5 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationC5"
+        android:layout_row="19"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="C6 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationC6"
+        android:layout_row="20"
+        android:layout_column="0"/>
+
+    <TextView
+        android:text="D1 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationD1"
+        android:layout_row="3"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="D2 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationD2"
+        android:layout_row="4"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="D3 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationD3"
+        android:layout_row="5"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="D4 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationD4"
+        android:layout_row="6"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="D5 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationD5"
+        android:layout_row="7"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="D6 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationD6"
+        android:layout_row="8"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="E1 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationE1"
+        android:layout_row="9"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="E2 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationE2"
+        android:layout_row="10"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="E3 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationE3"
+        android:layout_row="11"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="E4 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationE4"
+        android:layout_row="12"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="E5 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationE5"
+        android:layout_row="13"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="E6 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationE6"
+        android:layout_row="14"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="F1 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationF1"
+        android:layout_row="15"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="F2 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationF2"
+        android:layout_row="16"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="F3 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationF3"
+        android:layout_row="17"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="F4 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationF4"
+        android:layout_row="18"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="F5 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationF5"
+        android:layout_row="19"
+        android:layout_column="1"/>
+
+    <TextView
+        android:text="F6 result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reactionResultsTextViewDisplayConcentrationF6"
+        android:layout_row="20"
+        android:layout_column="1"/>
+
+
+</GridLayout>
+

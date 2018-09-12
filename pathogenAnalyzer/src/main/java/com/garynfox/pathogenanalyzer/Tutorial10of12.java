@@ -1,7 +1,8 @@
 package com.garynfox.pathogenanalyzer;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
+//import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class Tutorial10of12 extends ActionBarActivity {
+public class Tutorial10of12 extends Activity {
 
     Button tutorial10of12ButtonNextScreen;
 

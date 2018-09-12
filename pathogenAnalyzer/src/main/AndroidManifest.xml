@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.garynfox.pathogenanalyzer"
-    android:versionCode="1"
+    android:versionCode="2"
     android:versionName="1.0" >
 
     <uses-sdk
@@ -12,13 +12,15 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+    <!--
     <uses-feature android:name="android.hardware.camera" />
+    -->
+
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:maxSdkVersion="21" />
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -108,6 +110,25 @@
             android:label="@string/title_activity_recording_success"
             android:screenOrientation="portrait" >
         </activity>
+
+        <activity
+            android:name=".TutorialPagerActivity"
+            android:label="Tutorial Pager Activity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+
+        <activity
+            android:name=".Tutorial1of12"
+            android:label="@string/title_activity_tutorial1of12"
+            android:screenOrientation="landscape" >
+        </activity>
+
+    </application>
+
+</manifest>
+
+        <!--
         <activity
             android:name=".Tutorial1of12"
             android:label="@string/title_activity_tutorial1of12"
@@ -172,13 +193,5 @@
             android:label="@string/title_activity_tutorial11of12"
             android:screenOrientation="landscape"
             >
-        </activity>
-        <activity
-            android:name=".TutorialPagerActivity"
-            android:label="Tutorial Pager Activity"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
-        </activity>
-    </application>
+            -->
 
-</manifest>

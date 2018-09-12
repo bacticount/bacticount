@@ -1,12 +1,18 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
+    signingConfigs {
+        garyfox {
+            keyAlias 'garyfox'
+            keyPassword 'thelabwiththeviewbythesea2018!'
+        }
+    }
+    compileSdkVersion 26
     buildToolsVersion "21.1.2"
     defaultConfig {
         applicationId "com.garynfox.pathogenanalyzer"
         minSdkVersion 14
-        targetSdkVersion 21
+        targetSdkVersion 26
     }
     buildTypes {
         release {
@@ -16,19 +22,26 @@ android {
     }
     productFlavors {
     }
-
     packagingOptions {
         exclude 'META-INF/NOTICE.txt'
         exclude 'META-INF/LICENSE.txt'
     }
 
+    ///*added by android's own recommendation?
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    //*/
 }
 
 dependencies {
     compile project(':aFileDialog')
     compile project(':openCVLibrary310')
     compile project(':opencsv')
-    compile 'com.android.support:appcompat-v7:19.1.0'
+    compile 'com.android.support:appcompat-v7:26.1.0'
     compile files('libs/commons-math3-3.5-javadoc.jar')
     compile files('libs/commons-math3-3.5.jar')
 }

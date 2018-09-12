@@ -1,7 +1,8 @@
 package com.garynfox.pathogenanalyzer;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
+//import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -12,7 +13,7 @@ import android.support.v4.view.PagerAdapter;
 
 
 
-public class Tutorial1of12 extends ActionBarActivity {
+public class Tutorial1of12 extends Activity {
 
     Button tutorial1of12ButtonNextScreen;
     ViewPager slideShow;
@@ -42,9 +43,10 @@ public class Tutorial1of12 extends ActionBarActivity {
         slideShow.setAdapter(mCustomPagerAdapter);
 
         // call button listener method
-        setButtonOnClickListeners();
+        // setButtonOnClickListeners();
     }
 
+    /*
     private void setButtonOnClickListeners(){
 
         // Launch tutorial activity screens for 2nd tutorial button
@@ -58,7 +60,9 @@ public class Tutorial1of12 extends ActionBarActivity {
             }
         });
     }
+    */
 
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -80,4 +84,5 @@ public class Tutorial1of12 extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    */
 }
