@@ -13,6 +13,7 @@ android {
         applicationId "com.garynfox.pathogenanalyzer"
         minSdkVersion 14
         targetSdkVersion 26
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -35,6 +36,14 @@ android {
         abortOnError false
     }
     //*/
+
+
+    sourceSets {main { jni.srcDirs = ['src/main/jni', 'src/main/jniLibs/'] } }
+    externalNativeBuild {
+        ndkBuild {
+            path '../../../Downloads/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk'
+        }
+    }
 }
 
 dependencies {

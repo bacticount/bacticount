@@ -40,6 +40,7 @@ import au.com.bytecode.opencsv.CSVWriter;
 
 public class RecordingReaction extends Activity {
 	
+	/*
 	private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
         public void onManagerConnected(int status) {
@@ -55,6 +56,8 @@ public class RecordingReaction extends Activity {
             }
         }
     };
+    */
+
 	
 	
 	// Value pairs needed to pass bundle along
@@ -237,8 +240,10 @@ public class RecordingReaction extends Activity {
 		super.onCreate(savedInstanceState);
 
         hideButtons();
-		
-		// Unpacking bundle from previous intent, mainly to pass to next intent
+
+		Log.d("verify",String.valueOf(OpenCVLoader.initDebug()));
+
+        // Unpacking bundle from previous intent, mainly to pass to next intent
 		Intent previousScreen = getIntent();
 		Bundle bundleReceived = previousScreen.getExtras();
 				
@@ -800,7 +805,7 @@ public class RecordingReaction extends Activity {
     public void onResume()
     {
         super.onResume();
-        OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_9, this, mLoaderCallback);
+        // OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_9, this, mLoaderCallback);
     }
 	
 	@Override

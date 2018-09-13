@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.garynfox.pathogenanalyzer"
-    android:versionCode="1"
+    android:versionCode="2"
     android:versionName="1.0" >
 
     <uses-sdk
@@ -20,8 +20,10 @@
 
     <application
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@drawable/bacticount_logo"
         android:label="@string/app_name"
+        android:testOnly="true"
         android:theme="@style/Theme.NoActionBar" >
         <activity
             android:name="com.garynfox.pathogenanalyzer.HomeScreen"
