@@ -4,10 +4,6 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
 
-/**
- * Created by Sarah on 4/1/17.
- */
-
 public class SqaureLinearLayout extends LinearLayout {
 
     public SqaureLinearLayout(Context context) {

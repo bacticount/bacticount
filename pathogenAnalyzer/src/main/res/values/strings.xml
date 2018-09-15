@@ -11,6 +11,7 @@
     <string name="home_screen_button_ES_File">ES File Explorer Link</string>
     <string name="home_screen_button_Open_CV">OpenCV Manager Link</string>
     <string name="home_screen_button_Export">How to export results</string>
+    <string name="home_screen_button_Privacy_Policy_Button">UCSB Privacy Policy Link</string>
     <string name="title_activity_tutorial1of4">Tutorial1of4</string>
     <string name="tutorial_1of4_button_to_page_2of4">OK, got it! What\'s next?</string>
     <string name="tutorial_1of4_text_view_intructions1"><b>1. Calibrating BACTICOUNT to count bacterial DNA in a blood sample.</b> You\'ll need known concentrations of genomic DNA samples arranged like so on a hotplate: </string>

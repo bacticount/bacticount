@@ -16,10 +16,6 @@ import android.widget.Button;
 
 import java.util.ArrayList;
 
-/*
- * new!!
- */
-
 public class ReactionResultsDetailedActivity extends Activity {
     ArrayList<ReactionResultsEntry> resultEntries = new ArrayList<>();
     String negTest1Result = "";

@@ -82,6 +82,13 @@ public class RecordingReaction extends Activity {
 	static String[] referenceInfo = new String[3];
 	static int recordingType = 999;
 	static int offsetTimeInt = 0;
+
+	// load openCV manager statically without using the manager
+	static {
+		if (!OpenCVLoader.initDebug()) {
+			// Handle initialization error
+		}
+	}
 	
 	// Strings
 	String standardCurveName;			// 0

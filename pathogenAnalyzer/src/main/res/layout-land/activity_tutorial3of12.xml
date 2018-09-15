@@ -13,7 +13,7 @@
         android:id="@+id/imageView9"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/tutorial3of12" />
+        />
 
     <Button
         android:layout_width="wrap_content"

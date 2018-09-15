@@ -71,17 +71,17 @@
         android:layout_marginTop="5dp"
         android:background="@drawable/secondary_button_background" />
 
-    <Button
-        android:id="@+id/homeScreenButtonOpenCVManager"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:text="@string/home_screen_button_Open_CV"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:background="@drawable/secondary_button_background" />
+            <Button
+                android:id="@+id/homeScreenButtonOpenCVManager"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/secondary_button_background"
+                android:text="@string/home_screen_button_Privacy_Policy_Button"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
 
     <Button
         android:id="@+id/homeScreenButtonExport"

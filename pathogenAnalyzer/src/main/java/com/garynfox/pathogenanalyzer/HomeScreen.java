@@ -105,10 +105,12 @@ public class HomeScreen extends Activity {
 
 			@Override
 			public void onClick(View view4) {
+
+				// Now the privacy policy button
 				// Point user to Open CV Manager
-				Intent i4 = new Intent(Intent.ACTION_VIEW);
-				i4.setData(Uri.parse("market://details?id=org.opencv.engine"));
-				startActivity(i4);
+				 Intent i4 = new Intent(Intent.ACTION_VIEW);
+				 i4.setData(Uri.parse("http://www.policy.ucsb.edu/privacy-notification"));
+				 startActivity(i4);
 			}
 		});
 

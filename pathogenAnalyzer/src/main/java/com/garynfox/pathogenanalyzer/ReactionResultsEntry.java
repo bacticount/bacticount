@@ -5,10 +5,6 @@ import android.os.Parcelable;
 
 import java.text.DecimalFormat;
 
-/**
- * Created by Sarah on 4/1/17.
- */
-
 public class ReactionResultsEntry implements Parcelable {
 
     String key;

@@ -10,10 +10,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Sarah on 4/1/17.
- */
-
 public class ReactionResultsImageAdapter extends BaseAdapter {
     private Context mContext;
     private ArrayList<ReactionResultsEntry> resultList;

@@ -19,6 +19,7 @@ public class Tutorial1of12 extends Activity {
     ViewPager slideShow;
     CustomPagerAdapter mCustomPagerAdapter;
 
+    /*
     int[] mResources = {
             R.drawable.tutorial1of12,
             R.drawable.tutorial2of12,
@@ -27,6 +28,7 @@ public class Tutorial1of12 extends Activity {
             R.drawable.tutorial5of12,
             R.drawable.tutorial6of12
     };
+    */
 
 
     @Override
