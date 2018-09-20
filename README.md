@@ -9,7 +9,7 @@ Read the paper here: https://www.ebiomedicine.com/article/S2352-3964(18)30356-6/
 
 _Why don't I see any releases yet?_
 
-This project started several years ago and was imported from Bitbucket. What you see is what's published to Google Play.
+This project started several years ago and was imported from Bitbucket. What you see is what's published to our website.
 
 _Why doesn't the app work with my phone?_
 
