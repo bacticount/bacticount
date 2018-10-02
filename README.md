@@ -1,7 +1,7 @@
 # bacticount
 Quantify bacteria with LAMP reactions - proof of concept Android app accompanying EBioMedicine paper
 
-Details, downloads, and more available at bacticount.com
+Details, downloads, and more available at httpbacticount.com
 
 Read the paper here: https://www.ebiomedicine.com/article/S2352-3964(18)30356-6/fulltext
 
@@ -17,4 +17,6 @@ In the activity RecordingReaction, a series of steps to manage white balance, au
 
 _Why isn't the app on Google Play?_
 
-The app is a proof of concept and intended for a scientific audience at this time.
+Update! It is now... download here:
+
+https://play.google.com/store/apps/details?id=com.garynfox.pathogenanalyzer
